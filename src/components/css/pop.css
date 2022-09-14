@@ -25,6 +25,8 @@
     border-radius: 20px;
     justify-content: end;
     display: flex;
+    padding-top:30px;
+    padding-right:30px;
 }
 
 h4 {
