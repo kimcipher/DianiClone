@@ -9,8 +9,8 @@ P{
     height: 100px;
     background: #241845;
 }
-@media screen and (min-width:1000px){
+/* @media screen and (min-width:1000px){
     .foot-container{
         display:none
     }
-}
+} */

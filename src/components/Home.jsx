@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./css/home.css";
 import ReactWhatsapp from "react-whatsapp";
 import Activity from "./assets/icons/Activity.png"
@@ -7,6 +7,8 @@ import bike from "./assets/icons/bike.png"
 import ForeignExchange from "./assets/icons/ForeignExchange.png"
 import Reservation from "./assets/icons/Reservation.png"
 import Transport from "./assets/icons/Transport.png"
+import {TypeAnimation } from 'react-type-animation'
+import { useEffect } from "react";
 
 function Home() {
   const data = [
@@ -59,11 +61,30 @@ function Home() {
       desc:"image desc",
     },
   ];
+  const TEXTS = [
+    "Deliveries on",
+    "One Tap"
+  ]
+ 
   return (
     <div className="container">
       <h2>
-        Deliveries On
-        <br /> One Tap
+      <TypeAnimation
+        sequence={[
+          'Deliveries on', // Types 'One'
+          2000, // Waits 1s
+          'One Tap', // Deletes 'One' and types 'Two'
+          2000, // Waits 2s
+          '...', // Types 'Three' without deleting 'Two'
+          () => {
+            console.log('Done typing!'); // Place optional callbacks anywhere in the array
+          }
+        ]}
+        wrapper="div"
+        cursor={true}
+        repeat={Infinity}
+        // style={{ fontSize: '2em' }}
+      />
       </h2>
       <h3>Welcome to DianiApp</h3>
       <div className="Tabs-container">

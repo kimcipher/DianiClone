@@ -25,11 +25,11 @@ function Nav() {
         <h5>Errands</h5>
         <h5>FX</h5>
         <h5>Activities</h5>
-        <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5>
+        {/* <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5> */}
       </div>
       <div>
-        <button className="Button-container" onClick={set}>
-          Get Help
+        <button className="Button-container" onAddToHomescreenClick={handleAddToHomescreenClick}>
+          Add to Home
         </button>
         {isOpen && <Pop setIsOpen={setIsOpen} />}
       </div>
