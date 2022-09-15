@@ -1,54 +1,63 @@
-.nav-main{
-    height:105px;
-    display:flex;
-    flex-direction:row;
-    padding-left: 15vw;
-    padding-right:15vw;
-    background: #241845;
+.nav-main {
+  height: 105px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  background: #241845;
 }
-.Links-container{
-    display:flex;
-    flex-direction:row;
-    width:40vw;
-    height:100%;
-    background: #241845;
-    justify-content: space-between;
-    padding-left:2vw;
-    padding-right:2vw;
+.Links-container {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  height: 100%;
+  background: #241845;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
-.Button-container button{
-    color: navy;
-    background-color: #85F2FD;
-    cursor:pointer;
-    border:none;
-    width:205px;
-    height:58px;
-    border-radius:10px;
-    font-weight:bold;
+.Button-container {
+  color: navy;
+  background: linear-gradient(to right, #b2fefa, #0ed2f7);
+  border: none;
+  font-weight: 800;
+  width: 150px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
 }
-.Logo-container img{
-    background-color: #241845;
+.Logo-container img {
+  background-color: #241845;
 }
 .Logo-container {
-    background-color: #241845;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #241845;
 }
-@media screen and (max-width:1000px){
-    .Links-container{
-        display:none;
-    }
-    .Button-container button{
-        width:35vw;
-        height:40px;
-        border-radius:10px;
-    }
-    .Logo-container img{
-        width:35vw;
-    }
-    .nav-main{
-        padding-left: 0;
-        padding-right:0;
-        justify-content: space-around;
-        width: 100vw;
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 1000px) {
+  .Links-container {
+    display: none;
+  }
+  .Button-container button {
+    width: 35vw;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .Logo-container img {
+    width: 35vw;
+  }
+  .nav-main {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-around;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+
+.Button-container:hover {
+  background: #241845;
+  color: #fff;
+  font-weight: 800;
+  border: 1px solid #85f2fd;
+  border-radius: 8px;
 }

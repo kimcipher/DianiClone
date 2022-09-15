@@ -7,7 +7,7 @@ function MobileFooter() {
       <p>Night Life</p>
       <p>Health</p>
       <p>Errands</p>
-      <p>VIP</p>
+      <p>Activities</p>
     </div>
   )
 }
