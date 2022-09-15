@@ -91,7 +91,7 @@ function Home() {
         wrapper="div"
         cursor={true}
         repeat={Infinity}
-        // style={{ fontSize: '2em' }}
+         style={{ lineHeight: '1.5' }}
       />
       </h2>
       <h3>Welcome to DianiApp</h3>
