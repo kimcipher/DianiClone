@@ -72,7 +72,9 @@ h4 {
 .Tab-item img{
   margin-left:40px;
   margin-right:20px;
-  margin-bottom:-15px;
+  margin-bottom:-10px;
+  width:35px;
+  height:35px;
 }
 @media screen and (max-width: 1000px) {
   .Tabs-container {
