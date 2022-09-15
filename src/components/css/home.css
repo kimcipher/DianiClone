@@ -44,7 +44,7 @@ h4 {
 
 .Tab-item:hover {
   background: linear-gradient(to right, #b2fefa, #0ed2f7);
-  transition: 0.8s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: #020825;
   cursor: pointer;
 }
