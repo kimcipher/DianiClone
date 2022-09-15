@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./css/home.css";
+import food from "./assets/icons/food.png"
 import ReactWhatsapp from "react-whatsapp";
 import Activity from "./assets/icons/Activity.png"
 import Beer from "./assets/icons/Beer.png"
@@ -8,7 +9,6 @@ import ForeignExchange from "./assets/icons/ForeignExchange.png"
 import Reservation from "./assets/icons/Reservation.png"
 import Transport from "./assets/icons/Transport.png"
 import {TypeAnimation } from 'react-type-animation'
-import { useEffect } from "react";
 
 function Home() {
   const data = [
@@ -33,7 +33,7 @@ function Home() {
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:Beer,
+      imahe:food,
       desc:"image desc",
     },
     {
