@@ -79,9 +79,9 @@ function Home() {
       <h2>
       <TypeAnimation
         sequence={[
-          'Deliveries on', // Types 'One'
+          'Deliveries on Tap', // Types 'One'
           3000, // Waits 1s
-          'One Tap', // Deletes 'One' and types 'Two'
+          'Anything', // Deletes 'One' and types 'Two'
           3000, // Waits 2s
           '...', // Types 'Three' without deleting 'Two'
           () => {
