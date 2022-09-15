@@ -29,6 +29,14 @@ function Home() {
       desc:"image desc",
     },
     {
+      name: "Food",
+      number: "+254728000107",
+      message: "Interested in Drinks",
+      className: "whatsapp",
+      imahe:Beer,
+      desc:"image desc",
+    },
+    {
       name: "Drinks",
       number: "+254728000107",
       message: "Interested in Drinks",
@@ -72,9 +80,9 @@ function Home() {
       <TypeAnimation
         sequence={[
           'Deliveries on', // Types 'One'
-          2000, // Waits 1s
+          3000, // Waits 1s
           'One Tap', // Deletes 'One' and types 'Two'
-          2000, // Waits 2s
+          3000, // Waits 2s
           '...', // Types 'Three' without deleting 'Two'
           () => {
             console.log('Done typing!'); // Place optional callbacks anywhere in the array
