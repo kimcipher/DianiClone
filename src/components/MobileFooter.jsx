@@ -4,7 +4,7 @@ import "./css/footer.css"
 function MobileFooter() {
   return (
     <div className="foot-container">
-      <p> LMG is wholly owned by NGENI🔥  -  leading Web3 Engineering Group.</p>
+      <p> LMG is wholly owned by NGENI🔥  -  Leading Web3 Engineering Group.</p>
     </div>
   )
 }
