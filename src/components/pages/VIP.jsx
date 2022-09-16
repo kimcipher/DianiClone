@@ -1,99 +1,77 @@
-import React, {useState} from "react";
-import "./css/home.css";
+import React from "react";
+import "../css/home.css";
+import food from "../assets/icons/food.png"
 import ReactWhatsapp from "react-whatsapp";
-import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "./icons"
+import Activity from "../assets/icons/Activity.png"
+import Beer from "../assets/icons/Beer.png"
+import bike from "../assets/icons/bike.png"
+import ForeignExchange from "../assets/icons/ForeignExchange.png"
+import Reservation from "../assets/icons/Reservation.png"
+import Transport from "../assets/icons/Transport.png"
 
-function Home() {
+function VIP() {
   const data = [
     {
-      name: "Food Delivery 24/7",
+      name: "Transportation",
       number: "+254728000107",
       message: "Interested in Transportation",
+      className: "whatsapp",
+      imahe:Transport,
+      desc:"image desc",
+    },
+    {
+      name: "Foreign Exchange",
+      number: "+254728000107",
+      message: "Interested in Foreign Exchange",
+      className: "whatsapp",
+      imahe:ForeignExchange,
+      desc:"image desc",
+    },
+    {
+      name: "Food",
+      number: "+254728000107",
+      message: "Interested in Drinks",
       className: "whatsapp",
       imahe:food,
       desc:"image desc",
     },
     {
-      name: "Drinks Delivery 24/7",
-      number: "+254728000107",
-      message: "Interested in Foreign Exchange",
-      className: "whatsapp",
-      imahe:drink,
-      desc:"image desc",
-    },
-    {
-      name: "Dinner Reservation",
+      name: "Drinks",
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:dinner,
+      imahe:Beer,
       desc:"image desc",
     },
     {
-      name: "Order Taxi",
-      number: "+254728000107",
-      message: "Interested in Drinks",
-      className: "whatsapp",
-      imahe:taxi,
-      desc:"image desc",
-    },
-    {
-      name: "Airport Transportation",
+      name: "Activity Guide",
       number: "+254728000107",
       message: "Interested in Activity Guide",
       className: "whatsapp",
-      imahe:plane,
+      imahe:Activity,
       desc:"image desc",
     },
     {
-      name: "Kash & FX",
+      name: "Errands",
       number: "+254728000107",
       message: "Interested in running Errands",
-      className: "whatsapp",
-      imahe:fx,
-      desc:"image desc",
-    },
-    {
-      name: "SPEND CRYPTO",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:crypto,
-      desc:"image desc",
-    },
-    {
-      name: "Rent a Scooter",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:scooter,
-      desc:"image desc",
-    },
-    {
-      name: "Rent A Bike",
-      number: "+254728000107",
-      message: "Interested in Health",
       className: "whatsapp",
       imahe:bike,
       desc:"image desc",
     },
     {
-      name: "Rent a Car",
+      name: "Health",
       number: "+254728000107",
       message: "Interested in Health",
       className: "whatsapp",
-      imahe:car,
+      imahe:Reservation,
       desc:"image desc",
     },
   ];
-  const TEXTS = [
-    "Deliveries on",
-    "One Tap"
-  ]
+
  
   return (
     <div className="container">
-      
       <div className="Tabs-container">
         {data.map((item, index) => (
           <ReactWhatsapp
@@ -102,7 +80,7 @@ function Home() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item">{item.imahe}{item.name}</h4>
+            <h4 className="Tab-item"> <img src={item.imahe} alt={item.desc}/> {item.name}</h4>
           </ReactWhatsapp>
         ))}
       </div>
@@ -110,4 +88,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default VIP;

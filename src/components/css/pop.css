@@ -59,14 +59,10 @@ h5 {
   font-size: 18px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  border-radius: 8px;
+  border-bottom:2px solid gray;
 }
 h5:hover {
-  background: linear-gradient(to right, #b2fefa, #0ed2f7);
-  border-radius: 8px;
-  width: 100px;
-  padding: 10px;
-  transition: 0.5s ease-in-out;
+  border-bottom: #0ed2f7;
 }
 .spec {
   padding-top: 9vh;

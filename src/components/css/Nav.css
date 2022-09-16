@@ -1,10 +1,12 @@
 .nav-main {
-  height: 105px;
+  height: auto;
   display: flex;
   flex-direction: row;
   padding-left: 15vw;
   padding-right: 15vw;
   background: #241845;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 .Links-container {
   display: flex;

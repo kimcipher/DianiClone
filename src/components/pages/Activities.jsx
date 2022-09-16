@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import "./css/home.css";
+import "../css/home.css";
 import ReactWhatsapp from "react-whatsapp";
-import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "./icons"
+import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "../icons"
 
-function Home() {
+function Activities() {
   const data = [
     {
       name: "Food Delivery 24/7",
@@ -44,47 +44,7 @@ function Home() {
       className: "whatsapp",
       imahe:plane,
       desc:"image desc",
-    },
-    {
-      name: "Kash & FX",
-      number: "+254728000107",
-      message: "Interested in running Errands",
-      className: "whatsapp",
-      imahe:fx,
-      desc:"image desc",
-    },
-    {
-      name: "SPEND CRYPTO",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:crypto,
-      desc:"image desc",
-    },
-    {
-      name: "Rent a Scooter",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:scooter,
-      desc:"image desc",
-    },
-    {
-      name: "Rent A Bike",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:bike,
-      desc:"image desc",
-    },
-    {
-      name: "Rent a Car",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:car,
-      desc:"image desc",
-    },
+    }
   ];
   const TEXTS = [
     "Deliveries on",
@@ -110,4 +70,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Activities;
