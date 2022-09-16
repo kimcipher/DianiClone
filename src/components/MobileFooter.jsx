@@ -6,7 +6,7 @@ function MobileFooter() {
     <div className="foot-container">
       <p> How it works </p>
       <p> LMG is wholly owned by NGENI🔥  -  Leading Web3 Engineering Group.</p>
-      <p>&copy; 2022 DianiApp</p>
+      <p>&copy; {(new Date().getFullYear())} DianiApp</p>
     </div>
   )
 }

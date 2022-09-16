@@ -46,7 +46,7 @@ function Home() {
       desc:"image desc",
     },
     {
-      name: "Kash & FX",
+      name: "Ksh & FX",
       number: "+254728000107",
       message: "Interested in running Errands",
       className: "whatsapp",
