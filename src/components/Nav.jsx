@@ -1,19 +1,35 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./css/Nav.css";
 import logo from "./assets/logo.png";
 import Pop from "./Pop";
 import AddToHomescreen from 'react-add-to-homescreen'
 
 function Nav() {
-  const [isOpen, setIsOpen] = useState(false);
-  function set() {
-    setIsOpen(true);
+    const [supportsPWA, setSupportsPWA] = useState(false)
+    const [promptInstall, setPromptInstall] = useState(null)
+
+    useEffect(() => {
+      const handler = e => {
+        e.preventDefault();
+        console.log('we are being triggered');
+        setSupportsPWA(true);
+        setPromptInstall(e);
+      };
+      window.addEventListener("beforeinstallprompt", handler);
+
+      return () => window.removeEventListener("transitioned", handler);
+    }, []);
+
+    const sample = evt => {
+      evt.preventDefault();
+      if(!promptInstall){
+        return;
+      }
+      promptInstall.prompt();
+    };
+    if(!supportsPWA){
+      return null;    
   }
-  const handleAddToHomescreenClick = () => {
-    alert(`
-      1. Open Share menu
-      2. Tap on "Add to Home Screen" button`);
-  };
   return (
     <div className="nav-main">
       <div className="Logo-container">
@@ -24,12 +40,11 @@ function Nav() {
         <a href="/Wellness"><h5>Wellness</h5></a>
         <a href="/NightLife"><h5>Night Life</h5></a>
         <a href="/VIP"><h5>VIP</h5></a>
-        {/* <a href="/Tours"><h5>Tours</h5></a> */}
         <a href="/Activities"><h5>Activities</h5></a>
         {/* <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5> */}
       </div>
       <div>
-        <button className="Button-container" onClick={handleAddToHomescreenClick}>
+        <button className="Button-container" onClick={sample}>
             Add to Home
           </button>
       </div>
