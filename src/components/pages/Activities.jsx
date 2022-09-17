@@ -66,7 +66,14 @@ function Activities() {
                     </div>
                 </div>
             </div>
-            <button>Book</button>
+            <ReactWhatsapp
+                key={index}
+                number={item.number}
+                message={item.name}
+                className={item.className}
+            >
+                <button>Book</button>
+            </ReactWhatsapp>
          </div>
         )
     })}

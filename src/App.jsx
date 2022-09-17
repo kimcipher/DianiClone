@@ -10,6 +10,7 @@ import Tours from './components/pages/Tours';
 import VIP from './components/pages/VIP';
 import MobileNav from './components/MobileNav';
 import Type from './components/Type'
+import HowItWorks from './components/pages/HowItWorks'
 // import Pop from "./components/Pop"
 // import ReactWhatsapp from 'react-whatsapp';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Tours" element={<Tours/>}/>
         <Route path="/VIP" element={<VIP/>}/>
         <Route path="/Activities" element={<Activities/>}/>
+        <Route path="/how-it-works" element={<HowItWorks/>}/>
       </Routes>
       <MobileFooter/>
     </>
