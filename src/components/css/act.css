@@ -1,0 +1,60 @@
+.activities{
+    width:100vw;
+    overflow-x:hidden;
+    margin-bottom: 100px;
+}
+.act-container{
+    display:flex; 
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.act-container button{
+    width:80%;
+    height:56px;
+    background: #2A2F45;
+    border:none;
+    border-radius: 10px;
+    margin-bottom:40px;
+}
+.act-item{
+    width:30vw;
+    margin-left:1.5vw;
+    margin-right: 1vw;
+    height:auto;
+    margin:1.5vw;
+    border-radius:20px;
+    /* background-image: url(../assets/bg.png); */
+    background-size: cover;
+    overflow:hidden;
+    border:1px solid #020825;
+}
+.act-full{
+    width:100%;
+    height:auto;
+    background: linear-gradient(180.23deg, rgba(42, 47, 69, 0) 1.2%, #020825 40.47%);
+    
+}
+.Text{
+    height: 70%;
+    margin-top:30%;
+    padding-bottom:20px;
+}
+.Text p{
+    background-color: transparent;
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width:1000px){
+    .act-item{
+        width: 40vw;
+        margin:5vw;
+    }
+}
+@media screen and (max-width:750px){
+    .act-item{
+        width: 90vw;
+        margin:5vw;
+    }
+}

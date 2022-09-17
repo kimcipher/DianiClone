@@ -1,0 +1,7 @@
+export const imagebg = require("../../assets/bg.png")
+export const glassboat = require("../../assets/glassboat.png")
+export const dolphins = require("../../assets/dolphins.png")
+export const quad = require("../../assets/quad.png")
+export const golf = require("../../assets/golf.png")
+export const camel = require("../../assets/camel.png")
+export const snorkeling = require("../../assets/snorkeling.png")

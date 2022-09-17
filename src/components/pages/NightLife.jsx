@@ -1,14 +1,8 @@
 import React, {useState} from "react";
 import "../css/home.css";
-import food from "../assets/icons/food.png"
 import ReactWhatsapp from "react-whatsapp";
-import Activity from "../assets/icons/Activity.png"
-import Beer from "../assets/icons/Beer.png"
-import bike from "../assets/icons/bike.png"
-import ForeignExchange from "../assets/icons/ForeignExchange.png"
-import Reservation from "../assets/icons/Reservation.png"
-import Transport from "../assets/icons/Transport.png"
-import {TypeAnimation } from 'react-type-animation'
+import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "../icons"
+
 
 function NightLife() {
   const data = [
@@ -17,7 +11,7 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Transportation",
       className: "whatsapp",
-      imahe:Transport,
+      imahe:dinner,
       desc:"image desc",
     },
     {
@@ -25,7 +19,7 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Foreign Exchange",
       className: "whatsapp",
-      imahe:ForeignExchange,
+      imahe:drink,
       desc:"image desc",
     },
     {
@@ -33,7 +27,7 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:food,
+      imahe:plane,
       desc:"image desc",
     },
     {
@@ -41,7 +35,7 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:Beer,
+      imahe:fx,
       desc:"image desc",
     },
     {
@@ -49,7 +43,7 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Activity Guide",
       className: "whatsapp",
-      imahe:Activity,
+      imahe:food,
       desc:"image desc",
     }
   ];
@@ -68,7 +62,7 @@ function NightLife() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item"> <img src={item.imahe} alt={item.desc}/> {item.name}</h4>
+            <h4 className="Tab-item"> {item.imahe} {item.name}</h4>
           </ReactWhatsapp>
         ))}
       </div>

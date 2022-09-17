@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import "../css/home.css";
-import food from "../assets/icons/food.png"
 import ReactWhatsapp from "react-whatsapp";
 import Beer from "../assets/icons/Beer.png"
-import ForeignExchange from "../assets/icons/ForeignExchange.png"
 import Transport from "../assets/icons/Transport.png"
+import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "../icons"
+
 
 function Wellness() {
   const data = [
@@ -13,7 +13,7 @@ function Wellness() {
       number: "+254728000107",
       message: "Interested in Transportation",
       className: "whatsapp",
-      imahe:Transport,
+      imahe:dinner,
       desc:"image desc",
     },
     {
@@ -21,7 +21,7 @@ function Wellness() {
       number: "+254728000107",
       message: "Interested in Foreign Exchange",
       className: "whatsapp",
-      imahe:ForeignExchange,
+      imahe:fx,
       desc:"image desc",
     },
     {
@@ -29,7 +29,7 @@ function Wellness() {
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:food,
+      imahe:drink,
       desc:"image desc",
     },
     {
@@ -37,7 +37,7 @@ function Wellness() {
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:Beer,
+      imahe:food,
       desc:"image desc",
     }
   ];
@@ -52,7 +52,7 @@ function Wellness() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item"> <img src={item.imahe} alt={item.desc}/> {item.name}</h4>
+            <h4 className="Tab-item"> {item.imahe} {item.name}</h4>
           </ReactWhatsapp>
         ))}
       </div>

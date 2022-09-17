@@ -1,88 +1,45 @@
-import React from "react";
-import "../css/home.css";
-import food from "../assets/icons/food.png"
+import React, {useState} from "react";
+import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
-import Activity from "../assets/icons/Activity.png"
-import Beer from "../assets/icons/Beer.png"
-import bike from "../assets/icons/bike.png"
-import ForeignExchange from "../assets/icons/ForeignExchange.png"
-import Reservation from "../assets/icons/Reservation.png"
-import Transport from "../assets/icons/Transport.png"
+import {imagebg, glassboat, dolphins, quad, golf, camel, snorkeling} from "./images"
 
 function VIP() {
   const data = [
     {
-      name: "Transportation",
-      number: "+254728000107",
-      message: "Interested in Transportation",
-      className: "whatsapp",
-      imahe:Transport,
-      desc:"image desc",
+        name: "Sunset/Sunrise Boat Trip",
+        number: "+254728000107",
+        background: imagebg,
+        description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
     {
-      name: "Foreign Exchange",
-      number: "+254728000107",
-      message: "Interested in Foreign Exchange",
-      className: "whatsapp",
-      imahe:ForeignExchange,
-      desc:"image desc",
-    },
-    {
-      name: "Food",
-      number: "+254728000107",
-      message: "Interested in Drinks",
-      className: "whatsapp",
-      imahe:food,
-      desc:"image desc",
-    },
-    {
-      name: "Drinks",
-      number: "+254728000107",
-      message: "Interested in Drinks",
-      className: "whatsapp",
-      imahe:Beer,
-      desc:"image desc",
-    },
-    {
-      name: "Activity Guide",
-      number: "+254728000107",
-      message: "Interested in Activity Guide",
-      className: "whatsapp",
-      imahe:Activity,
-      desc:"image desc",
-    },
-    {
-      name: "Errands",
-      number: "+254728000107",
-      message: "Interested in running Errands",
-      className: "whatsapp",
-      imahe:bike,
-      desc:"image desc",
-    },
-    {
-      name: "Health",
-      number: "+254728000107",
-      message: "Interested in Health",
-      className: "whatsapp",
-      imahe:Reservation,
-      desc:"image desc",
-    },
+        name: "Glassboat Trip",
+        number: "+254728000107",
+        background: glassboat,
+        description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
+    }
   ];
 
  
   return (
-    <div className="container">
-      <div className="Tabs-container">
-        {data.map((item, index) => (
-          <ReactWhatsapp
-            key={index}
-            number={item.number}
-            message={item.message}
-            className={item.className}
-          >
-            <h4 className="Tab-item"> <img src={item.imahe} alt={item.desc}/> {item.name}</h4>
-          </ReactWhatsapp>
-        ))}
+    <div className="activities">
+      <h2>VIP Tour</h2>
+      <div className="act-container">
+        {data.map ((item, index) => {
+            let image = item.background
+        return(
+        <div>
+            <div className="act-item" style={{ backgroundImage: `url(${image})`}}>
+                <div className="act-full">
+                    <div className="Text">
+                        <h2 style={{color:'#fff'}}>{item.name}</h2>
+                        <p>{item.description}</p>
+                    </div>
+                </div>
+            </div>
+            <button>Book</button>
+         </div>
+        )
+    })}
       </div>
     </div>
   );
