@@ -5,31 +5,31 @@ import Pop from "./Pop";
 import AddToHomescreen from 'react-add-to-homescreen'
 
 function Nav() {
-    const [supportsPWA, setSupportsPWA] = useState(false)
-    const [promptInstall, setPromptInstall] = useState(null)
+  //   const [supportsPWA, setSupportsPWA] = useState(false)
+  //   const [promptInstall, setPromptInstall] = useState(null)
 
-    useEffect(() => {
-      const handler = e => {
-        e.preventDefault();
-        console.log('we are being triggered');
-        setSupportsPWA(true);
-        setPromptInstall(e);
-      };
-      window.addEventListener("beforeinstallprompt", handler);
+  //   useEffect(() => {
+  //     const handler = e => {
+  //       e.preventDefault();
+  //       console.log('we are being triggered');
+  //       setSupportsPWA(true);
+  //       setPromptInstall(e);
+  //     };
+  //     window.addEventListener("beforeinstallprompt", handler);
 
-      return () => window.removeEventListener("transitioned", handler);
-    }, []);
+  //     return () => window.removeEventListener("transitioned", handler);
+  //   }, []);
 
-    const sample = evt => {
-      evt.preventDefault();
-      if(!promptInstall){
-        return;
-      }
-      promptInstall.prompt();
-    };
-    if(!supportsPWA){
-      return null;    
-  }
+  //   const sample = evt => {
+  //     evt.preventDefault();
+  //     if(!promptInstall){
+  //       return;
+  //     }
+  //     promptInstall.prompt();
+  //   };
+  //   if(!supportsPWA){
+  //     return null;    
+  // }
   return (
     <div className="nav-main">
       <div className="Logo-container">
@@ -44,7 +44,7 @@ function Nav() {
         {/* <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5> */}
       </div>
       <div>
-        <button className="Button-container" onClick={sample}>
+        <button className="Button-container" >
             Add to Home
           </button>
       </div>
