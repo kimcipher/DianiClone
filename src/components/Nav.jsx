@@ -5,28 +5,47 @@ import Pop from "./Pop";
 import AddToHomescreen from 'react-add-to-homescreen'
 
 function Nav() {
-  //   const [supportsPWA, setSupportsPWA] = useState(false)
-  //   const [promptInstall, setPromptInstall] = useState(null)
 
-  //   useEffect(() => {
-  //     const handler = e => {
-  //       e.preventDefault();
-  //       console.log('we are being triggered');
-  //       setSupportsPWA(true);
-  //       setPromptInstall(e);
-  //     };
-  //     window.addEventListener("beforeinstallprompt", handler);
-
-  //     return () => window.removeEventListener("transitioned", handler);
-  //   }, []);
-
-  //   const sample = evt => {
-  //     evt.preventDefault();
-  //     if(!promptInstall){
-  //       return;
-  //     }
-  //     promptInstall.prompt();
-  //   };
+      var deferredPrompt;
+      window.addEventListener('beforeinstallprompt', function(e) {
+        console.log('beforeinstallprompt Event fired');
+        e.preventDefault();
+    
+        // Stash the event so it can be triggered later.
+        deferredPrompt = e;
+    
+        console.log(e)
+      });
+      const sample = (e) => {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if(choiceResult.outcome === 'accepted') {
+            console.log('User accepted the A2HS prompt');
+          }
+          deferredPrompt = null;
+        });
+      }
+      // if(deferredPrompt !== undefined) {
+      //   // The user has had a postive interaction with our app and Chrome
+      //   // has tried to prompt previously, so let's show the prompt.
+      //   deferredPrompt.prompt();
+    
+      //   // Follow what the user has done with the prompt.
+      //   deferredPrompt.userChoice.then(function(choiceResult) {
+    
+      //     console.log(choiceResult.outcome);
+    
+      //     if(choiceResult.outcome == 'dismissed') {
+      //       console.log('User cancelled home screen install');
+      //     }
+      //     else {
+      //       console.log('User added to home screen');
+      //     }
+    
+      //     // We no longer need the prompt.  Clear it up.
+      //     deferredPrompt = null;
+      //   });
+      // }
   //   if(!supportsPWA){
   //     return null;    
   // }
@@ -44,7 +63,7 @@ function Nav() {
         {/* <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5> */}
       </div>
       <div>
-        <button className="Button-container" >
+        <button className="Button-container" onClick={sample}>
             Add to Home
           </button>
       </div>

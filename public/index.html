@@ -29,17 +29,26 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script type="text/javascript">
-      if ('serviceWorker' in navigator) {
-         console.log("Will the service worker register?");
-         navigator.serviceWorker.register('service-worker.js')
-           .then(function(reg){
-             console.log("Yes, it did.");
-          }).catch(function(err) {
-             console.log("No it didn't. This happened:", err)
-         });
-      }
-     </script>
+    <script>
+      let deferredPrompt; 
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        btnAdd.style.display = 'block';
+      });
+      btnAdd.addEventListener('click', (e) => {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if(choiceResult.outcome == 'accepted'){
+            console.log('User accepted the A2HS prompt');
+          }
+          deferredPrompt = null;
+        });
+        window.addEventLIstener('appinstalled', (evt) => {
+          app.logEvent('a2hs', 'installed');
+        })
+      });
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

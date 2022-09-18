@@ -27,13 +27,12 @@
     /* background-image: url(../assets/bg.png); */
     background-size: cover;
     overflow:hidden;
-    border:1px solid #020825;
 }
 .act-full{
     width:100%;
     height:auto;
-    background: linear-gradient(180.23deg, rgba(42, 47, 69, 0) 1.2%, #020825 40.47%);
-    
+    border:none;
+    background: linear-gradient(180.23deg, rgba(42, 47, 69, 0) 1.2%, #000 40.47%);
 }
 .Text{
     height: 70%;
