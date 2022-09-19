@@ -8,7 +8,7 @@ function NightLife() {
     {
       name: "Dinner Reservation",
       number: "+254728000107",
-      message: "Interested in Transportation",
+      message: "Interested in a Dinner reservation",
       className: "whatsapp",
       imahe: dinner,
       desc: "image desc",
@@ -16,7 +16,7 @@ function NightLife() {
     {
       name: "Table Reservation",
       number: "+254728000107",
-      message: "Interested in Foreign Exchange",
+      message: "Interested a table resevation",
       className: "whatsapp",
       imahe: drink,
       desc: "image desc",
@@ -24,7 +24,7 @@ function NightLife() {
     {
       name: "Luxury Reservation",
       number: "+254728000107",
-      message: "Interested in Drinks",
+      message: "Interested in a luxury reservation",
       className: "whatsapp",
       imahe: plane,
       desc: "image desc",
@@ -32,7 +32,7 @@ function NightLife() {
     {
       name: "Browse Events",
       number: "+254728000107",
-      message: "Interested in Drinks",
+      message: "Interested in Browsing events",
       className: "whatsapp",
       imahe: fx,
       desc: "image desc",
@@ -40,7 +40,7 @@ function NightLife() {
     {
       name: "DJ Parties",
       number: "+254728000107",
-      message: "Interested in Activity Guide",
+      message: "Interested in a DJ party",
       className: "whatsapp",
       imahe: food,
       desc: "image desc",

@@ -21,7 +21,7 @@ function Home() {
     {
       name: "Food Delivery 24/7",
       number: "+254728000107",
-      message: "Interested in Transportation",
+      message: "Hi DianiApp Im in need of food delivery",
       className: "whatsapp",
       imahe: food,
       desc: "image desc",
@@ -29,7 +29,7 @@ function Home() {
     {
       name: "Drinks Delivery 24/7",
       number: "+254728000107",
-      message: "Interested in Foreign Exchange",
+      message: "Hi DianiApp Im in need of Drinks delivery",
       className: "whatsapp",
       imahe: drink,
       desc: "image desc",
@@ -37,7 +37,7 @@ function Home() {
     {
       name: "Dinner Reservation",
       number: "+254728000107",
-      message: "Interested in Drinks",
+      message: "Hi Dianiapp want to make a dinner reservation",
       className: "whatsapp",
       imahe: dinner,
       desc: "image desc",
@@ -45,7 +45,7 @@ function Home() {
     {
       name: "Order Taxi",
       number: "+254728000107",
-      message: "Interested in Drinks",
+      message: "Hi Dianiapp I need a taxi",
       className: "whatsapp",
       imahe: taxi,
       desc: "image desc",
@@ -53,7 +53,7 @@ function Home() {
     {
       name: "Airport Transportation",
       number: "+254728000107",
-      message: "Interested in Activity Guide",
+      message: "Hi DianiApp Im interested in Airport Transportation",
       className: "whatsapp",
       imahe: plane,
       desc: "image desc",
@@ -61,7 +61,7 @@ function Home() {
     {
       name: "Ksh & FX",
       number: "+254728000107",
-      message: "Interested in running Errands",
+      message: "Hi DianiAPP I need Ksh",
       className: "whatsapp",
       imahe: fx,
       desc: "image desc",
@@ -69,7 +69,7 @@ function Home() {
     {
       name: "SPEND CRYPTO",
       number: "+254728000107",
-      message: "Interested in Health",
+      message: "Hi DianiApp I need to spend some crypto",
       className: "whatsapp",
       imahe: crypto,
       desc: "image desc",
@@ -77,7 +77,7 @@ function Home() {
     {
       name: "Rent a Boat",
       number: "+254728000107",
-      message: "Im Interested in Renting a car, bike, scooter",
+      message: "Im Interested in Renting a boat",
       className: "whatsapp",
       imahe: car,
       desc: "image desc",
@@ -85,7 +85,7 @@ function Home() {
     {
       name: "Brands (cuban cigars, wines and spirits)",
       number: "+254728000107",
-      message: "Im Interested in Brands",
+      message: "Hi DianiApp Im Interested in (cuban cigars, wines and spirits) Brands",
       className: "whatsapp",
       imahe: basket,
       desc: "image desc",
@@ -93,7 +93,7 @@ function Home() {
     {
       name: "Double Decker Bicycles for Deliveries",
       number: "+254728000107",
-      message: "Im Interested in Brands",
+      message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
       imahe: bikedeli,
       desc: "image desc",

@@ -30,7 +30,7 @@ function Tours() {
     {
       name: "Food",
       number: "+254728000107",
-      message: "Interested in Drinks",
+      message: "Interested in Food",
       className: "whatsapp",
       imahe: food,
       desc: "image desc",
@@ -46,7 +46,7 @@ function Tours() {
     {
       name: "Activity Guide",
       number: "+254728000107",
-      message: "Interested in Activity Guide",
+      message: "Interested in an Activity Guide",
       className: "whatsapp",
       imahe: Activity,
       desc: "image desc",
