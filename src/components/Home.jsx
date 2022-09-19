@@ -117,9 +117,15 @@ function Home() {
             </h4>
           </ReactWhatsapp>
         ))}
-        <div className="Tab-item">
-          <div className="grid-left">Rent a</div> <div className="scooter"div>{car}{scooter}{bike}</div>
-        </div>
+        <ReactWhatsapp
+              number="0728000107"
+              message="Hi DianiApp Im interested in renting a car scooter bike "
+              className="whatsapp"
+            >
+          <div className="Tab-item">
+            <div className="grid-left">Rent a</div> <div className="scooter"div>{car}{scooter}{bike}</div>     
+          </div>
+        </ReactWhatsapp>
       </div>
     </div>
   );

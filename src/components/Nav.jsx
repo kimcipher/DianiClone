@@ -58,7 +58,7 @@ function Nav() {
             Add to Home
           </button>
         ) : (
-          <button className="Button-container">Go to App</button>
+          null
         )}
       </div>
     </div>
