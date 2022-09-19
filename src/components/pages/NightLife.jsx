@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import "../css/home.css";
 import ReactWhatsapp from "react-whatsapp";
-import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "../icons"
-
+import { drink, dinner, plane, fx, food } from "../icons";
 
 function NightLife() {
   const data = [
@@ -11,47 +10,42 @@ function NightLife() {
       number: "+254728000107",
       message: "Interested in Transportation",
       className: "whatsapp",
-      imahe:dinner,
-      desc:"image desc",
+      imahe: dinner,
+      desc: "image desc",
     },
     {
       name: "Table Reservation",
       number: "+254728000107",
       message: "Interested in Foreign Exchange",
       className: "whatsapp",
-      imahe:drink,
-      desc:"image desc",
+      imahe: drink,
+      desc: "image desc",
     },
     {
       name: "Luxury Reservation",
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:plane,
-      desc:"image desc",
+      imahe: plane,
+      desc: "image desc",
     },
     {
       name: "Browse Events",
       number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe:fx,
-      desc:"image desc",
+      imahe: fx,
+      desc: "image desc",
     },
     {
       name: "DJ Parties",
       number: "+254728000107",
       message: "Interested in Activity Guide",
       className: "whatsapp",
-      imahe:food,
-      desc:"image desc",
-    }
+      imahe: food,
+      desc: "image desc",
+    },
   ];
-  const TEXTS = [
-    "Deliveries on",
-    "One Tap"
-  ]
- 
   return (
     <div className="container">
       <div className="Tabs-container">

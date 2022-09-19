@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import animation from "./assets/weatha.gif"
+import animation from "./assets/Weather.gif"
 import Weather from "./Weather"
 import "./css/weather.css"
 

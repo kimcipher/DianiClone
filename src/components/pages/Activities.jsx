@@ -1,4 +1,4 @@
- import React, {useState} from "react";
+ import React from "react";
 import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
 import {imagebg, glassboat, dolphins, quad, golf, camel, snorkeling} from "./images"

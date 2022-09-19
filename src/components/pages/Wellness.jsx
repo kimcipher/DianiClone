@@ -1,9 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import "../css/home.css";
 import ReactWhatsapp from "react-whatsapp";
-import Beer from "../assets/icons/Beer.png"
-import Transport from "../assets/icons/Transport.png"
-import {drink, dinner, taxi, plane, fx, scooter, bike, car, crypto, food} from "../icons"
+import {drink, dinner, fx, food} from "../icons"
 
 
 function Wellness() {
