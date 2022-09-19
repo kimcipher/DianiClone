@@ -13,8 +13,7 @@ function Type() {
           'Anything', // Deletes 'One' and types 'Two'
           3000, // Waits 2s
           '...', // Types 'Three' without deleting 'Two'
-          () => {
-            console.log('Done typing!'); // Place optional callbacks anywhere in the array
+          () => { // Place optional callbacks anywhere in the array
           }
         ]}
         wrapper="div"
@@ -23,7 +22,7 @@ function Type() {
          style={{ lineHeight: '1.5' }}
       />
       </h2>
-      <h3>Welcome to DianiApp</h3>
+      <h3>One Tap, One App, 24/7.</h3>
       
       </>
   )

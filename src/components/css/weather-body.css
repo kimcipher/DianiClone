@@ -1,4 +1,27 @@
 
 .close{
-    z-index:1000;
+    position: absolute;
+    top:27%;
+    left:60%;
+    color:rgb(0, 0, 0);
+}
+@media screen and (max-width:1000px) {
+    .close{
+        position: absolute;
+        top:33%;
+        left:90%;
+        color:rgb(0, 0, 0);
+    }
+    close *{
+        font-size: 40px;
+    }
+}
+.weather-main-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.weather-component{
+    width:clamp(50vw);
 }

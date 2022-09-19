@@ -29,6 +29,9 @@
   scrollbar-width: thin;
   padding-left: 250px;
 }
+.nav-mobile-container::-webkit-scrollbar {
+    display: none;
+}
 .nav-mobile-container * {
   width: 30vw;
   margin-left: 30px;

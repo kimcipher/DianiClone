@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactWeather, {useOpenWeather} from 'react-open-weather'
+import Close from './assets/close';
 import "./css/weather-body.css"
 
-const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"
+const WEATHER_API_KEY = "0bff0698379b96eaf19daa753dfa7f0d"
 const base_weather_uri = `https://api.openweathermap.org/data/2.5/weather?`
 
 const lattitude =  4.2798
@@ -21,8 +22,9 @@ const Weather = ({setIsOpen}) => {
   <>
   <div className="weather-main-container">
     <div className="close"  onClick={() => setIsOpen(false)}>
-      <h3>CLOSE</h3>
+    <h1>&#735;</h1>
     </div>
+    <div className='weather-component'>
      <ReactWeather
      isLoading={isLoading}
      errorMessage={errorMessage}
@@ -32,7 +34,8 @@ const Weather = ({setIsOpen}) => {
      locationLabel="Diani"
      unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
      showForeCast
-     />
+     ></ReactWeather>
+     </div>
      </div>
   </>
   )

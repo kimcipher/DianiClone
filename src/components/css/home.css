@@ -16,7 +16,7 @@ body {
 h2 {
   font-size: 30px;
   line-height: 34px;
-  padding: 25px 0px 5px 0px;
+  /* padding: 25px 0px 5px 0px; */
 }
 .header {
   color: #85f2fd;
@@ -26,7 +26,7 @@ h2 {
 h3 {
   color: #EA6CFB;
   font-size: 20px;
-  margin-top: 10px;
+
 }
 
 h4 {
@@ -65,23 +65,41 @@ h4 {
   width: 450px;
   height: 45px;
   background-color: #2a2f45;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: center;
   text-align: left;
-  padding-top: 15px;
   border-radius: 10px;
   margin-top: 5px;
   transition: 0.8s ease-in-out;
-  padding-left: 20px;
+  padding: 10px 20px 10px 10px;
   font-weight: 600;
   font-size:15px;
 }
-.Tab-item *{
-  margin-left:40px;
-  margin-right:20px;
-  margin-bottom:-10px;
-  width:35px;
-  height:35px;
+
+.grid-right{
+  justify-content: start;
+  display:flex;
+}
+.grid-left{
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+  display:flex;
+}
+.scooter *{
+  width: 30px;
+  height: 30px;
+}
+.grid-left *{
+  width:30px;
+  height: 30px;
+}
+.scooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 20px;
 }
 @media screen and (max-width: 1000px) {
   .Tabs-container {
