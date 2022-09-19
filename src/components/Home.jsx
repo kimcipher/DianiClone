@@ -13,7 +13,8 @@ import {
   crypto,
   food,
   basket,
-  bikedeli
+  bikedeli,
+  boat,
 } from "./icons";
 
 function Home() {
@@ -79,7 +80,7 @@ function Home() {
       number: "+254728000107",
       message: "Im Interested in Renting a boat",
       className: "whatsapp",
-      imahe: car,
+      imahe: boat,
       desc: "image desc",
     },
     {
