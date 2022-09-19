@@ -2,25 +2,28 @@ import React from "react";
 import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
 import {
-  imagebg,
-  glassboat,
+  skydiving,
+  skiing,
+
 } from "./images";
 
 function VIP() {
   const data = [
     {
-      name: "Sunset/Sunrise Boat Trip",
+      name: "SKYDIVING",
       number: "+254728000107",
-      background: imagebg,
+      background: skydiving,
+      message: "Hi DianiApp Im interested in Sky Diving",
       description:
-        "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
+        "Diani beach offers some of the finest scenery in the world and skydiving onto the beach has become a large attraction amongst tourists who want to see the landscape from a birds-eye view at 12,000 ft.  ",
     },
     {
-      name: "Glassboat Trip",
+      name: "JET SKIING",
       number: "+254728000107",
-      background: glassboat,
+      message: "Hi DianiApp Im interested in Jet Skiing",
+      background: skiing,
       description:
-        "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
+        "Diani Beach is one of the greatest water sports destinations in East Africa.Experience the beautiful view of Diani from the open sea and get to know other fascinating parts of the coast.",
     },
   ];
 
@@ -46,7 +49,7 @@ function VIP() {
               <ReactWhatsapp
                 key={index}
                 number={item.number}
-                message={item.name}
+                message={item.message}
                 className={item.className}
               >
                 <button>Book</button>
