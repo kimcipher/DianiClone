@@ -15,6 +15,7 @@ import {
   basket,
   bikedeli,
   boat,
+  cryptobtc
 } from "./icons";
 
 function Home() {
@@ -72,7 +73,7 @@ function Home() {
       number: "+254728000107",
       message: "Hi DianiApp I need to spend some crypto",
       className: "whatsapp",
-      imahe: crypto,
+      imahe: cryptobtc,
       desc: "image desc",
     },
     {
