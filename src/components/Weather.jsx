@@ -2,7 +2,7 @@ import React from 'react';
 import ReactWeather, {useOpenWeather} from 'react-open-weather'
 import "./css/weather-body.css"
 
-const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY
+const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"
 const base_weather_uri = `https://api.openweathermap.org/data/2.5/weather?`
 
 const lattitude =  4.2798
