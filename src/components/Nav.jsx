@@ -63,7 +63,7 @@ function Nav() {
         {/* <h5><AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} /></h5> */}
       </div>
       <div>
-        <button className="Button-container" onClick={sample}>
+        <button className="Button-container">
             Add to Home
           </button>
       </div>

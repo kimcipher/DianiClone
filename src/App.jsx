@@ -1,4 +1,4 @@
-import React from'react'
+import React, {useState, useEffect} from'react'
 import {Route, Routes } from 'react-router-dom'
 import Home from "./components/Home"
 import Nav from "./components/Nav"
@@ -11,14 +11,19 @@ import VIP from './components/pages/VIP';
 import MobileNav from './components/MobileNav';
 import Type from './components/Type'
 import HowItWorks from './components/pages/HowItWorks'
+import AddToHomeScreen from '@ideasio/add-to-homescreen-react';
+import WeatherIcon from './components/WeatherIcon';
 // import Pop from "./components/Pop"
 // import ReactWhatsapp from 'react-whatsapp';
 
 function App() {
   return (
     <>
+      
       <Nav/>
+      <AddToHomeScreen />
       <Type/>
+      <WeatherIcon/>
       <MobileNav/>
       <Routes>
         <Route path="/" element={<Home/>}/>

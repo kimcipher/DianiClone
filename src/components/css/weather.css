@@ -1,0 +1,17 @@
+.weather{
+    border-radius: 35px;
+    overflow: hidden;
+    width:100px;
+    height:50px;
+}
+.weatherflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+}
+.weatherflex h3{
+    font-weight: bold;
+    padding-top:12px;
+    color:navy
+}

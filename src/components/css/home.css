@@ -85,7 +85,7 @@ h4 {
 }
 @media screen and (max-width: 1000px) {
   .Tabs-container {
-    width: 90vw;
+    width: 80vw;
     margin: auto;
   }
 
@@ -94,6 +94,6 @@ h4 {
     font-weight: lighter;
   }
   .Tab-item {
-    width: 360px;
+    width: 80vw;
   }
 }
