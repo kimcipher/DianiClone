@@ -87,7 +87,7 @@ function Home() {
     {
       name: "Brands (cuban cigars, wines and spirits)",
       number: "+254728000107",
-      message: "Hi DianiApp Im Interested in (cuban cigars, wines and spirits) Brands",
+      message: "Hi DianiApp Im Interested in (cuban cigars, wines, spirits) Brands",
       className: "whatsapp",
       imahe: basket,
       desc: "image desc",
@@ -119,7 +119,7 @@ function Home() {
           </ReactWhatsapp>
         ))}
         <ReactWhatsapp
-              number="0728000107"
+              number="+254728000107"
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
