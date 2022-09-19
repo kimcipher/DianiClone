@@ -15,7 +15,6 @@ function WeatherIcon() {
       <div className="weather">
         <img src={animation} alt="Animation weather" width={100}/>
       </div>
-      <h3>Check Diani weather</h3>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}
     </>
