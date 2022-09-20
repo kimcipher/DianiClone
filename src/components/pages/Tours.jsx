@@ -13,7 +13,7 @@ function Tours() {
   const data = [
     {
       name: "Transportation",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in Transportation",
       className: "whatsapp",
       imahe: Transport,
@@ -21,7 +21,7 @@ function Tours() {
     },
     {
       name: "Foreign Exchange",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in Foreign Exchange",
       className: "whatsapp",
       imahe: ForeignExchange,
@@ -29,7 +29,7 @@ function Tours() {
     },
     {
       name: "Food",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in Food",
       className: "whatsapp",
       imahe: food,
@@ -37,7 +37,7 @@ function Tours() {
     },
     {
       name: "Drinks",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in Drinks",
       className: "whatsapp",
       imahe: Beer,
@@ -45,7 +45,7 @@ function Tours() {
     },
     {
       name: "Activity Guide",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in an Activity Guide",
       className: "whatsapp",
       imahe: Activity,
@@ -53,7 +53,7 @@ function Tours() {
     },
     {
       name: "Errands",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in running Errands",
       className: "whatsapp",
       imahe: bike,
@@ -61,7 +61,7 @@ function Tours() {
     },
     {
       name: "Health",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Interested in Health",
       className: "whatsapp",
       imahe: Reservation,

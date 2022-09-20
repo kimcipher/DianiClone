@@ -25,7 +25,7 @@ function Home() {
   const data = [
     {
       name: "Food Delivery 24/7",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im in need of food delivery",
       className: "whatsapp",
       imahe: food,
@@ -33,7 +33,7 @@ function Home() {
     },
     {
       name: "Drinks Delivery 24/7",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im in need of Drinks delivery",
       className: "whatsapp",
       imahe: drink,
@@ -41,7 +41,7 @@ function Home() {
     },
     {
       name: "Dinner Reservations",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi Dianiapp want to make a dinner reservation",
       className: "whatsapp",
       imahe: dinner,
@@ -49,7 +49,7 @@ function Home() {
     },
     {
       name: "Order Taxi",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi Dianiapp I need a taxi",
       className: "whatsapp",
       imahe: taxi,
@@ -57,7 +57,7 @@ function Home() {
     },
     {
       name: "Airport Transportation",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im interested in Airport Transportation",
       className: "whatsapp",
       imahe: plane,
@@ -65,7 +65,7 @@ function Home() {
     },
     {
       name: "Cash, Currencies + Exchange",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiAPP I need Ksh",
       className: "whatsapp",
       imahe: fx,
@@ -73,7 +73,7 @@ function Home() {
     },
     {
       name: "Spend Crypto",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp I need to spend some crypto",
       className: "whatsapp",
       imahe: cryptobtc,
@@ -81,7 +81,7 @@ function Home() {
     },
     {
       name: "Rent a Boat",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Im Interested in Renting a boat",
       className: "whatsapp",
       imahe: boatsvg,
@@ -89,7 +89,7 @@ function Home() {
     },
     {
       name: "Groceries 24/7",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im Interested in (cuban cigars, wines, spirits) Brands",
       className: "whatsapp",
       imahe: groceries,
@@ -97,7 +97,7 @@ function Home() {
     },
     {
       name: "Accomondation Booking",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
       imahe: hotel,
@@ -122,12 +122,12 @@ function Home() {
           </ReactWhatsapp>
         ))}
         <ReactWhatsapp
-              number="+254728000107"
+              number="+254773287540"
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">Rent a</div> <div className="scooter"div>{scooter}{bike}{car}</div>     
+            <div className="grid-left">Rent a</div> <div className="scooter"div>{scooter}{bike}{taxi}</div>     
           </div>
         </ReactWhatsapp>
       </div>

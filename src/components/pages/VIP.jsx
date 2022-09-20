@@ -11,7 +11,7 @@ function VIP() {
   const data = [
     {
       name: "SKYDIVING",
-      number: "+254728000107",
+      number: "+254773287540",
       background: skydiving,
       message: "Hi DianiApp Im interested in Sky Diving",
       description:
@@ -19,7 +19,7 @@ function VIP() {
     },
     {
       name: "JET SKIING",
-      number: "+254728000107",
+      number: "+254773287540",
       message: "Hi DianiApp Im interested in Jet Skiing",
       background: skiing,
       description:
