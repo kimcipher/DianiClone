@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./css/Nav.css";
 import logo from "./assets/logo.png";
 import toast from "react-hot-toast";
+import {addHome} from "./icons"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -65,12 +66,7 @@ function Nav() {
       </div>
       <div className="pwa-btn">
         {supportsPWA ? (
-          <button
-            className="Button-container"
-            onClick={(e) => addToHomeScreen(e)}
-          >
-            Add to Home
-          </button>
+          <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
         ) : null}
       </div>
     </div>
