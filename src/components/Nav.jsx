@@ -61,7 +61,7 @@ function Nav() {
       </div>
       <div className="date-time">
         <div className="time">
-          <h3 style={{margin: "0px", fontSize:"30px"}}>{currentTime}</h3>
+          <h3 style={{margin: "0px", fontSize:"28px"}}>{currentTime}</h3>
         </div>
       </div>
       <div className="pwa-btn">
