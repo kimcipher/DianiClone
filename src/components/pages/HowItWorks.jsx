@@ -1,15 +1,42 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
 import "../css/carousel.css"
-import {mpesa, cryptobtn, credit, paypal} from "../icons"
+import {mpesa, cryptobtn, credit, paypal, one, two, three, four} from "../icons"
 
 
 function HowItWorks() {
+    const data = [
+        {
+            icon: one,
+            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+        },
+        {
+            icon: two,
+            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+        },
+        {
+            icon: three,
+            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+        },
+        {
+            icon: four,
+            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+        }
+
+    ]
   return (
     <div>
         <h2>How It Works</h2>
-        <div className="carcon">
+        <div className="how">
+            {data.map((item, index) => (
+                <div className="how-item">
+                    <div className="how-component-small">{item.icon}</div>
+                    <div className="how-component">{item.text}</div>
+                </div>
+            ))}
+        </div>
+        {/* <div className="carcon">
             <Carousel
                 showThumbs={false}
                 showStatus={false}
@@ -39,7 +66,7 @@ function HowItWorks() {
                         </div>
                     </div>
             </Carousel>
-        </div>
+        </div> */}
         <div>
             <h2>Payment Platforms</h2>
             <div className="payment-flex">
@@ -56,7 +83,6 @@ function HowItWorks() {
                     {paypal}<h4> Paypal</h4>
                 </div>
             </div>
-            <h3>One app, one tap 24/7 delivery</h3>
         </div>
     </div>
   )

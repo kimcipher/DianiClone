@@ -1,4 +1,4 @@
-.carousel-container h3{
+/* .carousel-container h3{
     position: relative;
     text-align: left;
     font-size:3.5em;
@@ -54,6 +54,30 @@ h3, h2{
 .carousel .control-prev.control-arrow:before { 
     border:none;
     width:45vw;
+} */
+.how{
+    display: block;
+    margin-top: 50px;
+}
+.how-item{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width:90vw;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.how-component{
+    width:70%;
+    margin-left:-10px;
+    text-align: left;
+    margin-top:-20px;
+}
+.how-component-small{
+    width:30%;
+    margin-right:-10px;
+    margin-top:30px;
 }
 .payment-flex{
     display:flex;
