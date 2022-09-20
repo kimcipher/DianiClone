@@ -12,9 +12,9 @@ const Vector = () => {
       <path
         d="M1 17L9 9M17 1L8.99847 9M8.99847 9L1 1M9 9L17 17"
         stroke="#CCCCCC"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

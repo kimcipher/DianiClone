@@ -5,7 +5,7 @@ function Type() {
   return (
     <>
     
-    <h2 style={{ marginTop:'20px',fontSize:'36px'}}>
+    <h2 style={{ marginTop:'40px',fontSize:'36px'}}>
       <TypeAnimation
         sequence={[
           'Deliveries on Tap', // Types 'One'

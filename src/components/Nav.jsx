@@ -27,6 +27,15 @@ function Nav() {
       toast.error("PWA not supported");
     }
   };
+
+  const currentTime = new Date().toLocaleString();
+  console.log(currentTime);
+  const separator = "-"
+  let newDate = new Date()
+  let date = newDate.getDate();
+  let month = newDate.getMonth() + 1;
+  let year = newDate.getFullYear();
+  const today = `${year}${separator}${month<10?`0${month}`:`${month}`}${separator}${date}`
   return (
     <div className="nav-main">
       <div className="Logo-container">
@@ -49,7 +58,12 @@ function Nav() {
           <h5>Tours + Activities</h5>
         </a>
       </div>
-      <div>
+      <div className="date-time">
+        <div className="time">
+          <h4>{currentTime}</h4>
+        </div>
+      </div>
+      <div className="pwa-btn">
         {supportsPWA ? (
           <button
             className="Button-container"
@@ -57,9 +71,7 @@ function Nav() {
           >
             Add to Home
           </button>
-        ) : (
-          null
-        )}
+        ) : null}
       </div>
     </div>
   );

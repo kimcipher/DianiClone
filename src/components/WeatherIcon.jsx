@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import animation from "./assets/Weather.gif"
 import Weather from "./Weather"
 import "./css/weather.css"
+import {weather} from "./icons"
 
 
 function WeatherIcon() {
@@ -13,7 +14,7 @@ function WeatherIcon() {
     <>
     <div onClick={set} className="weatherflex">
       <div className="weather">
-        <img src={animation} alt="Animation weather" width={100}/>
+        {weather}
       </div>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}

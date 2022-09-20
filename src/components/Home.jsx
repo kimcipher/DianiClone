@@ -15,7 +15,10 @@ import {
   basket,
   bikedeli,
   boat,
-  cryptobtc
+  cryptobtc,
+  hotel,
+  boatsvg,
+  groceries,
 } from "./icons";
 
 function Home() {
@@ -81,7 +84,7 @@ function Home() {
       number: "+254728000107",
       message: "Im Interested in Renting a boat",
       className: "whatsapp",
-      imahe: boat,
+      imahe: boatsvg,
       desc: "image desc",
     },
     {
@@ -89,7 +92,7 @@ function Home() {
       number: "+254728000107",
       message: "Hi DianiApp Im Interested in (cuban cigars, wines, spirits) Brands",
       className: "whatsapp",
-      imahe: basket,
+      imahe: groceries,
       desc: "image desc",
     },
     {
@@ -97,7 +100,7 @@ function Home() {
       number: "+254728000107",
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
-      imahe: bikedeli,
+      imahe: hotel,
       desc: "image desc",
     },
   ];

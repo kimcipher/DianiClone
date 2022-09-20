@@ -14,6 +14,7 @@ import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 import WeatherIcon from "./components/WeatherIcon";
 import { Toaster } from "react-hot-toast";
+import BotIcon from "./components/BotIcon"
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Type />
       <WeatherIcon />
       <MobileNav />
+      <BotIcon/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Wellness" element={<Wellness />} />
