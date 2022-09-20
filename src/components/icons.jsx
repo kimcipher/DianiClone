@@ -226,9 +226,9 @@ export const mpesa = (
 );
 export const cryptobtn = (
   <svg
-    width="14"
-    height="22"
-    viewBox="0 0 14 22"
+    width="56"
+    height="88"
+    viewBox="0 0 28 44"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -254,8 +254,8 @@ export const cryptobtn = (
 );
 export const credit = (
   <svg
-    width="21"
-    height="13"
+    width="52"
+    height="26"
     viewBox="0 0 21 13"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -348,9 +348,9 @@ export const boat = (
 );
 export const cryptobtc = (
   <svg
-    width="51"
-    height="17"
-    viewBox="0 0 51 17"
+    width="102"
+    height="68"
+    viewBox="0 0 23 10"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >

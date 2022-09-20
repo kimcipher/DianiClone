@@ -45,9 +45,9 @@ h4 {
 }
 
 .Tab-item:hover {
-  background: linear-gradient(to right, #b2fefa, #0ed2f7);
+  background: linear-gradient(to right,  #241845, #000);
   transition: 0.2s ease-in-out;
-  color: #020825;
+  color: #fff;
   cursor: pointer;
   font-weight: 600;
 }
@@ -63,6 +63,7 @@ h4 {
 .Tab-item {
   width: 450px;
   height: 45px;
+  color:#fff;
   background-color: #2a2f45;
   display: grid;
   grid-template-columns: 1fr 2fr;

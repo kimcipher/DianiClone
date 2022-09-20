@@ -96,7 +96,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Accomondation Booking",
+      name: "Accommodation Booking",
       number: "+254728000107",
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
