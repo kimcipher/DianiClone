@@ -606,8 +606,8 @@ export const bot = (
 );
 export const addHome = (
   <svg
-    width="26"
-    height="26"
+    width="50"
+    height="50"
     viewBox="0 0 26 26"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
