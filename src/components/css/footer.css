@@ -26,9 +26,11 @@
   background-color: #020825;
   width: auto;
   overflow-x: scroll;
+  scrollbar-width: thin;
 }
-.nav-mobile-container::-webkit-scrollbar {
-    display: none;
+.nav-mobile-container::-webkit-scrollbar-track {
+    /* color: #EA6CFB; */
+    background:#EA6CFB;
 }
 .nav-mobile-container * {
   width: 15vw;

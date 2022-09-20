@@ -9,7 +9,7 @@ function MobileNav() {
         <a href="/NightLife"><h5>Night Life</h5></a>
         {/* <a href="/Tours"><h5>VIP</h5></a> */}
         <a href="/VIP"><h5>VIP</h5></a>
-        <a href="/Activities"><h5>Activities</h5></a>
+        <a href="/Activities"><h5>Tours + Activities</h5></a>
     </div>
   )
 }

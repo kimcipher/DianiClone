@@ -37,7 +37,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Dinner Reservation",
+      name: "Dinner Reservations",
       number: "+254728000107",
       message: "Hi Dianiapp want to make a dinner reservation",
       className: "whatsapp",
@@ -61,7 +61,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Ksh & FX",
+      name: "Cash, Currencies + Exchange",
       number: "+254728000107",
       message: "Hi DianiAPP I need Ksh",
       className: "whatsapp",
@@ -69,7 +69,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "SPEND CRYPTO",
+      name: "Spend Crypto",
       number: "+254728000107",
       message: "Hi DianiApp I need to spend some crypto",
       className: "whatsapp",
@@ -85,7 +85,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Brands (cuban cigars, wines and spirits)",
+      name: "Groceries 24/7",
       number: "+254728000107",
       message: "Hi DianiApp Im Interested in (cuban cigars, wines, spirits) Brands",
       className: "whatsapp",
@@ -93,7 +93,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Double Decker Bicycles for Deliveries",
+      name: "Accomondation Booking",
       number: "+254728000107",
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
@@ -124,7 +124,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">Rent a</div> <div className="scooter"div>{car}{scooter}{bike}</div>     
+            <div className="grid-left">Rent a</div> <div className="scooter"div>{scooter}{bike}{car}</div>     
           </div>
         </ReactWhatsapp>
       </div>

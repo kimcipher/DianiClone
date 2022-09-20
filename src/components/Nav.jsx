@@ -46,7 +46,7 @@ function Nav() {
           <h5>VIP</h5>
         </a>
         <a href="/Activities">
-          <h5>Activities</h5>
+          <h5>Tours + Activities</h5>
         </a>
       </div>
       <div>
