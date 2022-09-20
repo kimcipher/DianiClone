@@ -5,8 +5,9 @@
   padding-left: 15vw;
   padding-right: 15vw;
   background: #241845;
-  padding-top:10px;
-  padding-bottom:10px;
+}
+.nav-main a{
+  padding-top:30px;
 }
 .Links-container {
   display: flex;
@@ -20,6 +21,8 @@
 }
 a {
   text-decoration:none;
+  text-align: center;
+  height:50px;
 }
 .Button-container {
   color: navy;
