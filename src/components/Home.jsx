@@ -25,82 +25,82 @@ function Home() {
   const data = [
     {
       name: "Food Delivery 24/7",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp Im in need of food delivery",
       className: "whatsapp",
-      imahe: food,
+      image: food,
       desc: "image desc",
     },
     {
       name: "Drinks Delivery 24/7",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp Im in need of Drinks delivery",
       className: "whatsapp",
-      imahe: drink,
+      image: drink,
       desc: "image desc",
     },
     {
       name: "Dinner Reservations",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi Dianiapp want to make a dinner reservation",
       className: "whatsapp",
-      imahe: dinner,
+      image: dinner,
       desc: "image desc",
     },
     {
       name: "Order Taxi",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi Dianiapp I need a taxi",
       className: "whatsapp",
-      imahe: taxi,
+      image: taxi,
       desc: "image desc",
     },
     {
       name: "Airport Transportation",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp Im interested in Airport Transportation",
       className: "whatsapp",
-      imahe: plane,
+      image: plane,
       desc: "image desc",
     },
     {
       name: "Cash, Currencies + Exchange",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiAPP I need Ksh",
       className: "whatsapp",
-      imahe: fx,
+      image: fx,
       desc: "image desc",
     },
     {
       name: "Spend Crypto",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp I need to spend some crypto",
       className: "whatsapp",
-      imahe: cryptobtc,
+      image: cryptobtc,
       desc: "image desc",
     },
     {
       name: "Rent a Boat",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Im Interested in Renting a boat",
       className: "whatsapp",
-      imahe: boatsvg,
+      image: boatsvg,
       desc: "image desc",
     },
     {
       name: "Groceries 24/7",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp Im Interested in (cuban cigars, wines, spirits) Brands",
       className: "whatsapp",
-      imahe: groceries,
+      image: groceries,
       desc: "image desc",
     },
     {
       name: "Accomondation Booking",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
-      imahe: hotel,
+      image: hotel,
       desc: "image desc",
     },
   ];
@@ -116,13 +116,13 @@ function Home() {
             className={item.className}
           >
             <h4 className="Tab-item">
-              <div className="grid-left">{item.imahe}</div>
+              <div className="grid-left">{item.image}</div>
               <div className="grid-right">{item.name}</div>
             </h4>
           </ReactWhatsapp>
         ))}
         <ReactWhatsapp
-              number="+254773287540"
+              number="+254728000107"
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >

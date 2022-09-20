@@ -29,7 +29,7 @@ function Nav() {
     }
   };
 
-  const currentTime = new Date().toLocaleString();
+  const currentTime = new Date().toLocaleTimeString();
   console.log(currentTime);
   const separator = "-"
   let newDate = new Date()
@@ -61,7 +61,7 @@ function Nav() {
       </div>
       <div className="date-time">
         <div className="time">
-          <h4>{currentTime}</h4>
+          <h3 style={{margin: "0px"}}>{currentTime}</h3>
         </div>
       </div>
       <div className="pwa-btn">

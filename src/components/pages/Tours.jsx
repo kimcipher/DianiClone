@@ -13,58 +13,58 @@ function Tours() {
   const data = [
     {
       name: "Transportation",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in Transportation",
       className: "whatsapp",
-      imahe: Transport,
+      image: Transport,
       desc: "image desc",
     },
     {
       name: "Foreign Exchange",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in Foreign Exchange",
       className: "whatsapp",
-      imahe: ForeignExchange,
+      image: ForeignExchange,
       desc: "image desc",
     },
     {
       name: "Food",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in Food",
       className: "whatsapp",
-      imahe: food,
+      image: food,
       desc: "image desc",
     },
     {
       name: "Drinks",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in Drinks",
       className: "whatsapp",
-      imahe: Beer,
+      image: Beer,
       desc: "image desc",
     },
     {
       name: "Activity Guide",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in an Activity Guide",
       className: "whatsapp",
-      imahe: Activity,
+      image: Activity,
       desc: "image desc",
     },
     {
       name: "Errands",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in running Errands",
       className: "whatsapp",
-      imahe: bike,
+      image: bike,
       desc: "image desc",
     },
     {
       name: "Health",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Interested in Health",
       className: "whatsapp",
-      imahe: Reservation,
+      image: Reservation,
       desc: "image desc",
     },
   ];
@@ -81,7 +81,7 @@ function Tours() {
           >
             <h4 className="Tab-item">
               {" "}
-              <img src={item.imahe} alt={item.desc} /> {item.name}
+              <img src={item.image} alt={item.desc} /> {item.name}
             </h4>
           </ReactWhatsapp>
         ))}

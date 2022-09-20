@@ -8,34 +8,34 @@ function Wellness() {
   const data = [
     {
       name: "On site Massage",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp I'm Interested in a Massage",
       className: "whatsapp",
-      imahe:dinner,
+      image:dinner,
       desc:"image desc",
     },
     {
       name: "On Site Hair & Make up",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp I'm Interested in On site hair & make up",
       className: "whatsapp",
-      imahe:fx,
+      image:fx,
       desc:"image desc",
     },
     {
       name: "On Site Nail service",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp I'm Interested in On site nail service",
       className: "whatsapp",
-      imahe:drink,
+      image:drink,
       desc:"image desc",
     },
     {
       name: "Something special",
-      number: "+254773287540",
+      number: "+254728000107",
       message: "Hi DianiApp I'm Interested in Something special",
       className: "whatsapp",
-      imahe:food,
+      image:food,
       desc:"image desc",
     }
   ];
