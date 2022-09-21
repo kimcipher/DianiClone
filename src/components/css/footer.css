@@ -16,25 +16,18 @@
 }
 .foot-container * {
   background-color: #020825;
-  padding:10px;
 }
 .nav-mobile-container {
   display: flex;
   flex-direction: row;
   height: 100px;
   background-color: #020825;
-  width: auto;
   overflow-x: scroll;
-  scrollbar-width: thin;
+  width: 100vw;
 }
-.nav-mobile-container ::-webkit-scrollbar-track {
-    /* color: #EA6CFB; */
-    display: none;
-    color:#EA6CFB;
-}
-.nav-mobile-container a {
-  width: 20vw;
-  text-decoration:none;
+.nav-mobile-container * {
+  width: 30vw;
+  /* text-decoration:none; */
   transition: 0.2s;
 }
 .nav-mobile-container a:hover{
