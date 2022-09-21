@@ -3,17 +3,17 @@
   "name": "Diani App",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "dianilogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "maskable_icon_x192.png",
+      "src": "dianilogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "maskable_icon_x512.png",
+      "src": "dianilogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
