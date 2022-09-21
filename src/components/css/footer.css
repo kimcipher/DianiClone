@@ -17,6 +17,9 @@
 .foot-container * {
   background-color: #020825;
 }
+.foot-container p{
+  padding-bottom:20px;
+}
 .nav-mobile-container {
   display: flex;
   flex-direction: row;

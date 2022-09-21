@@ -254,8 +254,8 @@ export const cryptobtn = (
 );
 export const credit = (
   <svg
-    width="52"
-    height="26"
+    width="25"
+    height="13"
     viewBox="0 0 21 13"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
