@@ -6,9 +6,9 @@
   padding-right: 15vw;
   background: #241845;
 }
-.nav-main a{
+/* .nav-main a{
   padding-top:30px;
-}
+} */
 .Links-container {
   display: flex;
   flex-direction: row;

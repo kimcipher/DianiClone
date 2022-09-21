@@ -52,7 +52,13 @@ h4 {
   cursor: pointer;
   font-weight: 600;
 }
-
+.Tab-item-wellness:hover {
+  background: linear-gradient(to right, #241845, #000);
+  transition: 0.2s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
 .whatsapp {
   width: 100%;
   margin: 0px 0px 10px 0px;
@@ -88,6 +94,7 @@ h4 {
   padding: 5px;
   font-weight: 400;
   font-size:15px;
+  padding-top: 25px;
 }
 
 .grid-right{
