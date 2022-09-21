@@ -350,7 +350,7 @@ export const cryptobtc = (
   <svg
     width="102"
     height="68"
-    viewBox="0 0 23 10"
+    viewBox="5 5 42 15"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >

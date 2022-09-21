@@ -35,7 +35,10 @@ h4 {
   font-style: normal;
   /* font-size: clamp(15px, 20px, 35px); */
 }
-
+.spex svg{
+  width:50px;
+  padding-top:15px;
+}
 .Tabs-container {
   width: 50vw;
   margin: auto;

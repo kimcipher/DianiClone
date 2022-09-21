@@ -75,7 +75,7 @@ function Home() {
       name: "Spend Crypto",
       number: "+254728000107",
       message: "Hi DianiApp I need to spend some crypto",
-      className: "whatsapp",
+      className: "whatsapp spex",
       image: cryptobtc,
       desc: "image desc",
     },
