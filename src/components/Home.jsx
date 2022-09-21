@@ -115,10 +115,10 @@ function Home() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item">
+            <div className="Tab-item">
               <div className="grid-left">{item.image}</div>
               <div className="grid-right">{item.name}</div>
-            </h4>
+            </div>
           </ReactWhatsapp>
         ))}
         <ReactWhatsapp

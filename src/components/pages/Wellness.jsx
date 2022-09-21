@@ -50,7 +50,7 @@ function Wellness() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item"> {item.name}</h4>
+            <div className="Tab-item-wellness"><h4> {item.name}</h4></div>
           </ReactWhatsapp>
         ))}
       </div>

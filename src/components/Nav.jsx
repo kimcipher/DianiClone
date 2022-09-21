@@ -44,7 +44,7 @@ function Nav() {
       </div>
       <div className="Links-container">
         <a href="/">
-          <h5>Popular</h5>
+          <h5>⭐ Popular</h5>
         </a>
         <a href="/Wellness">
           <h5>Wellness</h5>
