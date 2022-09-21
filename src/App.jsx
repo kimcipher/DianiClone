@@ -15,6 +15,9 @@ import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 import WeatherIcon from "./components/WeatherIcon";
 import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
+import "animate.css/animate.min.css";
+import {AnimationOnScroll} from "react-animation-on-scroll"
+
 
 function App() {
   return (
@@ -51,6 +54,7 @@ function App() {
         <Route path="/how-it-works" element={<HowItWorks />} />
       </Routes>
       <MobileFooter />
+
     </>
   );
 }

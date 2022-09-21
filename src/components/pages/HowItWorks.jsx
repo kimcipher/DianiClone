@@ -13,15 +13,15 @@ function HowItWorks() {
         },
         {
             icon: two,
-            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+            text: "Click on ‘Continue to chat’ and amessage will be sent via WhatsApp to The Diani App"
         },
         {
             icon: three,
-            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+            text: "The managing team will process the customer request for the requested service. "
         },
         {
             icon: four,
-            text: "Select the service you need (food and booze, transportation, groceries, Fx,dinner/lunch reservations)"
+            text: "A delivery guy will be sent to the customer location with the delivery."
         }
 
     ]

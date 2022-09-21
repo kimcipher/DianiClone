@@ -225,32 +225,15 @@ export const mpesa = (
   </svg>
 );
 export const cryptobtn = (
-  <svg
-    width="56"
-    height="88"
-    viewBox="0 0 28 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path d="M6.59375 0V12.8884L13.1878 10.1411L6.59375 0Z" fill="#C3CBE7" />
-    <path d="M6.59405 0V12.8884L0 10.1411L6.59405 0Z" fill="white" />
-    <path
-      d="M0 10.1411L6.59405 7.59784L13.1881 10.1411L6.59405 12.8883L0 10.1411Z"
-      fill="#C3CBE7"
-    />
-    <path
-      d="M13.1878 10.1413L6.59375 12.8885V7.59662L13.1878 10.1413Z"
-      fill="#8696CB"
-    />
-    <path
-      d="M0 11.7922L6.59405 21.9986L13.1881 11.8907L6.59405 14.4423L0 11.7922Z"
-      fill="white"
-    />
-    <path
-      d="M13.1878 11.8907L6.59375 22V14.4423L13.1878 11.8907Z"
-      fill="#C3CBE7"
-    />
+  <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.59375 0V12.8884L13.1878 10.1411L6.59375 0Z" fill="#C3CBE7"/>
+  <path d="M6.59405 0V12.8884L0 10.1411L6.59405 0Z" fill="white"/>
+  <path d="M0 10.1412L6.59405 7.5979L13.1881 10.1412L6.59405 12.8884L0 10.1412Z" fill="#C3CBE7"/>
+  <path d="M13.1878 10.1413L6.59375 12.8886V7.59668L13.1878 10.1413Z" fill="#8696CB"/>
+  <path d="M0 11.7922L6.59405 21.9986L13.1881 11.8907L6.59405 14.4423L0 11.7922Z" fill="white"/>
+  <path d="M13.1878 11.8909L6.59375 22.0001V14.4425L13.1878 11.8909Z" fill="#C3CBE7"/>
   </svg>
+  
 );
 export const credit = (
   <svg
