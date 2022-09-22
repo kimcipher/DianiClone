@@ -40,7 +40,7 @@ function Nav() {
   return (
     <div className="nav-main">
       <div className="Logo-container">
-        <img src={logo} alt="Dianiapp" />
+        <a href="/"><img src={logo} alt="Dianiapp" /></a>
       </div>
       <div className="Links-container">
         <a href="/">

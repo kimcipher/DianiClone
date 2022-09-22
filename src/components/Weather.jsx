@@ -25,14 +25,14 @@ const Weather = ({setIsOpen}) => {
     </div>
     <div className='weather-component'>
      <ReactWeather
-     isLoading={isLoading}
-     errorMessage={errorMessage}
-     onClick={!setIsOpen}
-     data={data}
-     lang="en"
-     locationLabel="Diani"
-     unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
-     showForeCast
+      isLoading={isLoading}
+      errorMessage={errorMessage}
+      onClick={!setIsOpen}
+      data={data}
+      lang="en"
+      locationLabel="Diani"
+      unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
+      showForeCast
      ></ReactWeather>
      </div>
      </div>

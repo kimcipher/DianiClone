@@ -7,7 +7,7 @@ function NightLife() {
   const data = [
     {
       name: "Dinner Reservation",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Interested in a Dinner reservation",
       className: "whatsapp",
       image: dinner,
@@ -15,7 +15,7 @@ function NightLife() {
     },
     {
       name: "Table Reservation",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Interested a table resevation",
       className: "whatsapp",
       image: drink,
@@ -23,7 +23,7 @@ function NightLife() {
     },
     {
       name: "Luxury Reservation",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Interested in a luxury reservation",
       className: "whatsapp",
       image: plane,
@@ -31,7 +31,7 @@ function NightLife() {
     },
     {
       name: "Browse Events",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Interested in Browsing events",
       className: "whatsapp",
       image: fx,
@@ -39,7 +39,7 @@ function NightLife() {
     },
     {
       name: "DJ Parties",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Interested in a DJ party",
       className: "whatsapp",
       image: food,
@@ -56,7 +56,7 @@ function NightLife() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item-wellness"> {item.name}</h4>
+            <div className="Tab-item-wellness"> {item.name}</div>
           </ReactWhatsapp>
         ))}
       </div>

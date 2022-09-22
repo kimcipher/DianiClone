@@ -7,7 +7,7 @@ function Wellness() {
   const data = [
     {
       name: "On site Massage",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Hi DianiApp I'm Interested in a Massage",
       className: "whatsapp",
       image: dinner,
@@ -15,7 +15,7 @@ function Wellness() {
     },
     {
       name: "On Site Hair & Make up",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Hi DianiApp I'm Interested in On site hair & make up",
       className: "whatsapp",
       image: fx,
@@ -23,7 +23,7 @@ function Wellness() {
     },
     {
       name: "schedule a yoga class",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Hi DianiApp I'm want to schedule a yoga class",
       className: "whatsapp",
       image: fx,
@@ -31,7 +31,7 @@ function Wellness() {
     },
     {
       name: "On Site Nail service",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Hi DianiApp I'm Interested in On site nail service",
       className: "whatsapp",
       image: drink,
@@ -39,7 +39,7 @@ function Wellness() {
     },
     {
       name: "Something special",
-      number: "+254728000107",
+      number: "+254115144146",
       message: "Hi DianiApp I'm Interested in Something special",
       className: "whatsapp",
       image: food,
@@ -59,7 +59,7 @@ function Wellness() {
             className={item.className}
           >
             <div className="Tab-item-wellness">
-              <h4>{item.name}</h4>
+              <div>{item.name}</div>
             </div>
           </ReactWhatsapp>
         ))}
