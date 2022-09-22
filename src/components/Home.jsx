@@ -49,7 +49,7 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Order Taxi",
+      name: "Order Taxi 24/7",
       number: "+254115144146",
       message: "Hi Dianiapp I need a taxi",
       className: "whatsapp",

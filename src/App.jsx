@@ -12,7 +12,7 @@ import MobileNav from "./components/MobileNav";
 import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
-import WeatherIcon from "./components/WeatherIcon";
+// import WeatherIcon from "./components/WeatherIcon";
 import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
@@ -41,7 +41,7 @@ function App() {
       <Nav />
       <AddToHomeScreen />
       <Type />
-      <WeatherIcon />
+      {/* <WeatherIcon /> */}
       <MobileNav />
       <BotIcon/>
       <Routes>

@@ -3,6 +3,7 @@ import "./css/Nav.css";
 import logo from "./assets/logo.png";
 import toast from "react-hot-toast";
 import {addHome} from "./icons"
+import WeatherIcon from "../components/WeatherIcon"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -64,6 +65,7 @@ function Nav() {
           <h3 style={{margin: "0px", fontSize:"20px", color:'#fff'}}>{currentTime}</h3>
         </div>
       </div>
+      <WeatherIcon/>
       <div className="pwa-btn">
         {supportsPWA ? (
           <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
