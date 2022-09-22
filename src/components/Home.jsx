@@ -19,6 +19,7 @@ import {
   hotel,
   boatsvg,
   groceries,
+  packageicon
 } from "./icons";
 
 function Home() {
@@ -101,6 +102,14 @@ function Home() {
       message: "Hi DianiApp Im interested in Double Decker Bicycles for Deliveries",
       className: "whatsapp",
       image: hotel,
+      desc: "image desc",
+    },
+    {
+      name: "Mail/Package Delivery",
+      number: "+254728000107",
+      message: "Hi DianiApp I'm interested in Mail & Package delivery",
+      className: "whatsapp",
+      image: packageicon,
       desc: "image desc",
     },
   ];

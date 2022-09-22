@@ -1,8 +1,7 @@
 import React from "react";
 import "../css/home.css";
 import ReactWhatsapp from "react-whatsapp";
-import {drink, dinner, fx, food} from "../icons"
-
+import { drink, dinner, fx, food } from "../icons";
 
 function Wellness() {
   const data = [
@@ -11,35 +10,44 @@ function Wellness() {
       number: "+254728000107",
       message: "Hi DianiApp I'm Interested in a Massage",
       className: "whatsapp",
-      image:dinner,
-      desc:"image desc",
+      image: dinner,
+      desc: "image desc",
     },
     {
       name: "On Site Hair & Make up",
       number: "+254728000107",
       message: "Hi DianiApp I'm Interested in On site hair & make up",
       className: "whatsapp",
-      image:fx,
-      desc:"image desc",
+      image: fx,
+      desc: "image desc",
+    },
+    {
+      name: "schedule a yoga class",
+      number: "+254728000107",
+      message: "Hi DianiApp I'm want to schedule a yoga class",
+      className: "whatsapp",
+      image: fx,
+      desc: "image desc",
     },
     {
       name: "On Site Nail service",
       number: "+254728000107",
       message: "Hi DianiApp I'm Interested in On site nail service",
       className: "whatsapp",
-      image:drink,
-      desc:"image desc",
+      image: drink,
+      desc: "image desc",
     },
     {
       name: "Something special",
       number: "+254728000107",
       message: "Hi DianiApp I'm Interested in Something special",
       className: "whatsapp",
-      image:food,
-      desc:"image desc",
-    }
+      image: food,
+      desc: "image desc",
+    },
+    
   ];
- 
+
   return (
     <div className="container">
       <div className="Tabs-container">
@@ -50,7 +58,9 @@ function Wellness() {
             message={item.message}
             className={item.className}
           >
-            <div className="Tab-item-wellness"><h4> {item.name}</h4></div>
+            <div className="Tab-item-wellness">
+              <h4>{item.name}</h4>
+            </div>
           </ReactWhatsapp>
         ))}
       </div>
