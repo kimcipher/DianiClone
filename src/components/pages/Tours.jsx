@@ -14,7 +14,7 @@ function Tours() {
     {
       name: "Transportation",
       number: "+254115144146",
-      message: "Interested in Transportation",
+      message: "Hi DianiApp 😊, I need Transportation 🚕",
       className: "whatsapp",
       image: Transport,
       desc: "image desc",
@@ -22,7 +22,7 @@ function Tours() {
     {
       name: "Foreign Exchange",
       number: "+254115144146",
-      message: "Interested in Foreign Exchange",
+      message: "Hi DianiApp 😊, Interested in Foreign Exchange 💰",
       className: "whatsapp",
       image: ForeignExchange,
       desc: "image desc",
@@ -30,7 +30,7 @@ function Tours() {
     {
       name: "Food",
       number: "+254115144146",
-      message: "Interested in Food",
+      message: "Hi DianiApp 😊, I want to order some food 🍝",
       className: "whatsapp",
       image: food,
       desc: "image desc",
@@ -38,7 +38,7 @@ function Tours() {
     {
       name: "Drinks",
       number: "+254115144146",
-      message: "Interested in Drinks",
+      message: "Hi DianiApp 😊, I want to order some Drinks 🥂",
       className: "whatsapp",
       image: Beer,
       desc: "image desc",
@@ -46,7 +46,7 @@ function Tours() {
     {
       name: "Activity Guide",
       number: "+254115144146",
-      message: "Interested in an Activity Guide",
+      message: "Hi DianiApp 😊,I need an Activity Guide 📍",
       className: "whatsapp",
       image: Activity,
       desc: "image desc",
@@ -54,7 +54,7 @@ function Tours() {
     {
       name: "Errands",
       number: "+254115144146",
-      message: "Interested in running Errands",
+      message: "Hi DianiApp 😊, I need help with my Errands 🛒",
       className: "whatsapp",
       image: bike,
       desc: "image desc",
@@ -62,7 +62,7 @@ function Tours() {
     {
       name: "Health",
       number: "+254115144146",
-      message: "Interested in Health",
+      message: "Hi DianiApp 😊, I need Health services 💊",
       className: "whatsapp",
       image: Reservation,
       desc: "image desc",

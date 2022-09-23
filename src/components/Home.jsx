@@ -27,15 +27,15 @@ function Home() {
     {
       name: "Food Delivery 24/7",
       number: "+254115144146",
-      message: "Hi DianiApp Im in need of food delivery",
+      message: "Hi DianiApp 😊, I want to order some food 🍝",
       className: "whatsapp",
       image: food,
       desc: "image desc",
     },
-    {
+    { 
       name: "Drinks Delivery 24/7",
       number: "+254115144146",
-      message: "Hi DianiApp Im in need of Drinks delivery",
+      message: "Hi DianiApp 😊 I want to order some Drinks 🥂",
       className: "whatsapp",
       image: drink,
       desc: "image desc",
@@ -43,7 +43,7 @@ function Home() {
     {
       name: "Groceries 24/7",
       number: "+254115144146",
-      message: "Hi DianiApp Im Interested in getting grocceries",
+      message: "Hi DianiApp 😊 I want to order some grocceries 🧅",
       className: "whatsapp",
       image: groceries,
       desc: "image desc",
@@ -51,7 +51,7 @@ function Home() {
     {
       name: "Order Taxi 24/7",
       number: "+254115144146",
-      message: "Hi Dianiapp I need a taxi",
+      message: "Hi Dianiapp 😊 I want to order a taxi 🚕",
       className: "whatsapp",
       image: taxi,
       desc: "image desc",
@@ -59,7 +59,7 @@ function Home() {
     {
       name: "Cash, Currencies + Exchange",
       number: "+254115144146",
-      message: "Hi DianiAPP I need Ksh",
+      message: "Hi DianiAPP 😊 I need some Ksh 💰",
       className: "whatsapp",
       image: fx,
       desc: "image desc",
@@ -67,7 +67,7 @@ function Home() {
     {
       name: "Dinner Reservations",
       number: "+254115144146",
-      message: "Hi Dianiapp want to make a dinner reservation",
+      message: "Hi Dianiapp 😊 want to make a dinner reservation 🍽️",
       className: "whatsapp",
       image: dinner,
       desc: "image desc",
@@ -75,7 +75,7 @@ function Home() {
     {
       name: "Airport Transportation",
       number: "+254115144146",
-      message: "Hi DianiApp Im interested in Airport Transportation",
+      message: "Hi DianiApp 😊 I need to get to the airport ✈️",
       className: "whatsapp",
       image: plane,
       desc: "image desc",
@@ -83,7 +83,7 @@ function Home() {
     {
       name: "Spend Crypto",
       number: "+254115144146",
-      message: "Hi DianiApp I need to spend some crypto",
+      message: "Hi DianiApp 😊 I want to spend some crypto ₿",
       className: "whatsapp spex",
       image: cryptobtc,
       desc: "image desc",
@@ -91,7 +91,7 @@ function Home() {
     {
       name: "Rent a Boat",
       number: "+254115144146",
-      message: "Im Interested in Renting a boat",
+      message: "Hi DianiApp 😊 Im want to rent a boat 🛥️",
       className: "whatsapp",
       image: boatsvg,
       desc: "image desc",
@@ -99,7 +99,7 @@ function Home() {
     {
       name: "Accommodation Booking",
       number: "+254115144146",
-      message: "Hi DianiApp Im interested in Accomodation Booking",
+      message: "Hi DianiApp 😊 I need to get accomodation 🏨",
       className: "whatsapp",
       image: hotel,
       desc: "image desc",
@@ -107,7 +107,7 @@ function Home() {
     {
       name: "Mail/Package Delivery",
       number: "+254115144146",
-      message: "Hi DianiApp I'm interested in Mail & Package delivery",
+      message: "Hi DianiApp 😊, I need to get a package delivered 📦",
       className: "whatsapp",
       image: packageicon,
       desc: "image desc",

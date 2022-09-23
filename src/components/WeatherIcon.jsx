@@ -13,13 +13,18 @@ function WeatherIcon() {
   const [temperature, setTemperature] = useState()
   const [isOpen, setIsOpen] = useState(false)
   let url = `${URL_MAIN}?lat=${lattitude}&lon=${longitude}&units=${UNITS}&APPID=${WEATHER_API_KEY}`;
+  
   fetchApi(url)
-
+  let iconUrl;
   async function fetchApi(url) {
+    
     let response = await fetch(url);
-    let {main, name} = await response.json();
+    let {main, name, weather} = await response.json();
+
     let temperatureFixed = (main.temp).toFixed(0);
     setTemperature(temperatureFixed)
+    // iconUrl = `https://openweathermap.org/img/wn/${icon}@4x.png`
+    iconUrl = `https://openweathermap.org/img/wn/${weather[0].icon}@4x.png`
   }
   function set() {
     setIsOpen(true)
@@ -28,7 +33,7 @@ function WeatherIcon() {
     <>
     <div onClick={set} className="weatherflex">
       <div className="weather">
-      {weather} {temperature}°C 
+      {weather} {temperature}°C <img src={iconUrl}/>
       </div>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}
