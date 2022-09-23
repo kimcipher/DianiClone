@@ -13,14 +13,14 @@ function VIP() {
       name: "SKYDIVING",
       number: "+254115144146",
       background: skydiving,
-      message: "Hi DianiApp Im interested in Sky Diving",
+      message: "Hi DianiApp 😊, I want to go Sky Diving 🪂",
       description:
         "Diani beach offers some of the finest scenery in the world and skydiving onto the beach has become a large attraction amongst tourists who want to see the landscape from a birds-eye view at 12,000 ft.  ",
     },
     {
       name: "JET SKIING",
       number: "+254115144146",
-      message: "Hi DianiApp Im interested in Jet Skiing",
+      message: "Hi DianiApp 😊, Im interested in Jet Skiing 🚤",
       background: skiing,
       description:
         "Diani Beach is one of the greatest water sports destinations in East Africa.Experience the beautiful view of Diani from the open sea and get to know other fascinating parts of the coast.",

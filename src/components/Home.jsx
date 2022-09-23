@@ -99,7 +99,7 @@ function Home() {
     {
       name: "Accommodation Booking",
       number: "+254115144146",
-      message: "Hi DianiApp 😊 I need to get accomodation 🏨",
+      message: "Hi DianiApp 😊, I need to get accomodation 🏨",
       className: "whatsapp",
       image: hotel,
       desc: "image desc",
