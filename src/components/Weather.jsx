@@ -32,7 +32,7 @@ const Weather = ({setIsOpen}) => {
       lang="en"
       locationLabel="Diani"
       unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
-      showForeCast
+      showForecast={false}
      ></ReactWeather>
      </div>
      </div>
