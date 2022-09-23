@@ -6,7 +6,7 @@ function MobileNav() {
     <nav>
     <div className="nav-mobile-container">
       
-        <NavLink to="/_" activeclassname='active'><h5 className="flex">⭐ Popular</h5></NavLink>
+        <NavLink to="/" activeclassname='active'><h5 className="flex">⭐ Popular</h5></NavLink>
         <NavLink to="/Wellness" activeclassname='active'><h5>Wellness</h5></NavLink>
         <NavLink to="/NightLife" activeclassname='active'><h5>Night Life</h5></NavLink>
         {/* <a href="/Tours"><h5>VIP</h5></a> */}

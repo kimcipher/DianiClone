@@ -45,7 +45,7 @@ function App() {
       <MobileNav />
       <BotIcon/>
       <Routes>
-        <Route path="/_" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/Wellness" element={<Wellness />} />
         <Route path="/NightLife" element={<NightLife />} />
         <Route path="/Tours" element={<Tours />} />
