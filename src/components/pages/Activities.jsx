@@ -17,7 +17,7 @@ function Activities() {
         number: "+254115144146",
         message: "Hi DianiApp 😊, Im interested in Glassboat Trip 🛥️",
         background: glassboat,
-        description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
+        description: "Experience an incredible day out for those who want to stay dry but still enjoy the marine life, sail on a glass boat in the Indian ocean and watch a school of colorful fish swim beneath you.",
     },
     {
         name: "Dolphin Watching",
