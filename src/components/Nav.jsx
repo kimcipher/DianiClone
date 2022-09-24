@@ -4,6 +4,7 @@ import logo from "./assets/logo.png";
 import toast from "react-hot-toast";
 import {addHome} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
+import {NavLink} from "react-router-dom"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -38,40 +39,42 @@ function Nav() {
   let month = newDate.getMonth() + 1;
   let year = newDate.getFullYear();
   const today = `${year}${separator}${month<10?`0${month}`:`${month}`}${separator}${date}`
-  return (
-    <div className="nav-main">
-      <div className="Logo-container">
-        <a href="/"><img src={logo} alt="Dianiapp" /></a>
-      </div>
-      <div className="Links-container">
-        <a href="/">
-          <h5>⭐ Popular</h5>
-        </a>
-        <a href="/Wellness">
-          <h5>Wellness</h5>
-        </a>
-        <a href="/NightLife">
-          <h5>Night Life</h5>
-        </a>
-        <a href="/VIP">
-          <h5>VIP</h5>
-        </a>
-        <a href="/Activities">
-          <h5>Tours + Activities</h5>
-        </a>
-      </div>
-      <div className="date-time">
-        <div className="time">
-          <h3 style={{margin: "0px", fontSize:"20px", color:'#fff'}}>{currentTime}</h3>
+  return ( 
+    <nav>
+      <div className="nav-main">
+        <div className="Logo-container">
+          <NavLink to="/"><img src={logo} alt="Dianiapp" /></NavLink>
+        </div>
+        <div className="Links-container">
+          <NavLink to="/">
+            <h5>⭐ Popular</h5>
+          </NavLink>
+          <NavLink to="/Wellness">
+            <h5>Wellness</h5>
+          </NavLink>
+          <NavLink to="/NightLife">
+            <h5>Night Life</h5>
+          </NavLink>
+          <NavLink to="/VIP">
+            <h5>VIP</h5>
+          </NavLink>
+          <NavLink to="/Activities">
+            <h5>Tours + Activities</h5>
+          </NavLink>
+        </div>
+        <div className="date-time">
+          <div className="time">
+            <h3 style={{margin: "0px", fontSize:"20px", color:'#fff'}}>{currentTime}</h3>
+          </div>
+        </div>
+        <WeatherIcon/>
+        <div className="pwa-btn">
+          {supportsPWA ? (
+            <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
+          ) : null}
         </div>
       </div>
-      <WeatherIcon/>
-      <div className="pwa-btn">
-        {supportsPWA ? (
-          <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
-        ) : null}
-      </div>
-    </div>
+    </nav>
   );
 }
 
