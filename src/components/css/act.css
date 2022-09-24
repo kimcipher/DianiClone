@@ -8,6 +8,7 @@
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .act-container button{
     width:80%;
