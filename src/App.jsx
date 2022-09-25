@@ -17,6 +17,7 @@ import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import {AnimationOnScroll} from "react-animation-on-scroll"
+import NewService from "./components/Panel/NewService"
 
 
 function App() {
@@ -52,6 +53,8 @@ function App() {
         <Route path="/VIP" element={<VIP />} />
         <Route path="/Activities" element={<Activities />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+
+        <Route path="/services/new" element={<NewService />} />
       </Routes>
       <MobileFooter />
 
