@@ -22,22 +22,23 @@ import {AnimationOnScroll} from "react-animation-on-scroll"
 function App() {
   return (
     <>
-      {/* <Toaster
+      <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
-        containerClassName=""
-        containerStyle={{}}
+        // containerClassName=""
+        containerStyle={{maxWidth:"400px", maxHeight:"300px", top:"150px"}}
         toastOptions={{
           // Define default options
-          className: "",
+          // className: "",
           duration: 5000,
           style: {
-            background: "#363636",
-            color: "#fff",
+            backgroundColor:"#000",
+            border: "1px solid #fff",
+            color: "#fff"
           },
         }}
-      /> */}
+      />
       <Nav />
       <AddToHomeScreen />
       <Type />
