@@ -12,17 +12,17 @@ import MobileNav from "./components/MobileNav";
 import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
-import { Toaster } from "react-hot-toast";
+// import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import {AnimationOnScroll} from "react-animation-on-scroll"
-import NewService from "./components/Panel/NewService"
+// import NewService from "./components/Panel/NewService"
 
 
 function App() {
   return (
     <>
-      <Toaster
+      {/* <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
@@ -37,7 +37,7 @@ function App() {
             color: "#fff",
           },
         }}
-      />
+      /> */}
       <Nav />
       <AddToHomeScreen />
       <Type />
@@ -53,7 +53,7 @@ function App() {
         <Route path="/Activities" element={<Activities />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
 
-        <Route path="/services/new" element={<NewService />} />
+        {/* <Route path="/services/new" element={<NewService />} /> */}
       </Routes>
       <MobileFooter />
 
