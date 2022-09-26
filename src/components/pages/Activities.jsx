@@ -77,9 +77,9 @@ function Activities() {
                 key={index}
                 number={item.number}
                 message={item.message}
-                className={item.className}
+                className="none"
             >
-                <button>Book</button>
+                <h4>Book Now</h4>
             </ReactWhatsapp>
          </div>
         )

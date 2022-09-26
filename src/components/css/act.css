@@ -18,6 +18,9 @@
     border-radius: 10px;
     margin-bottom:40px;
 }
+.none{
+    background-color: transparent;
+}
 .act-item{
     width:28vw;
     margin-left:1.5vw;
