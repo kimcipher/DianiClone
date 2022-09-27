@@ -26,8 +26,8 @@ function App() {
         caches.delete(name);
       });
     });
-    alert('Complete Cache Cleared')
   };
+  clearCacheData();
   const [isOpen, setIsOpen] = useState(true)
   function open(){
     setIsOpen(true)
