@@ -49,6 +49,9 @@ function Nav() {
           <NavLink to="/">
             <h5>⭐ Popular</h5>
           </NavLink>
+          <NavLink to="/Activities">
+            <h5>Tours + Activities</h5>
+          </NavLink>
           <NavLink to="/Wellness">
             <h5>Wellness</h5>
           </NavLink>
@@ -58,9 +61,7 @@ function Nav() {
           <NavLink to="/VIP">
             <h5>VIP</h5>
           </NavLink>
-          <NavLink to="/Activities">
-            <h5>Tours + Activities</h5>
-          </NavLink>
+          
         </div>
         <div className="date-time">
           <div className="time">
