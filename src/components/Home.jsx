@@ -136,7 +136,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">Rent a</div> <div className="scooter"div>{scooter}{bike}{taxi}</div>     
+            <div className="grid-left">Rent a</div> <div className="scooter">{scooter}{bike}{taxi}</div>     
           </div>
         </ReactWhatsapp>
       </div>

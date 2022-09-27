@@ -19,6 +19,15 @@ import Popup from "./components/Popup"
 
 
 function App() {
+  // Function to clear complete cache data
+  const clearCacheData = () => {
+    caches.keys().then((names) => {
+      names.forEach((name) => {
+        caches.delete(name);
+      });
+    });
+    alert('Complete Cache Cleared')
+  };
   const [isOpen, setIsOpen] = useState(true)
   function open(){
     setIsOpen(true)
