@@ -12,37 +12,24 @@ import MobileNav from "./components/MobileNav";
 import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
-import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import {AnimationOnScroll} from "react-animation-on-scroll"
-// import NewService from "./components/Panel/NewService"
+import Popup from "./components/Popup"
 
 
 function App() {
+  const [isOpen, setIsOpen] = useState(true)
+  function open(){
+    setIsOpen(true)
+  }
   return (
     <>
-      <Toaster
-        position="top-center"
-        reverseOrder={false}
-        gutter={8}
-        // containerClassName=""
-        containerStyle={{maxWidth:"400px", maxHeight:"300px", top:"150px"}}
-        toastOptions={{
-          // Define default options
-          // className: "",
-          duration: 5000,
-          style: {
-            backgroundColor:"#000",
-            border: "1px solid #fff",
-            color: "#fff"
-          },
-        }}
-      />
       <Nav />
       <AddToHomeScreen />
       <Type />
       {/* <WeatherIcon /> */}
+      {isOpen && <Popup setIsOpen={setIsOpen}/>}
       <MobileNav />
       <BotIcon/>
       <Routes>
@@ -53,7 +40,6 @@ function App() {
         <Route path="/VIP" element={<VIP />} />
         <Route path="/Activities" element={<Activities />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
-
         {/* <Route path="/services/new" element={<NewService />} /> */}
       </Routes>
       <MobileFooter />
