@@ -19,19 +19,20 @@ import Popup from "./components/Popup"
 
 
 function App() {
-  // Function to clear complete cache data
-  const clearCacheData = () => {
-    caches.keys().then((names) => {
-      names.forEach((name) => {
-        caches.delete(name);
-      });
-    });
-  };
-  clearCacheData();
+ 
   const [isOpen, setIsOpen] = useState(true)
   function open(){
     setIsOpen(true)
   }
+  useEffect(() => {
+    if ("caches" in window) {
+      caches.keys().then((names) => {
+        names.forEach((name) => {
+          caches.delete(name);
+        });
+      });
+    }
+  }, []);
   return (
     <>
       <Nav />
