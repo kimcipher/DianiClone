@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    background:rgb(2, 8, 37, 0.88);
+    background:#241845;
     border-radius:10px;
     left:20px
 }
