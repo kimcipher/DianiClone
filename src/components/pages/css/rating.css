@@ -1,7 +1,7 @@
 .rating-main{
     margin:auto;
     width:50vw;
-    height:500px;
+    height:auto;
     padding-top:30px;
 }
 @media screen and (max-width:1000px){
@@ -30,7 +30,7 @@
     padding-top:20px;
 }
 #submitbtn{
-    width:150px;
+    width:100%;
     margin: auto;
     margin-top: 20px;
     text-align: center;
@@ -41,11 +41,15 @@
 }
 .star-container{
     height: 50px;
-    width: 58%;
+    margin:auto;
+    width:250px;
+
 }
-@media screen and (max-width:1000px){
-    .star-container{
-        height: 50px;
-        width: 75%;
-    }
+.star-main{
+    width:100%;
+}
+#rate{
+    border:none;
+    color: transparent;
+    height:5px;
 }

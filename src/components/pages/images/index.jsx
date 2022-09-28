@@ -1,6 +1,6 @@
 export const imagebg = require("../../assets/bg.png")
 export const glassboat = require("../../assets/activities/Glassboat.jpg")
-export const dolphins = require("../../assets/dolphins.png")
+export const dolphins = require("../../assets/activities/Dolphin.jpg")
 export const quad = require("../../assets/activities/Quad-Bike.png")
 export const golf = require("../../assets/activities/Golf.jpg")
 export const camel = require("../../assets/activities/camel.jpg")

@@ -50,7 +50,10 @@ function Nav() {
             <h5>⭐ Popular</h5>
           </NavLink>
           <NavLink to="/Activities">
-            <h5>Tours + Activities</h5>
+            <h5>Activities</h5>
+          </NavLink>
+          <NavLink to="/Tours">
+            <h5>Tours</h5>
           </NavLink>
           <NavLink to="/Wellness">
             <h5>Wellness</h5>

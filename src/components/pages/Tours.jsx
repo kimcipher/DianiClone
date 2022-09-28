@@ -1,93 +1,61 @@
 import React from "react";
-import "../css/home.css";
-import food from "../assets/icons/food.png";
+import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
-import Activity from "../assets/icons/Activity.png";
-import Beer from "../assets/icons/Beer.png";
-import bike from "../assets/icons/bike.png";
-import ForeignExchange from "../assets/icons/ForeignExchange.png";
-import Reservation from "../assets/icons/Reservation.png";
-import Transport from "../assets/icons/Transport.png";
+import {sunset, glassboat, dolphins} from "./images"
 
-function Tours() {
+function Activities() {
   const data = [
     {
-      name: "Transportation",
+      name: "Sunset",
+      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I need Transportation 🚕",
-      className: "whatsapp",
-      image: Transport,
-      desc: "image desc",
+      background: sunset,
+      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
     {
-      name: "Foreign Exchange",
+      name: "GlassBoat",
+      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, Interested in Foreign Exchange 💰",
-      className: "whatsapp",
-      image: ForeignExchange,
-      desc: "image desc",
+      background: glassboat,
+      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
     {
-      name: "Food",
+      name: "GlassBoat",
+      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to order some food 🍝",
-      className: "whatsapp",
-      image: food,
-      desc: "image desc",
-    },
-    {
-      name: "Drinks",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to order some Drinks 🥂",
-      className: "whatsapp",
-      image: Beer,
-      desc: "image desc",
-    },
-    {
-      name: "Activity Guide",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊,I need an Activity Guide 📍",
-      className: "whatsapp",
-      image: Activity,
-      desc: "image desc",
-    },
-    {
-      name: "Errands",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I need help with my Errands 🛒",
-      className: "whatsapp",
-      image: bike,
-      desc: "image desc",
-    },
-    {
-      name: "Health",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I need Health services 💊",
-      className: "whatsapp",
-      image: Reservation,
-      desc: "image desc",
+      background: dolphins,
+      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
   ];
 
+ 
   return (
-    <div className="container">
-      <div className="Tabs-container">
-        {data.map((item, index) => (
-          <ReactWhatsapp
-            key={index}
-            number={item.number}
-            message={item.message}
-            className={item.className}
-          >
-            <h4 className="Tab-item">
-              {" "}
-              <img src={item.image} alt={item.desc} /> {item.name}
-            </h4>
-          </ReactWhatsapp>
-        ))}
+    <div className="activities">
+      <h2>Activities & Tours</h2>
+
+      <div className="act-container">
+        {data.map ((item, index) => {
+            let image = item.background
+            return(
+                <div>
+                    <div className="act-item">
+                        <img src={image}/>
+                    </div>
+                    <ReactWhatsapp
+                        key={index}
+                        number={item.number}
+                        message={item.message}
+                        className="none"
+                    >
+                    <h4>Book Now</h4>
+                    </ReactWhatsapp>
+                </div>
+            )
+        })}
       </div>
+
     </div>
   );
 }
 
-export default Tours;
+export default Activities;

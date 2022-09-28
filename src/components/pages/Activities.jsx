@@ -1,7 +1,7 @@
  import React from "react";
 import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
-import {snorkeling, camel, golf, sunset, quad, glassboat} from "./images"
+import {snorkeling, camel, golf, quad} from "./images"
 
 function Activities() {
   const data = [
@@ -30,21 +30,7 @@ function Activities() {
       name: "Snorkeling",
       message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
       number: "+254115144146",
-      background: sunset,
-      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
-    },
-    {
-      name: "Snorkeling",
-      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
-      number: "+254115144146",
       background: quad,
-      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
-    },
-    {
-      name: "Snorkeling",
-      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
-      number: "+254115144146",
-      background: glassboat,
       description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
   ];
