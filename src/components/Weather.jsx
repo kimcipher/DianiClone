@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactWeather, {useOpenWeather} from 'react-open-weather'
-import Close from './assets/close';
 import "./css/weather-body.css"
 
 const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"

@@ -39,6 +39,8 @@ function Nav() {
   let month = newDate.getMonth() + 1;
   let year = newDate.getFullYear();
   const today = `${year}${separator}${month<10?`0${month}`:`${month}`}${separator}${date}`
+  console.log(today);
+  
   return ( 
     <nav>
       <div className="nav-main">
