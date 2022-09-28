@@ -1,7 +1,7 @@
  import React from "react";
 import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
-import {snorkeling, camel, golf, quad} from "./images"
+import {snorkeling, camel, quad, skydiving, skiing} from "./images"
 
 function Activities() {
   const data = [
@@ -10,28 +10,30 @@ function Activities() {
         message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
         number: "+254115144146",
         background: snorkeling,
-        description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
     {
-      name: "Snorkeling",
-      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
+      name: "Camel Rides",
+      message: "Hi DianiApp 😊, Im interested in a Camel Ride",
       number: "+254115144146",
       background: camel,
-      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
     },
     {
-      name: "Snorkeling",
-      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
-      number: "+254115144146",
-      background: golf,
-      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
-    },
-    {
-      name: "Snorkeling",
-      message: "Hi DianiApp 😊, Im interested in Snorkeling 🛥️",
+      name: "Quad",
+      message: "Hi DianiApp 😊, Im interested in Quad Bike rides",
       number: "+254115144146",
       background: quad,
-      description: "Located on the south coast of Kenya, Experience the beauty of nature while sailing towards the magical sunset/sunrise while enjoying the peace and beauty of the ocean. During the season you might occasionally see dolphins . As you sail from the shores, you enjoy the comfort and beautiful decorations of the dhow while enjoying your favorite drinks and alcohol.",
+    },
+    {
+      name: "Sky diving",
+      message: "Hi DianiApp 😊, Im interested in Sky Diving ",
+      number: "+254115144146",
+      background: skydiving,
+    },
+    {
+      name: "Skiing ",
+      message: "Hi DianiApp 😊, Im interested in Skiing ",
+      number: "+254115144146",
+      background: skiing,
     },
   ];
 

@@ -38,9 +38,9 @@ function Wellness() {
       desc: "image desc",
     },
     {
-      name: "Something special",
+      name: "Today's special",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I'm Interested in Something special 😜",
+      message: "Hi DianiApp 😊, I'm Interested in Today's special 😜",
       className: "whatsapp",
       image: food,
       desc: "image desc",
