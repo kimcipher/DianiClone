@@ -19,7 +19,7 @@ function WeatherIcon() {
     
     let response = await fetch(url);
     let {main, weather} = await response.json();
-
+    console.log(weather)
     let temperatureFixed = (main.temp).toFixed(0);
     setTemperature(temperatureFixed)
     // iconUrl = `https://openweathermap.org/img/wn/${icon}@4x.png`

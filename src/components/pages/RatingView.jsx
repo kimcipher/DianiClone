@@ -6,7 +6,7 @@ import "./css/stars.css";
 function RatingView() {
     const [state, handleSubmit] = useForm("mwkzodbv");
     const [yourRate, setYourRate] = useState(0)
-    const [messageSpree, setMessageSpree] = useState("")
+    // const [messageSpree, setMessageSpree] = useState("")
     console.log(yourRate);
     if (state.succeeded) {
       return (
