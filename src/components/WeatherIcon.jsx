@@ -19,7 +19,7 @@ function WeatherIcon() {
   async function fetchApi(url) {
     
     let response = await fetch(url);
-    let {main, name, weather} = await response.json();
+    let {main, weather} = await response.json();
 
     let temperatureFixed = (main.temp).toFixed(0);
     setTemperature(temperatureFixed)
@@ -33,7 +33,7 @@ function WeatherIcon() {
     <>
     <div onClick={set} className="weatherflex">
       <div className="weather">
-      {weather} {temperature}°C <img src={iconUrl}/>
+      {weather} {temperature}°C <img src={iconUrl}  alt="#"/>
       </div>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}

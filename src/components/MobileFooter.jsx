@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/footer.css";
-import {nairobi} from "./icons"
 import Nai from "./assets/nAIROBI-ART.png"
 
 

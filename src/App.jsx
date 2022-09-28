@@ -15,16 +15,16 @@ import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 import BotIcon from "./components/BotIcon"
 import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
-import {AnimationOnScroll} from "react-animation-on-scroll"
+// import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
+import {Toaster}  from  "react-hot-toast"
 
 
 function App() {
  
+  // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(true)
-  function open(){
-    setIsOpen(true)
-  }
+  
   useEffect(() => {
     if ("caches" in window) {
       caches.keys().then((names) => {
@@ -36,6 +36,22 @@ function App() {
   }, []);
   return (
     <>
+     <Toaster
+        position="top-center"
+        reverseOrder={false}
+        gutter={8}
+        containerClassName=""
+        containerStyle={{}}
+        toastOptions={{
+          // Define default options
+          className: "",
+          duration: 5000,
+          style: {
+            background: "#363636",
+            color: "#fff",
+          },
+        }}
+      />
       <Nav />
       <AddToHomeScreen />
       <Type />
