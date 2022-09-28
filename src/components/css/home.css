@@ -100,7 +100,7 @@ h4 {
 }
 
 .grid-right {
-  justify-content: start;
+  justify-content: flex-start;
   display: flex;
 }
 .grid-left {
