@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import "./css/rating.css";
-import { Rating } from 'react-simple-star-rating';
 import {useForm, ValidationError} from '@formspree/react';
 import "./css/stars.css";
 

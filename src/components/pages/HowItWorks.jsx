@@ -21,6 +21,7 @@ function HowItWorks() {
       setOpen(!open);
     };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {resolveRecord()},[])
     const data = [
         {

@@ -60,7 +60,7 @@ function Activities() {
             return(
                 <div>
                     <div className="act-item">
-                        <img src={image}/>
+                        <img src={image} alt="#"/>
                     </div>
                     <ReactWhatsapp
                         key={index}
