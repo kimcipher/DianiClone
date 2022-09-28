@@ -1,62 +1,68 @@
 import React from "react";
-import "../css/act.css";
+import "../css/home.css";
 import ReactWhatsapp from "react-whatsapp";
-import {
-  skydiving,
-  skiing,
-
-} from "./images";
+import { drink, dinner, fx, food } from "../icons";
 
 function VIP() {
   const data = [
     {
-      name: "SKYDIVING",
+      name: "On site Massage",
       number: "+254115144146",
-      background: skydiving,
-      message: "Hi DianiApp 😊, I want to go Sky Diving 🪂",
-      description:
-        "Diani beach offers some of the finest scenery in the world and skydiving onto the beach has become a large attraction amongst tourists who want to see the landscape from a birds-eye view at 12,000 ft.  ",
+      message: "Hi DianiApp 😊, I'm Interested in a Massage 💆",
+      className: "whatsapp",
+      image: dinner,
+      desc: "image desc",
     },
     {
-      name: "JET SKIING",
+      name: "On Site Hair & Make up",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, Im interested in Jet Skiing 🚤",
-      background: skiing,
-      description:
-        "Diani Beach is one of the greatest water sports destinations in East Africa.Experience the beautiful view of Diani from the open sea and get to know other fascinating parts of the coast.",
+      message: "Hi DianiApp 😊, I'm Interested in On site hair & make up 💇",
+      className: "whatsapp",
+      image: fx,
+      desc: "image desc",
     },
+    {
+      name: "schedule a yoga class",
+      number: "+254115144146",
+      message: "Hi DianiApp 😊, I'm want to schedule a yoga class🧘",
+      className: "whatsapp",
+      image: fx,
+      desc: "image desc",
+    },
+    {
+      name: "On Site Nail service",
+      number: "+254115144146",
+      message: "Hi DianiApp 😊, I'm Interested in On site nail service 💅",
+      className: "whatsapp",
+      image: drink,
+      desc: "image desc",
+    },
+    {
+      name: "Something special",
+      number: "+254115144146",
+      message: "Hi DianiApp 😊, I'm Interested in Something special 😜",
+      className: "whatsapp",
+      image: food,
+      desc: "image desc",
+    },
+    
   ];
-
   return (
     <div className="activities">
-      <h2>VIP Tour</h2>
-      <div className="act-container">
-        {data.map((item, index) => {
-          let image = item.background;
-          return (
-            <div>
-              <div
-                className="act-item"
-                style={{ backgroundImage: `url(${image})` }}
-              >
-                <div className="act-full">
-                  <div className="Text">
-                    <h2 style={{ color: "#fff" }}>{item.name}</h2>
-                    <p>{item.description}</p>
-                  </div>
-                </div>
-              </div>
-              <ReactWhatsapp
-                key={index}
-                number={item.number}
-                message={item.message}
-                className={item.className}
-              >
-                <button>Book</button>
-              </ReactWhatsapp>
+      <h2>VIP</h2>
+      <div className="Tabs-container">
+        {data.map((item, index) => (
+          <ReactWhatsapp
+            key={index}
+            number={item.number}
+            message={item.message}
+            className={item.className}
+          >
+            <div className="Tab-item-wellness">
+              <div>{item.name}</div>
             </div>
-          );
-        })}
+          </ReactWhatsapp>
+        ))}
       </div>
     </div>
   );

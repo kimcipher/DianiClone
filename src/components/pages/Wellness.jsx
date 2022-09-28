@@ -50,6 +50,7 @@ function Wellness() {
 
   return (
     <div className="container">
+      <h2>Wellness</h2>
       <div className="Tabs-container">
         {data.map((item, index) => (
           <ReactWhatsapp

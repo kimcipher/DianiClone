@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
-=======
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-/* @import "./components/css/styling.css"; */
->>>>>>> 08f9c7b2a60ec94f249b016d4b9900cf17192479
 body {
   font-family: "Poppins";
 }
