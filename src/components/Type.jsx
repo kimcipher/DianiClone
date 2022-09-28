@@ -22,7 +22,7 @@ function Type() {
          style={{ lineHeight: '1.5' }}
       />
       </h2>
-      <h3 style={{ color:'#990099', fontSize:'18px', fontWeight:'bold'}}>One Tap, One App, 24/7.</h3>
+      <h3 style={{ color:'#e268f3', fontSize:'18px', fontWeight:'bold'}}>One Tap, One App, 24/7.</h3>
       </>
   )
 }

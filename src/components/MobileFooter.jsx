@@ -15,7 +15,7 @@ function MobileFooter() {
       <p>
       NGENI is East Afrika's largest Web3 tech developer studio.
       </p>
-      <p>&copy; {currentDate} DianiApp</p>
+      <p>&copy; {currentDate} DianiApp | Powered by LaLo Communities</p>
     </div>
   );
 }

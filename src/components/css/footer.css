@@ -45,18 +45,18 @@ padding-bottom:10px;
 .nav-mobile-container a:hover{
   transition: 0.2s;
   padding-top:20px;
-  border-bottom:2px solid #990099;
+  border-bottom:2px solid #e268f3;
 }
 .nav-mobile-container .active{
   transition: 0.2s;
   padding-top:20px;
-  border-bottom:2px solid #990099;
+  border-bottom:2px solid #e268f3;
 }
 h5:hover{
-  color:  #990099;
+  color:  #e268f3;
 }
 .active h5{
-  color:  #990099;
+  color:  #e268f3;
 }
 @media screen and (min-width: 1000px) {
   .nav-mobile-container {

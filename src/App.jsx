@@ -13,6 +13,7 @@ import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 import BotIcon from "./components/BotIcon"
+import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
 import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
@@ -50,6 +51,7 @@ function App() {
         <Route path="/VIP" element={<VIP />} />
         <Route path="/Activities" element={<Activities />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/rate-us" element={<Rating />} />
         {/* <Route path="/services/new" element={<NewService />} /> */}
       </Routes>
       <MobileFooter />
