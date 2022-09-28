@@ -9,6 +9,7 @@
   "email2": "dennis@ngeni.io",
   "license": "MIT",
   "dependencies": {
+    "@formspree/react": "^2.4.0",
     "@ideasio/add-to-homescreen-react": "^1.0.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -29,6 +30,7 @@
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
     "react-simple-star-rating": "^4.0.5",
+    "react-star-rating-component": "^1.4.1",
     "react-text-transition": "^3.0.2",
     "react-type-animation": "^2.1.1",
     "react-whatsapp": "^0.3.0",
