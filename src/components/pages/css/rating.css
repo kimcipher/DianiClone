@@ -17,7 +17,7 @@
     display:block;
 }
 .rating-main input, textarea{
-    border:1px solid  #05BFAB;
+    border:1px solid  #EA6CFB;
     margin-top:20px;
     width: 100%;
     background-color: transparent;
@@ -35,7 +35,17 @@
     margin-top: 20px;
     text-align: center;
     padding:0;
-    background: #05BFAB;
+    background: #EA6CFB;
     font-weight: bold;
     height:40px;
+}
+.star-container{
+    height: 50px;
+    width: 58%;
+}
+@media screen and (max-width:1000px){
+    .star-container{
+        height: 50px;
+        width: 75%;
+    }
 }
