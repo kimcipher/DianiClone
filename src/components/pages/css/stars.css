@@ -2,11 +2,11 @@
     height:50px;
     align-items: center;
     margin-top:10px;
+	padding-right:35px;
 }
 
 .rate-area:not(:checked) > input {
 	position: absolute;
-	top: -9999px;
 	clip: rect(0, 0, 0, 0);
 }
 

@@ -10,7 +10,7 @@ function RatingView() {
     console.log(yourRate);
     if (state.succeeded) {
       return (
-        <h3 style={{marginTop:"30px;"}}>Thanks for giving us a review</h3>
+        <h3 style={{marginTop:"30px", fontWeight:"bold"}}>Thanks for giving us a review</h3>
       )
     }
   return (
@@ -46,7 +46,6 @@ function RatingView() {
               </div>
             </div>
 
-            <input type="number" placeholder='0' id="rate" name="rate"  value={yourRate} />
             <input type="submit" id="submitbtn" disabed={state.submitting}/>
         </form>
     </div>
