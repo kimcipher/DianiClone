@@ -1,14 +1,19 @@
 .rating-main{
-    margin:auto;
-    width:50vw;
-    height:auto;
     padding-top:30px;
+    position:fixed;
+    top:0;
+    background-color: #241845;
+    width:100vw;
+    height: 100vh;
 }
-@media screen and (max-width:1000px){
+/* *{
+    max-width: 100vw;
+} */
+/* @media screen and (max-width:1000px){
     .rating-main{
         width:90vw;
     }
-}
+} */
 .rating-main h3{
     color:#fff;
     font-weight:bold;
@@ -19,7 +24,7 @@
 .rating-main input, textarea{
     border:1px solid  #EA6CFB;
     margin-top:20px;
-    width: 100%;
+    width: 80%;
     background-color: transparent;
     height: 50px;
     border-radius:10px;
@@ -30,7 +35,7 @@
     padding-top:20px;
 }
 #submitbtn{
-    width:100%;
+    width:60%;
     margin: auto;
     margin-top: 20px;
     text-align: center;

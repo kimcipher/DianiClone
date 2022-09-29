@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./css/rating.css";
 import {useForm, ValidationError} from '@formspree/react';
 import "./css/stars.css";
+import Icon from "../assets/dianiappemoji.PNG"
 
 function RatingView() {
     const [state, handleSubmit] = useForm("mwkzodbv");
@@ -16,7 +17,8 @@ function RatingView() {
   return (
     <>
     <div className="rating-main">
-        <h3>Give us Feedback</h3>
+        <img src={Icon} alt="emoji" className="class"/>
+        <h3>Give us your feedback</h3>
         <form onSubmit={handleSubmit}>
             <input type="email" placeholder="email" id="email"  name="email"/>
             <ValidationError 
