@@ -12,9 +12,9 @@ function MobileFooter() {
         <a href="/how-it-works"> How it works</a>{" "}
       </p>
       <p>
-      NGENI is East Afrika's largest Web3 tech developer studio.
+      Powered by LaLo Communities.  A Subsidiary of NGENI IO LTD. 
       </p>
-      <p>&copy; {currentDate} DianiApp | Powered by LaLo Communities</p>
+      <p>&copy; {currentDate} DianiApp .</p>
     </div>
   );
 }
