@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import "./css/rating.css";
 import {useForm, ValidationError} from '@formspree/react';
 import "./css/stars.css";
-import Icon from "../assets/dianiappemoji.PNG"
+import {review} from "../icons"
 
 function RatingView() {
     const [state, handleSubmit] = useForm("mwkzodbv");
@@ -17,9 +17,25 @@ function RatingView() {
   return (
     <>
     <div className="rating-main">
-        <img src={Icon} alt="emoji" className="class"/>
-        <h3>Give us your feedback</h3>
+        <h2 style={{marginTop:"5vh", marginBottom:"3vh"}}>Give Feedback</h2>
+        {review}
+        <h4 style={{marginTop:"1vh", marginBottom:"3vh", fontWeight:"bolder"}}>How would you rate<br/> our services ?</h4>
+        {/* <img src={Icon} alt="emoji" className="class"/> */}
+        
         <form onSubmit={handleSubmit}>
+        <div className="star-main">
+              <div className="star-container">
+              <>
+                <ul class="rate-area">
+                  <input type="radio" id="5-star" name="rating" value="5" onClick={() => (setYourRate(5))} /><label for="5-star" title="Amazing">5 stars</label>
+                  <input type="radio" id="4-star" name="rating" value="4" onClick={() => (setYourRate(4))} /><label for="4-star" title="Good">4 stars</label>
+                  <input type="radio" id="3-star" name="rating" value="3" onClick={() => (setYourRate(3))} /><label for="3-star" title="Average">3 stars</label>
+                  <input type="radio" id="2-star" name="rating" value="2" onClick={() => (setYourRate(2))} /><label for="2-star" title="Not Good">2 stars</label>
+                  <input type="radio" id="1-star" name="rating" value="1" onClick={() => (setYourRate(1))} /><label for="1-star" title="Bad">1 star</label>
+                </ul>
+              </>
+              </div>
+            </div>
             <input type="email" placeholder="email" id="email"  name="email"/>
             <ValidationError 
               prefix="Email" 
@@ -34,19 +50,7 @@ function RatingView() {
               errors={state.errors}
             />
 
-            <div className="star-main">
-              <div className="star-container">
-              <>
-                <ul class="rate-area">
-                  <input type="radio" id="5-star" name="rating" value="5" onClick={() => (setYourRate(5))} /><label for="5-star" title="Amazing">5 stars</label>
-                  <input type="radio" id="4-star" name="rating" value="4" onClick={() => (setYourRate(4))} /><label for="4-star" title="Good">4 stars</label>
-                  <input type="radio" id="3-star" name="rating" value="3" onClick={() => (setYourRate(3))} /><label for="3-star" title="Average">3 stars</label>
-                  <input type="radio" id="2-star" name="rating" value="2" onClick={() => (setYourRate(2))} /><label for="2-star" title="Not Good">2 stars</label>
-                  <input type="radio" id="1-star" name="rating" value="1" onClick={() => (setYourRate(1))} /><label for="1-star" title="Bad">1 star</label>
-                </ul>
-              </>
-              </div>
-            </div>
+           
 
             <input type="submit" id="submitbtn" disabed={state.submitting}/>
         </form>

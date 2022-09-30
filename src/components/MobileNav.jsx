@@ -5,7 +5,7 @@ function MobileNav() {
   return (
     <nav>
     <div className="nav-mobile-container">
-        <NavLink to="/"><h5 >⭐ Popular</h5></NavLink>
+        <NavLink to="/popular" activeclassname='active'><h5>⭐ Popular</h5></NavLink>
         <NavLink to="/Activities" activeclassname='active'><h5>Activities</h5></NavLink>
         <NavLink to="/Tours" activeclassname='active'><h5>Tours</h5></NavLink>
         <NavLink to="/Wellness" activeclassname='active'><h5>Wellness</h5></NavLink>

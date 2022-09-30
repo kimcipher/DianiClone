@@ -22,11 +22,11 @@
 	white-space: nowrap;
 	cursor: pointer;
 	font-size: 240%;
-	color: lightgrey;
+	color: #fff;
 }
 
 .rate-area:not(:checked) > label:before {
-	content: "★";
+	content: "☆";
 }
 
 .rate-area > input:checked ~ label {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import MobileFooter from "./components/MobileFooter";
@@ -60,7 +60,10 @@ function App() {
       <MobileNav />
       <BotIcon/>
       <Routes>
-        <Route path="/" exact element={<Home />} />
+
+            {/* <Navigate to="/popular" /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/popular" element={<Home />} />
         <Route path="/Wellness" element={<Wellness />} />
         <Route path="/NightLife" element={<NightLife />} />
         <Route path="/Tours" element={<Tours />} />

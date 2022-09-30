@@ -2,9 +2,10 @@
     padding-top:30px;
     position:fixed;
     top:0;
-    background-color: #241845;
+    background-color:#020825;
     width:100vw;
     height: 100vh;
+    overflow-y:scroll ;
 }
 /* *{
     max-width: 100vw;
@@ -20,22 +21,32 @@
 }
 .rating-main form{
     display:block;
+    margin: auto;
 }
 .rating-main input, textarea{
     border:1px solid  #EA6CFB;
     margin-top:20px;
     width: 80%;
     background-color: transparent;
-    height: 50px;
+    height: 40px;
     border-radius:10px;
     text-align: center;
 }
+@media screen and (min-width:1000px){
+    .rating-main form{
+        width:50%;
+    }
+}
+::-webkit-input-placeholder {
+    color: white;
+    font-weight: bold;
+}
 .rating-main  textarea{
-    min-height:150px;
+    min-height:100px;
     padding-top:20px;
 }
 #submitbtn{
-    width:60%;
+    width:80%;
     margin: auto;
     margin-top: 20px;
     text-align: center;

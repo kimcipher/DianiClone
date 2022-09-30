@@ -1,7 +1,7 @@
  import React from "react";
 import "../css/act.css";
 import ReactWhatsapp from "react-whatsapp";
-import {snorkeling, camel, quad, skydiving, skiing} from "./images"
+import {snorkeling, camel, quad, skydiving, skiing, sunset} from "./images"
 
 function Activities() {
   const data = [
@@ -35,12 +35,18 @@ function Activities() {
       number: "+254115144146",
       background: skiing,
     },
+    {
+      name: "Skiing ",
+      message: "Hi DianiApp 😊, Im interested in Skiing ",
+      number: "+254115144146",
+      background: sunset,
+    },
   ];
 
  
   return (
     <div className="activities">
-      <h2>Activities & Tours</h2>
+      <h2>Activities</h2>
 
       <div className="act-container">
         {data.map ((item, index) => {
@@ -49,6 +55,7 @@ function Activities() {
                 <div>
                     <div className="act-item">
                         <img src={image} alt="#"/>
+
                     </div>
                     <ReactWhatsapp
                         key={index}

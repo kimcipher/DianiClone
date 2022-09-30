@@ -31,7 +31,7 @@ function Activities() {
  
   return (
     <div className="activities">
-      <h2>Activities & Tours</h2>
+      <h2>Tours</h2>
 
       <div className="act-container">
         {data.map ((item, index) => {

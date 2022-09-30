@@ -48,6 +48,7 @@ function NightLife() {
   ];
   return (
     <div className="container">
+      <h2>NightLife</h2>
       <div className="Tabs-container">
         {data.map((item, index) => (
           <ReactWhatsapp
