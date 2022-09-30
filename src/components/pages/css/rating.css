@@ -40,6 +40,8 @@
 ::-webkit-input-placeholder {
     color: white;
     font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
 }
 .rating-main  textarea{
     min-height:100px;
