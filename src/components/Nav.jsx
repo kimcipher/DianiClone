@@ -45,7 +45,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container">
-          <NavLink to="/"><img src={logo} alt="Dianiapp" /></NavLink>
+          <NavLink to="/">{reallogo}</NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">
@@ -68,6 +68,7 @@ function Nav() {
           </NavLink>
           
         </div>
+        <h1> </h1>
         <div className="pwa-btn">
           {supportsPWA ? (
             <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
