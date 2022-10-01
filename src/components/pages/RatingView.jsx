@@ -11,7 +11,7 @@ function RatingView() {
     console.log(yourRate);
     if (state.succeeded) {
       return (
-        <h3 style={{marginTop:"30px", fontWeight:"bold"}}>Thanks for giving us a review</h3>
+        <h3 style={{marginTop:"30px", fontWeight:"bold"}}>Did we get it right ?</h3>
       )
     }
   return (

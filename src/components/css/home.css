@@ -17,6 +17,7 @@ h2 {
   font-size: 30px;
   line-height: 34px;
   /* padding: 25px 0px 5px 0px; */
+  padding-bottom:30px;
 }
 .header {
   color: #85f2fd;
@@ -28,7 +29,9 @@ h3 {
   color: #ff99ff;
   font-size: 20px;
 }
-
+.container{
+  padding-top:30px ;
+}
 h4 {
   font-weight: lighter;
   font-style: normal;

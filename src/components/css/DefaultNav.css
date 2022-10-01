@@ -1,0 +1,9 @@
+.def-nav-main{
+    width:100vw;
+    height:auto;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}

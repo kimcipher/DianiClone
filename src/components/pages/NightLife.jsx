@@ -66,3 +66,8 @@ function NightLife() {
 }
 
 export default NightLife;
+
+
+// North coast app =>  Mombasa Malindi Kilifi Watamu 
+// North coast app.me
+// Airport Malindi

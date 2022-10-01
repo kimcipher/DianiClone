@@ -15,6 +15,7 @@ import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 import BotIcon from "./components/BotIcon"
 import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
+import DefaultNav from "./components/DefaultNav";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
@@ -52,6 +53,7 @@ function App() {
           },
         }}
       />
+      <DefaultNav/>
       <Nav />
       <AddToHomeScreen />
       <Type />

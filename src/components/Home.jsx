@@ -44,6 +44,14 @@ function Home() {
       desc: "image desc",
     },
     {
+      name: "Travel Gadgets",
+      number: "+254115144146",
+      message: "Hi DianiApp 😊, I need to get some travel gadgets 📦",
+      className: "whatsapp",
+      image: packageicon,
+      desc: "image desc",
+    },
+    {
       name: "Order Taxi 24/7",
       number: "+254115144146",
       message: "Hi Dianiapp 😊 I want to order a taxi 🚕",
@@ -111,6 +119,7 @@ function Home() {
 
   return (
     <div className="container">
+      <h2>Popular</h2>
       <div className="Tabs-container">
         {data.map((item, index) => (
           <ReactWhatsapp
@@ -140,3 +149,4 @@ function Home() {
 }
 
 export default Home;
+// caribean jinja diani north coast 
