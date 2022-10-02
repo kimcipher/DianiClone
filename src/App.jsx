@@ -19,12 +19,21 @@ import DefaultNav from "./components/DefaultNav";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
+import Marquee from "./components/Marquee";
 
 
 function App() {
  
   // eslint-disable-next-line no-unused-vars
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+     setIsOpen(true)  
+    }, [5000]);
+    // I will be deleted while component is unmounting.
+    return () => clearTimeout(timer) 
+    }, []);
   
   useEffect(() => {
     if ("caches" in window) {
@@ -55,6 +64,7 @@ function App() {
       />
       <DefaultNav/>
       <Nav />
+      <Marquee/>
       <AddToHomeScreen />
       <Type />
       {/* <WeatherIcon /> */}

@@ -45,7 +45,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container">
-          <NavLink to="/">{reallogo}</NavLink>
+          <NavLink to="/"><img src={logo} alt="logo image"/></NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">

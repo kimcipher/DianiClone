@@ -5,7 +5,7 @@ function Type() {
   return (
     <>
     
-    <h2 style={{ marginTop:'70px',fontSize:'30px'}}>
+    <h2 style={{ marginTop:'20px',fontSize:'30px'}}>
     <Typed
       strings={[
             "Deliveries on Tap",
