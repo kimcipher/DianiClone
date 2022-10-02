@@ -34,7 +34,13 @@ function App() {
     // I will be deleted while component is unmounting.
     return () => clearTimeout(timer) 
     }, []);
-  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+       setIsOpen(false)  
+      }, [10000]);
+      // I will be deleted while component is unmounting.
+      return () => clearTimeout(timer) 
+      }, []);
   useEffect(() => {
     if ("caches" in window) {
       caches.keys().then((names) => {
