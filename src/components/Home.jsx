@@ -15,6 +15,7 @@ import {
   boatsvg,
   groceries,
   packageicon,
+  ksh,
   rocket
 } from "./icons";
 
@@ -144,17 +145,98 @@ function Home() {
             <div className="grid-left">Rent a</div> <div className="scooter">{scooter}{bike}{taxi}</div>     
           </div>
         </ReactWhatsapp>
-        <h4>INSTANT GO {rocket}</h4>
+        <h4>24/7 Bookings </h4>
       <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
           >
             <div className="Tab-item">
-
+            <div className="grid-left">{hotel}</div>
               <div className="grid-right"> Accomodation</div>
             </div>
           </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{dinner}</div>
+              <div className="grid-right"> Dinner Reservation</div>
+            </div>
+          </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{plane}</div>
+              <div className="grid-right"> Airtport Transportation</div>
+            </div>
+          </ReactWhatsapp>
+
+          <h4>BANKING & FX</h4>
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{ksh}</div>
+              <div className="grid-right"> Cash Currencies & Exhange</div>
+            </div>
+          </ReactWhatsapp>
+
+        <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{cryptobtc}</div>
+              <div className="grid-right"> Spend Crytpo</div>
+            </div>
+          </ReactWhatsapp>
+
+          <h4>FAST SHOPPING</h4>
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{packageicon}</div>
+              <div className="grid-right"> Buy Now Delivered Now</div>
+            </div>
+          </ReactWhatsapp>
+
+        <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{cryptobtc}</div>
+              <div className="grid-right"> Spend Crytpo</div>
+            </div>
+          </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{packageicon}</div>
+              <div className="grid-right"> AMAZON USA 7 Days</div>
+            </div>
+          </ReactWhatsapp>
+
+
       </div>
       
     </div>

@@ -46,13 +46,13 @@ function App() {
       }, []);
 
 
-      // useEffect(() => {
-      //   const timer = setTimeout(() => {
-      //    setItIsOpen(true)  
-      //   }, [5000]);
-      //   // I will be deleted while component is unmounting.
-      //   return () => clearTimeout(timer) 
-      //   }, []);
+      useEffect(() => {
+        const timer = setTimeout(() => {
+         setItIsOpen(true)  
+        }, [5000]);
+        // I will be deleted while component is unmounting.
+        return () => clearTimeout(timer) 
+        }, []);
 
   return (
     <>

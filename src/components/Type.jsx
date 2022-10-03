@@ -8,8 +8,11 @@ function Type() {
     <h2 style={{ marginTop:'20px',fontSize:'30px'}}>
     <Typed
       strings={[
-            "Deliveries on Tap",
+            "Deliveries ",
+            "Bookings ",
             "Anything",
+            "Anytime",
+            "24/7"
           ]}
           typeSpeed={150}
           backSpeed={100}
@@ -19,7 +22,7 @@ function Type() {
 
         />
       </h2>
-      <h3 style={{ color:'#e268f3', fontSize:'18px', fontWeight:'bold'}}>One Tap, One App, 24/7.</h3>
+      <h3 style={{ color:'#e268f3', fontSize:'18px', fontWeight:'bold'}}>One Tap, One App.</h3>
       </>
   )
 }

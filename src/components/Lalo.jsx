@@ -16,7 +16,7 @@ const  Lalo = ({setItIsOpen}) => {
             <Carousel>
             <div>
                 <div className="child" style={{marginTop:"20px"}}>
-                    <p>LaLo Communitie(s) is an always ON<br/>      24/7 INSTANT WEB3 BOOKING DAPP<br/> powering small communities and their<br/> visitors globally.<br/><br/> Delivers Anything. Anytime</p>
+                    <p>LaLo Communitie(s) is AN ALWAYS ON<br/>      24/7 INSTANT WEB3 BOOKING DAPP<br/> powering small communities & THEIR <br/> VISITORS 🌎.<br/><br/> Delivers Anything. Anytime</p>
                 </div>
                 <div className="child">
                     <div className="child-container">
@@ -31,6 +31,9 @@ const  Lalo = ({setItIsOpen}) => {
                         </div>
                         <div className="child-container-child">
                         {credit} Bookings
+                        </div>
+                        <div className="child-container-child">
+                        {credit} Shopping
                         </div>
                     </div>
                 </div>
@@ -70,29 +73,29 @@ const  Lalo = ({setItIsOpen}) => {
                         <div className="child-container-child-spec">
                             <h3>EAST AFRICA</h3>
                             {/* <p> &nbsp; &nbsp; {livecon}&nbsp; &nbsp; KENYA</p> */}
-                            <Collapsible trigger="◎ KENYA +" className="collapsible">
+                            <Collapsible trigger="◎ KENYA 🇰🇪" className="collapsible">
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Diani</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Watamu</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Malindi</p>
                             </Collapsible>
-                            <Collapsible trigger="◎ UGANDA +" className="collapsible">
+                            <Collapsible trigger="◎ UGANDA 🇺🇬" className="collapsible">
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                             </Collapsible>
                         
-                            <Collapsible trigger="◎ TANZANIA +" className="collapsible">
+                            <Collapsible trigger="◎ TANZANIA 🇹🇿" className="collapsible">
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                             </Collapsible>
                         </div>
                         <div className="child-container-child-spec">
                             <h3>CARRIBEAN</h3>
-                            <Collapsible trigger="◎ BAHAMAS +" className="collapsible">
+                            <Collapsible trigger="◎ BAHAMAS 🇧🇸" className="collapsible">
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                             </Collapsible>
-                            <Collapsible trigger="◎ BERMUDA +" className="collapsible">
+                            <Collapsible trigger="◎ BERMUDA 🇧🇲" className="collapsible">
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                             </Collapsible>
@@ -100,17 +103,17 @@ const  Lalo = ({setItIsOpen}) => {
                         <div className="child-container-child-spec">
                             <h3>AMERICAS</h3>
                             <p className="small"> &nbsp; &nbsp; (coming soon)</p>
-                            <Collapsible trigger="◎ Costa Rica +" className="collapsible">
+                            <Collapsible trigger="◎ Costa Rica 🇨🇷" className="collapsible">
                             </Collapsible>
-                            <Collapsible trigger="◎ El Savado +" className="collapsible">
+                            <Collapsible trigger="◎ El Savado 🇸🇻" className="collapsible">
                             </Collapsible>
                         </div>
                         <div className="child-container-child-spec">
                             <h3>ASIA</h3>
                             <p className="small">&nbsp; &nbsp; (coming soon)</p>
-                            <Collapsible trigger="◎ Indonesia +" className="collapsible">
+                            <Collapsible trigger="◎ Indonesia 🇮🇩" className="collapsible">
                             </Collapsible>
-                            <Collapsible trigger="◎ Thailand +" className="collapsible">
+                            <Collapsible trigger="◎ Thailand 🇹🇭" className="collapsible">
                             </Collapsible>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
+import {amazon, uber, bookingcom, justEat, jumialogo} from "./icons"
 
 const MobileFooter = ({setItIsOpen}) =>  {
   const currentDate = new Date().getFullYear();
@@ -20,20 +21,21 @@ const MobileFooter = ({setItIsOpen}) =>  {
         A mashup of  .... <br/><br/>
       </p>
       <p>
-        [  AMAZON  ]     [   UBER   ]    
-      [ BOOKING.COM  ]
+        {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;   
+      {bookingcom}&nbsp; &nbsp;  {justEat}
     </p>
     <p>
-              [ JUMIA  ]   [ JUST EAT ]
+              {jumialogo}
     </p>
     <p>
-        Serving small communities globally. Try US!
+        Serving small communities 🌎. Try US!
       </p>
       <p>
         <img src={Nai} alt="src alt" width="250px" />
       </p>
       <p onClick={() => setItIsOpen(true)}>Powered by lalo communitites</p>
       <p>&copy; {currentDate} DianiApp .</p>
+      <p>All Rights Reserved</p>
     </div>
   );
 }
