@@ -67,7 +67,7 @@ function App() {
   }, []);
   return (
     <>
-    {itIsOpen && <Lalo setItIsOpen={true}/>}
+    {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
      <Toaster
         position="top-center"
         reverseOrder={false}
@@ -86,7 +86,7 @@ function App() {
       />
       <DefaultNav/>
       <Nav />
-      <Marquee/>
+      {/* <Marquee/> */}
       <AddToHomeScreen />
       <Type />
       {/* <WeatherIcon /> */}

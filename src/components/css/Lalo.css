@@ -79,6 +79,14 @@
     margin-left: 15px;
     font-weight: bold;
 }
+.child-closer{
+    position:absolute;
+    left:10%;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    z-index: 10000000;
+}
 @media screen and (min-width:1000px){
     .Lalo-main{
         width:40vw;

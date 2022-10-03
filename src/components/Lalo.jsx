@@ -1,17 +1,16 @@
 import React, {useState, useEffect} from 'react'
 import {foodwhite, drinkwhite, grocerieswhite, credit, line, live, oneeight, fourth, twentyeight, people, location, bookings, livecon} from "./icons"
 import "./css/Lalo.css"
-import { FormspreeProvider } from '@formspree/react'
 import {Carousel} from "react-responsive-carousel"
 import Collapsible from 'react-collapsible'
 
 const  Lalo = ({setItIsOpen}) => {
-    const clicked = () => {
-        console.log("ameskia")
-    }
+    // function clicked(){
+    //     setItIsOpen(false)
+    // }
   return (
     <div className="Lalo-main">
-            <div className="child" onClick={clicked}>
+            <div className="child-closer" onClick={() => setItIsOpen(false)}>
                 <div className="closest">+</div>
             </div>
             <Carousel>
@@ -104,15 +103,15 @@ const  Lalo = ({setItIsOpen}) => {
                             <Collapsible trigger="◎ Costa Rica +" className="collapsible">
                             </Collapsible>
                             <Collapsible trigger="◎ El Savado +" className="collapsible">
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                                <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                             </Collapsible>
                         </div>
                         <div className="child-container-child-spec">
                             <h3>ASIA</h3>
                             <p className="small">&nbsp; &nbsp; (coming soon)</p>
-                            <p>&nbsp; &nbsp; INDONESIA</p>
-                            <p>&nbsp; &nbsp; THAILAND</p>
+                            <Collapsible trigger="◎ Indonesia +" className="collapsible">
+                            </Collapsible>
+                            <Collapsible trigger="◎ Thailand +" className="collapsible">
+                            </Collapsible>
                         </div>
                     </div>
                 </div>
