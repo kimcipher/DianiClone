@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
 import Logo from "./assets/logosmall.png"
-import {amazon, uber, bookingcom, justEat, jumialogo} from "./icons"
+import {amazon, uber, bookingcom, justEat, jumialogo, lalologo} from "./icons"
 
 const MobileFooter = ({setItIsOpen}) => {
   
@@ -41,14 +41,8 @@ const MobileFooter = ({setItIsOpen}) => {
       <p>
         <img src={Nai} alt="src alt" width="250px" style={{marginBottom:"-10px"}} />
       </p>
-      <div><p onClick={clicked} style={{color:"#ff99ff"}}>Powered by lalo communitites</p></div>
-<<<<<<< HEAD
-      <p>&copy; {currentDate} DianiApp .</p>
-      
-=======
+      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> Powered by lalo communitites </p></div>
       <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
-      <p>All Rights Reserved</p>
->>>>>>> b0dffed991b1fb199a7dff75b9f2724786c8d78f
     </div>
   );
 }

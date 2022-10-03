@@ -16,7 +16,14 @@ import {
   groceries,
   packageicon,
   ksh,
-  rocket
+  rocket,
+  phone,
+  battery,
+  bed,
+  boat,
+  geek,
+  fix
+
 } from "./icons";
 
 function Home() {
@@ -142,7 +149,16 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">Rent a</div> <div className="scooter">{scooter}{bike}{taxi}</div>     
+            <div className="grid-left"><p>boats<br/>{boatsvg} </p></div> <div className="scooter"><p style={{background:"none"}}>scooter<br/>{scooter}</p><p style={{background:"none"}}>Ebikes<br/>{bike}</p><p style={{background:"none"}}>cars<br/>{taxi}</p></div>     
+          </div>
+        </ReactWhatsapp>
+        <ReactWhatsapp
+              number="+254115144146"
+              message="Hi DianiApp Im interested in renting a car scooter bike "
+              className="whatsapp"
+            >
+          <div className="Tab-item">
+            <div className="grid-left"><p>Mail<br/>{packageicon} </p></div> <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>     
           </div>
         </ReactWhatsapp>
         <h4>24/7 Bookings </h4>
@@ -152,7 +168,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{hotel}</div>
+            <div className="grid-left">{bed}</div>
               <div className="grid-right"> Accomodation</div>
             </div>
           </ReactWhatsapp>
@@ -211,6 +227,17 @@ function Home() {
             <div className="Tab-item">
             <div className="grid-left">{packageicon}</div>
               <div className="grid-right"> Buy Now Delivered Now</div>
+            </div>
+          </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi Dianiapp I want to book accomodation."}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{phone}</div>
+              <div className="grid-right"> Tech Gadgets &nbsp; &nbsp; {battery} &nbsp;&nbsp;Batt</div>
             </div>
           </ReactWhatsapp>
 
