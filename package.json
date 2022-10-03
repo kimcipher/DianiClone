@@ -9,6 +9,7 @@
   "email2": "dennis@ngeni.io",
   "license": "MIT",
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.13",
     "@formspree/react": "^2.4.0",
     "@ideasio/add-to-homescreen-react": "^1.0.10",
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,6 +22,7 @@
     "react-add-to-homescreen": "^1.1.0",
     "react-animated-text-content": "^1.0.1",
     "react-animation-on-scroll": "^5.1.0",
+    "react-collapsible": "^2.10.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-external-link": "^2.0.0",

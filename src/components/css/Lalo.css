@@ -2,7 +2,7 @@
     position: fixed;
     top:25vh;
     margin:auto;
-    background-color:#e268f3;
+    background-color:#1B254A;
     height:auto;
     width:80vw;
     left:5vw;
@@ -21,21 +21,21 @@
 }
 .closest{
     color:#fff;
-    position: fixed;
-    right:10vw;
     rotate: 45deg;
-    font-size: 3em;
-    top:28vh;
+    font-size: 2em;
     border-radius: 50%;
-    width:100px;
-    height:100px;
     cursor:pointer;
+    /* top:30vh; */
+    top:-10px;
+    position:absolute;
+
 }
 .child{
     width:100%;
     height:auto;
     text-align: left;
     margin-left: 20px;
+    padding-top:10px;
 }
 .child-container{
     display: flex;
@@ -47,6 +47,37 @@
     height:auto;
     margin-right:10px;
     margin-bottom:10px;
+    align-items: left;
+    text-align: left;
+}
+.child-container-child-spec{
+    width:40%;
+    height:auto;
+    margin-right:10px;
+    margin-bottom:10px;
+    align-items: left;
+    text-align: left;
+    min-height:130px
+}
+.child-container-child-spec .collapsible{
+    width:100%;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 0.8em;
+    border:1px solid gray;
+    margin-top:5px;
+    padding:5px;
+    border-radius: 5px;
+}
+.child-container-child-spec .collapsible p{
+    font-size: 0.7em;
+}
+.child-container-child-spec h3{
+    color:#fff;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-weight: bold;
 }
 @media screen and (min-width:1000px){
     .Lalo-main{
@@ -62,7 +93,14 @@
         width:70%;
     }
 }
+.spec{
+    text-align: right;
+    width:90%;
+}
 
 /* //group anagrams 
 longest  */
 
+.small{
+    font-size: 5px;
+}

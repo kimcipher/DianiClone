@@ -32,6 +32,7 @@ function MobileFooter() {
       <p>
         <img src={Nai} alt="src alt" width="250px" />
       </p>
+      <p>Powered by lalo communitites</p>
       <p>&copy; {currentDate} DianiApp .</p>
     </div>
   );

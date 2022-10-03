@@ -21,6 +21,8 @@ import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
 import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
+import "@fontsource/montserrat"; // Defaults to weight 400.
+
 
 function App() {
  
@@ -65,7 +67,7 @@ function App() {
   }, []);
   return (
     <>
-    {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
+    {itIsOpen && <Lalo setItIsOpen={true}/>}
      <Toaster
         position="top-center"
         reverseOrder={false}
