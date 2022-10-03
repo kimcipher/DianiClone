@@ -43,7 +43,7 @@ const MobileFooter = ({setItIsOpen}) => {
       </p>
       <div><p onClick={clicked} style={{color:"#ff99ff"}}>Powered by lalo communitites</p></div>
       <p>&copy; {currentDate} DianiApp .</p>
-      <p>All Rights Reserved</p>
+      
     </div>
   );
 }
