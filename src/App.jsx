@@ -20,12 +20,13 @@ import DefaultNav from "./components/DefaultNav";
 import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
 import Marquee from "./components/Marquee";
-
+import Lalo from "./components/Lalo"
 
 function App() {
  
   // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
+  const [itIsOpen, setItIsOpen]= useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -37,10 +38,22 @@ function App() {
     useEffect(() => {
       const timer = setTimeout(() => {
        setIsOpen(false)  
-      }, [10000]);
+      }, [20000]);
       // I will be deleted while component is unmounting.
       return () => clearTimeout(timer) 
       }, []);
+
+
+      useEffect(() => {
+        const timer = setTimeout(() => {
+         setItIsOpen(true)  
+        }, [5000]);
+        // I will be deleted while component is unmounting.
+        return () => clearTimeout(timer) 
+        }, []);
+
+
+
   useEffect(() => {
     if ("caches" in window) {
       caches.keys().then((names) => {
@@ -52,6 +65,7 @@ function App() {
   }, []);
   return (
     <>
+    {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
      <Toaster
         position="top-center"
         reverseOrder={false}
@@ -78,8 +92,6 @@ function App() {
       <MobileNav />
       <BotIcon/>
       <Routes>
-
-            {/* <Navigate to="/popular" /> */}
         <Route path="/" element={<Home />} />
         <Route path="/popular" element={<Home />} />
         <Route path="/Wellness" element={<Wellness />} />

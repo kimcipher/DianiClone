@@ -14,4 +14,5 @@ marquee{
 }
 marquee p{
     background-color: #000;
+    padding-top:5px;
 }
