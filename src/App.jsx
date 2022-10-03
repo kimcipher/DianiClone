@@ -28,6 +28,12 @@ function App() {
   const [itIsOpen, setItIsOpen]= useState(false)
   // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
+
+
+
+  const setPopupOpen = () => {
+    setItIsOpen(!itIsOpen);
+  }
   
 
   useEffect(() => {
@@ -94,7 +100,7 @@ function App() {
         <Route path="/rate-us" element={<Rating />} />
         {/* <Route path="/services/new" element={<NewService />} /> */}
       </Routes>
-      <MobileFooter />
+      <MobileFooter setItIsOpen={setPopupOpen} />
 
     </>
   );

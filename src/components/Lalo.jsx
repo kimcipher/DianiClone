@@ -4,13 +4,15 @@ import "./css/Lalo.css"
 import {Carousel} from "react-responsive-carousel"
 import Collapsible from 'react-collapsible'
 
-const  Lalo = ({setItIsOpen}) => {
+const  Lalo = (props) => {
+
+    console.log(props)
     // function clicked(){
     //     setItIsOpen(false)
     // }
   return (
     <div className="Lalo-main">
-            <div className="child-closer" onClick={() => setItIsOpen(false)}>
+            <div className="child-closer" onClick={() => props.setItIsOpen(false)}>
                 <div className="closest">+</div>
             </div>
             <Carousel>
