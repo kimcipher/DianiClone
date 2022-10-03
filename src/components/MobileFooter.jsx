@@ -15,18 +15,17 @@ const MobileFooter = ({setItIsOpen}) => {
   return (
     <div className="foot-container">
        <p>
-        <a href="/how-it-works"> How it works ❓</a>{" "}
+        <a href="/how-it-works"> HOW IT WORKS ❓</a>{" "}
       </p>
      
       <p>
        <br/><br/>
-       <img src={Logo} alt="logo" height={"15px"}/> DianiApp &trade;<br/> is a partner based community dApp <br/><br/>
-        within LaLo Communitie(s)<br/><br/> 
-        ecosystem.  LaLo Communities <br/><br/>
-        is a Web3+Blockchain powered <br/><br/> 
-        Bookings & Deliveries<br/><br/>
-        dApp for Anything. Anytime.<br/><br/>  
-        A mashup of  .... <br/><br/>
+       <img src={Logo} alt="logo" height={"15px"}/> DianiApp &trade;<br/> is a partner based community dApp 
+        within LaLo Communitie(s) ecosystem.<br/>
+        LaLo Communities is a Web3+Blockchain <br/>
+        powered Bookings & Deliveries<br/>
+        dApp for Anything. Anytime. A mashup of  ....<br/>
+         <br/>
       </p>
       <p>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;   
@@ -41,7 +40,7 @@ const MobileFooter = ({setItIsOpen}) => {
       <p>
         <img src={Nai} alt="src alt" width="250px" style={{marginBottom:"-10px"}} />
       </p>
-      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> Powered by LaLo Communitites </p></div>
+      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> <span style={{color:"#fff"}}>Within</span> LaLo Communitites </p></div>
       <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
     </div>
   );

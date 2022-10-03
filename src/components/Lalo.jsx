@@ -12,6 +12,7 @@ import {
   people,
   location,
   bookings,
+  shopping,
   livecon,
 } from "./icons";
 import "./css/Lalo.css";
@@ -36,7 +37,7 @@ const Lalo = (props) => {
               <br /> 24/7 INSTANT WEB3 BOOKING DAPP
               <br /> powering small communities & THEIR <br /> VISITORS 🌎.
               <br />
-              <br /> Delivers Anything. Anytime
+              <br /> Deliveries Anything. Anytime
             </p>
           </div>
           <div className="child">
@@ -46,8 +47,8 @@ const Lalo = (props) => {
               <div className="child-container-child">
                 {grocerieswhite} Groceries
               </div>
-              <div className="child-container-child">{credit} Bookings</div>
-              <div className="child-container-child">{credit} Shopping</div>
+              {/* <div className="child-container-child">{credit} Bookings</div> */}
+              <div className="child-container-child">{shopping} Shopping</div>
             </div>
           </div>
           <div className="child">
@@ -84,16 +85,18 @@ const Lalo = (props) => {
 
             <div className="blink"></div>
           </div>
-          <div className="child" style={{ marginTop: "20px" }}>
+          <div className="child" style={{ marginTop: "20px", display:"flex",justifyContent:'space-around' }}>
             <p>
-              {oneeight} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {fourth}{" "}
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {twentyeight}
+              {oneeight}<br/>
+              {people}
             </p>
-          </div>
-          <div className="child" style={{ marginTop: "0" }}>
-            <p>
-              {people} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {location}{" "}
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {bookings}
+            <p style={{marginTop:"25px"}}>
+              &nbsp;&nbsp;&nbsp;&nbsp;{location}<br/>
+              {fourth}
+            </p>
+            <p style={{marginTop:"25px"}}>
+            &nbsp;&nbsp;&nbsp;&nbsp;{bookings}<br/>
+              {twentyeight}
             </p>
           </div>
           <div className="child">
@@ -150,7 +153,7 @@ const Lalo = (props) => {
               </div>
               <div className="child-container-child-spec">
                 <h3>AMERICAS</h3>
-                <p className="small"> &nbsp; &nbsp; (coming soon)</p>
+                <p className="small" style={{fontSize:"0.5em", textAlign:"center"}}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
                   trigger="◎ Costa Rica 🇨🇷"
                   className="collapsible"
@@ -162,7 +165,7 @@ const Lalo = (props) => {
               </div>
               <div className="child-container-child-spec">
                 <h3>ASIA</h3>
-                <p className="small">&nbsp; &nbsp; (coming soon)</p>
+                <p className="small" style={{fontSize:"0.5em", textAlign:"center" }}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
                   trigger="◎ Indonesia 🇮🇩"
                   className="collapsible"

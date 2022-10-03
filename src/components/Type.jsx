@@ -16,7 +16,7 @@ function Type() {
           ]}
           typeSpeed={150}
           backSpeed={100}
-          loop
+          loop={false}
           showCursor={true}
           style={{ lineHeight: '1.5' }}
 
