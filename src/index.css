@@ -174,3 +174,7 @@ p.resolve-content-address:last-child button {
   color: #fff;
   cursor: pointer;
 }
+
+.control-arrow .control-prev {
+  background: none !important;
+}

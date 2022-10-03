@@ -42,7 +42,7 @@ const MobileFooter = ({setItIsOpen}) => {
         <img src={Nai} alt="src alt" width="250px" style={{marginBottom:"-10px"}} />
       </p>
       <div><p onClick={clicked} style={{color:"#ff99ff"}}>Powered by lalo communitites</p></div>
-      <p>&copy; {currentDate} DianiApp .</p>
+      <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
       <p>All Rights Reserved</p>
     </div>
   );
