@@ -214,10 +214,10 @@ p.resolve-content-address:last-child button {
   height: 1.3rem;
   opacity: .25;
   background-color: #00ff00;
-  -webkit-animation: blink 1s infinite;
-  -moz-animation: blink 1s infinite;
-  -o-animation: blink 1s infinite;
-  animation: blink 1s infinite;
+  -webkit-animation: blink 3s infinite;
+  -moz-animation: blink 3s infinite;
+  -o-animation: blink 3s infinite;
+  animation: blink 3s infinite;
 }
 
 .blink:after {
@@ -228,5 +228,5 @@ p.resolve-content-address:last-child button {
   left: 1px;
   right: 1px;
   bottom: 1px;
-  border: 5px solid #FFFFFF;
+  border: 5px solid #00ff00;
 }

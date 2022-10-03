@@ -10,6 +10,7 @@ function DefaultNav() {
     <div className="def-nav-main">
         <Time/>
         <WeatherIcon/>
+        <h4>Accepted</h4>
         <Payment/>
         
     </div>

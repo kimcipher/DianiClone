@@ -41,7 +41,7 @@ const MobileFooter = ({setItIsOpen}) => {
       <p>
         <img src={Nai} alt="src alt" width="250px" style={{marginBottom:"-10px"}} />
       </p>
-      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> Powered by lalo communitites </p></div>
+      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> Powered by LaLo Communitites </p></div>
       <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
     </div>
   );
