@@ -34,7 +34,7 @@ const  Lalo = ({setItIsOpen}) => {
             </div>
         </div>
         <div className="child">
-            <h3 style={{color:"#fff", textAlign:"left", paddingLeft:"10px"}}>Try Us!</h3>
+            <h3 style={{color:"#fff", textAlign:"center", marginLeft:"-50px", fontWeight:"bold"}}>Try Us!</h3>
         </div>
     </div>
   )
