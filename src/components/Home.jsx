@@ -146,7 +146,7 @@ function Home() {
           </div>
         </ReactWhatsapp>
         <h4>24/7 Bookings </h4>
-      <ReactWhatsapp
+          <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"

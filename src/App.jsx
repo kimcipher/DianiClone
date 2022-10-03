@@ -19,16 +19,16 @@ import DefaultNav from "./components/DefaultNav";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
-import Marquee from "./components/Marquee";
+// import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
 
 
 function App() {
- 
+  const [itIsOpen, setItIsOpen]= useState(false)
   // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
-  const [itIsOpen, setItIsOpen]= useState(false)
+  
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -46,13 +46,13 @@ function App() {
       }, []);
 
 
-      useEffect(() => {
-        const timer = setTimeout(() => {
-         setItIsOpen(true)  
-        }, [5000]);
-        // I will be deleted while component is unmounting.
-        return () => clearTimeout(timer) 
-        }, []);
+      // useEffect(() => {
+      //   const timer = setTimeout(() => {
+      //    setItIsOpen(true)  
+      //   }, [5000]);
+      //   // I will be deleted while component is unmounting.
+      //   return () => clearTimeout(timer) 
+      //   }, []);
 
   return (
     <>
