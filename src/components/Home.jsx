@@ -8,6 +8,8 @@ import {
   plane,
   fx,
   scooter,
+  scootersmall,
+  bikesmall,
   bike,
   food,
   cryptobtc,
@@ -22,7 +24,8 @@ import {
   bed,
   boat,
   geek,
-  fix
+  fix,
+
 
 } from "./icons";
 
@@ -149,7 +152,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left"><p>boats<br/>{boatsvg} </p></div> <div className="scooter"><p style={{background:"none"}}>scooter<br/>{scooter}</p><p style={{background:"none"}}>Ebikes<br/>{bike}</p><p style={{background:"none"}}>cars<br/>{taxi}</p></div>     
+            <div className="grid-left"><p style={{background:"none"}}>boats<br/>{boatsvg} </p></div> <div className="scooter"><p style={{background:"none"}}>scooter<br/>{scootersmall}</p><p style={{background:"none", fontSize:"0.8em"}}>ebikes<br/>{bikesmall}</p><p style={{background:"none"}}>cars/Taxis<br/>{taxi}</p></div>     
           </div>
         </ReactWhatsapp>
         <ReactWhatsapp
@@ -157,8 +160,11 @@ function Home() {
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
-          <div className="Tab-item">
-            <div className="grid-left"><p>Mail<br/>{packageicon} </p></div> <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>     
+          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
+            <div className="grid-left" ><p style={{background:"none"}}>Mail<br/>{packageicon} </p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Guru<br/>{geek} </p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Repair<br/>{fix} </p></div> 
+            {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
         <h4>24/7 Bookings </h4>
@@ -241,14 +247,14 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-        <ReactWhatsapp
+          <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{cryptobtc}</div>
-              <div className="grid-right"> Spend Crytpo</div>
+            <div className="grid-left">{packageicon}</div>
+              <div className="grid-right"> AMAZON USA &#60;7 Days</div>
             </div>
           </ReactWhatsapp>
 
@@ -259,7 +265,7 @@ function Home() {
           >
             <div className="Tab-item">
             <div className="grid-left">{packageicon}</div>
-              <div className="grid-right"> AMAZON USA 7 Days</div>
+              <div className="grid-right"> AMAZON UK/EUR &#60;9Days</div>
             </div>
           </ReactWhatsapp>
 
