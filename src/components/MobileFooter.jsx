@@ -2,7 +2,7 @@ import React from "react";
 import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
 
-function MobileFooter() {
+const MobileFooter = ({setItIsOpen}) =>  {
   const currentDate = new Date().getFullYear();
   return (
     <div className="foot-container">
@@ -32,7 +32,7 @@ function MobileFooter() {
       <p>
         <img src={Nai} alt="src alt" width="250px" />
       </p>
-      <p>Powered by lalo communitites</p>
+      <p onClick={() => setItIsOpen(true)}>Powered by lalo communitites</p>
       <p>&copy; {currentDate} DianiApp .</p>
     </div>
   );

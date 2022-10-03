@@ -46,25 +46,14 @@ function App() {
       }, []);
 
 
-      useEffect(() => {
-        const timer = setTimeout(() => {
-         setItIsOpen(true)  
-        }, [5000]);
-        // I will be deleted while component is unmounting.
-        return () => clearTimeout(timer) 
-        }, []);
+      // useEffect(() => {
+      //   const timer = setTimeout(() => {
+      //    setItIsOpen(true)  
+      //   }, [5000]);
+      //   // I will be deleted while component is unmounting.
+      //   return () => clearTimeout(timer) 
+      //   }, []);
 
-
-
-  useEffect(() => {
-    if ("caches" in window) {
-      caches.keys().then((names) => {
-        names.forEach((name) => {
-          caches.delete(name);
-        });
-      });
-    }
-  }, []);
   return (
     <>
     {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
