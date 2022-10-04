@@ -149,10 +149,10 @@ function Home() {
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
-          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"35px"}}>
+          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"55px"}}>
             <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/> Guru </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Get <br/>{fix}<br/> Repair </p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/<br/>fixing</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
