@@ -126,29 +126,29 @@ const Lalo = (props) => {
               <div className="child-container-child-spec">
                 <h3>EAST AFRICA</h3>
                 {/* <p> &nbsp; &nbsp; {livecon}&nbsp; &nbsp; KENYA</p> */}
-                <Collapsible trigger="◎ KENYA 🇰🇪" className="collapsible">
+                <Collapsible trigger="◎ KE 🇰🇪" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Diani</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Watamu</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Malindi</p>
                 </Collapsible>
-                <Collapsible trigger="◎ UGANDA 🇺🇬" className="collapsible">
+                <Collapsible trigger="◎ UG 🇺🇬" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
 
-                <Collapsible trigger="◎ TANZANIA 🇹🇿" className="collapsible">
+                <Collapsible trigger="◎ TZ 🇹🇿" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
                 <h3>CARRIBEAN</h3>
-                <Collapsible trigger="◎ BAHAMAS 🇧🇸" className="collapsible">
+                <Collapsible trigger="◎ BAMA 🇧🇸" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
-                <Collapsible trigger="◎ BERMUDA 🇧🇲" className="collapsible">
+                <Collapsible trigger="◎ BM 🇧🇲" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
@@ -157,11 +157,11 @@ const Lalo = (props) => {
                 <h3>AMERICAS</h3>
                 <p className="small" style={{fontSize:"0.5em", textAlign:"center"}}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
-                  trigger="◎ Costa Rica 🇨🇷"
+                  trigger="◎ CR 🇨🇷"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ El Savado 🇸🇻"
+                  trigger="◎ ELSL 🇸🇻"
                   className="collapsible"
                 ></Collapsible>
               </div>
@@ -169,11 +169,11 @@ const Lalo = (props) => {
                 <h3>ASIA</h3>
                 <p className="small" style={{fontSize:"0.5em", textAlign:"center" }}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
-                  trigger="◎ Indonesia 🇮🇩"
+                  trigger="◎ IDN 🇮🇩"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ Thailand 🇹🇭"
+                  trigger="◎ TH 🇹🇭"
                   className="collapsible"
                 ></Collapsible>
               </div>

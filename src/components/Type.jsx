@@ -12,7 +12,7 @@ function Type() {
             "Bookings ",
             "Anything",
             "Anytime",
-            "24/7"
+            "24/7 🏨"
           ]}
           typeSpeed={150}
           backSpeed={100}
