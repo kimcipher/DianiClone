@@ -1315,15 +1315,16 @@ export const shopping = (
 );
 export const walletconnecticon = (
   <svg
-    width="20"
-    height="18"
-    viewBox="0 0 20 18"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <path d="M14 9H22V15H14V9Z" fill="#fff" />
     <path
-      d="M18 0H3C1.346 0 0 1.346 0 3V15C0 16.654 1.346 18 3 18H18C19.103 18 20 17.103 20 16V14H12C10.897 14 10 13.103 10 12V6C10 4.897 10.897 4 12 4H20V2C20 0.897 19.103 0 18 0Z"
-      fill="#85F2FD"
+      d="M20 3H5C3.346 3 2 4.346 2 6V18C2 19.654 3.346 21 5 21H20C21.103 21 22 20.103 22 19V17H14C12.897 17 12 16.103 12 15V9C12 7.897 12.897 7 14 7H22V5C22 3.897 21.103 3 20 3Z"
+      fill="#fff"
     />
   </svg>
 );

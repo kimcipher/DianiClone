@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import {addHome, reallogo} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
 import {NavLink} from "react-router-dom"
-import WalletConnect from "./WalletConnect";
+// import WalletConnect from "./WalletConnect";
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -69,7 +69,7 @@ function Nav() {
           </NavLink>
           
         </div>
-        <h4><WalletConnect/></h4>
+        {/* <h4><WalletConnect/></h4> */}
         {/* <div className="pwa-btn">
           {supportsPWA ? (
             <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>

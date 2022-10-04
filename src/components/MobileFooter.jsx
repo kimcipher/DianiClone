@@ -3,6 +3,8 @@ import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
 import Logo from "./assets/logosmall.png"
 import {amazon, uber, bookingcom, justEat, jumialogo, lalologo} from "./icons"
+import WalletConnect from "./WalletConnect"
+
 
 const MobileFooter = ({setItIsOpen}) => {
   
@@ -17,6 +19,7 @@ const MobileFooter = ({setItIsOpen}) => {
        <p>
         <a href="/how-it-works"> HOW IT WORKS ❓</a>{" "}
       </p>
+      <p><WalletConnect/></p>
      
       <p>
        <br/><br/>
