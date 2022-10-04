@@ -28,6 +28,9 @@ import {
   walletconnecticon,
   amazon,
   bookingicon,
+  kes,
+  cryptobtnnew,
+  shopping,
 
 
 } from "./icons";
@@ -222,7 +225,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{cryptobtc}</div>
+            <div className="grid-left">{cryptobtnnew}</div>
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
@@ -238,7 +241,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>FAST SHOPPING {rocket}</h4>
+          <h4>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
