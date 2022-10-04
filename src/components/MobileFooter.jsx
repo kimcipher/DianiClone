@@ -20,27 +20,28 @@ const MobileFooter = ({setItIsOpen}) => {
      
       <p>
        <br/><br/>
-       <img src={Logo} alt="logo" height={"15px"}/> DianiApp &trade;<br/> is a partner based community dApp 
-        within LaLo Communitie(s) ecosystem.<br/>
-        LaLo Communities is a Web3+Blockchain <br/>
-        powered Bookings & Deliveries<br/>
-        dApp for Anything. Anytime. A mashup of  ....<br/>
+       <img src={Logo} alt="logo" height={"15px"}/> DianiApp &trade; is a partner-based  dApp <br/>
+       <p onClick={clicked} style={{color:"#ff99ff",marginBottom:"-25px"}}> <span style={{color:"#fff"}}>Within</span> <span style={{textTransform:"uppercase", color:"#ff99ff"}}>LaLo Communitites </span><br/> ecosystem. DianiApp is a <br/></p>
+         Web3+Blockchain powered<br/>
+         Bookings & Deliveries<br/>
+        dApp for Anything. Anytime.<br/> A mashup of  ....<br/>
          <br/>
       </p>
+       <p style={{marginBottom:"-15px"}}>
+              {jumialogo}
+    </p>
       <p>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;   
       {bookingcom}&nbsp; &nbsp;  {justEat}
     </p>
+   
     <p>
-              {jumialogo}
-    </p>
-    <p>
-        Serving small communities 🌎. Try US!
+        Serving small communities 🌎.<br/> Try US!
       </p>
       <p>
         <img src={Nai} alt="src alt" width="250px" style={{marginBottom:"-10px"}} />
       </p>
-      <div><p onClick={clicked} style={{color:"#ff99ff"}}> {lalologo} <br/> <span style={{color:"#fff"}}>Within</span> LaLo Communitites </p></div>
+      
       <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
     </div>
   );

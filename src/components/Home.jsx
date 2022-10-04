@@ -32,7 +32,7 @@ import {
 function Home() {
   const data = [
     { 
-      name: "Food & Drinks Delivery 24/7",
+      name: "Mail/Parcel Delivery 24/7",
       number: "+254115144146",
       message: "Hi DianiApp 😊 I want to order some Drinks 🥂",
       className: "whatsapp",
@@ -125,6 +125,16 @@ function Home() {
     <div className="container">
       <h4>INSTANT GO {rocket}</h4>
       <div className="Tabs-container">
+      <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hi DianiApp 😊 I want to order some Mail/Package delivery"}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+              <div className="grid-left">{food} </div>
+              <div className="grid-right">Food  &nbsp; {drink} &nbsp; Drinks Delivery</div>
+            </div>
+          </ReactWhatsapp>
         {data.map((item, index) => (
           <ReactWhatsapp
             key={index}
@@ -138,7 +148,8 @@ function Home() {
             </div>
           </ReactWhatsapp>
         ))}
-        <h4>RENT A {rocket}</h4>
+         
+        {/* <h4>RENT A {rocket}</h4> */}
         <ReactWhatsapp
               number="+254115144146"
               message="Hi DianiApp Im interested in renting a car scooter bike "
@@ -148,7 +159,7 @@ function Home() {
             <div className="grid-left"><p style={{background:"none"}}>Boats<br/>{boatsvg} </p></div> <div className="scooter"><p style={{background:"none"}}>Scooter<br/>{scootersmall}</p><p style={{background:"none", fontSize:"0.8em"}}>Ebikes<br/>{bikesmall}</p><p style={{background:"none"}}>cars/Taxis<br/>{taxi}</p></div>     
           </div>
         </ReactWhatsapp>
-        <h4>HIRE A {rocket}</h4>
+        {/* <h4>HIRE A {rocket}</h4> */}
         <ReactWhatsapp
               number="+254115144146"
               message="Hi DianiApp Im interested in renting a car scooter bike "
@@ -226,7 +237,7 @@ function Home() {
           >
             <div className="Tab-item">
             <div className="grid-left">{packageicon}</div>
-              <div className="grid-right"> Buy Now Delivered Now</div>
+              <div className="grid-right"> Buy Now . Delivered Now . </div>
             </div>
           </ReactWhatsapp>
 
@@ -236,8 +247,8 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{phone}</div>
-              <div className="grid-right"> Tech Gadgets(battery){battery} </div>
+            <div className="grid-left">{phone} &nbsp; {battery}</div>
+              <div className="grid-right"> &nbsp;&nbsp; Tech Gadgets </div>
             </div>
           </ReactWhatsapp>
 

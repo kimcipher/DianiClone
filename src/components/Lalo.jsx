@@ -14,6 +14,7 @@ import {
   bookings,
   shopping,
   livecon,
+  lalologo
 } from "./icons";
 import "./css/Lalo.css";
 import { Carousel } from "react-responsive-carousel";
@@ -32,8 +33,9 @@ const Lalo = (props) => {
       <Carousel>
         <div>
           <div className="child" style={{ marginTop: "20px" }}>
-            <p>
-              LaLo Communitie(s) is AN ALWAYS ON
+            <p style={{textTransform:"uppercase"}}>
+              {lalologo}<br/>
+              LALO COMMUNITIES is AN ALWAYS ON
               <br /> 24/7 INSTANT WEB3 BOOKING DAPP
               <br /> powering small communities & THEIR <br /> VISITORS 🌎.
               <br />
