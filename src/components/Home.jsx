@@ -32,7 +32,7 @@ import {
   cryptobtnnew,
   shopping,
   icongrup,
-
+  icongroup,
 
 } from "./icons";
 
@@ -46,78 +46,7 @@ function Home() {
       image: groceries,
       desc: "image desc",
     },
-    // {
-    //   name: "Travel Gadgets",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊, I need to get some travel gadgets 📦",
-    //   className: "whatsapp",
-    //   image: packageicon,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Order Taxi 24/7",
-    //   number: "+254115144146",
-    //   message: "Hi Dianiapp 😊 I want to order a taxi 🚕",
-    //   className: "whatsapp",
-    //   image: taxi,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Cash, Currencies + Exchange",
-    //   number: "+254115144146",
-    //   message: "Hi DianiAPP 😊 I need some Ksh 💰",
-    //   className: "whatsapp",
-    //   image: fx,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Dinner Reservations",
-    //   number: "+254115144146",
-    //   message: "Hi Dianiapp 😊 want to make a dinner reservation 🍽️",
-    //   className: "whatsapp",
-    //   image: dinner,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Airport Transportation",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊 I need to get to the airport ✈️",
-    //   className: "whatsapp",
-    //   image: plane,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Spend Crypto",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊 I want to spend some crypto ₿",
-    //   className: "whatsapp spex",
-    //   image: cryptobtc,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Rent a Boat",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊 Im want to rent a boat 🛥️",
-    //   className: "whatsapp",
-    //   image: boatsvg,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Accommodation Booking",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊, I need to get accomodation 🏨",
-    //   className: "whatsapp",
-    //   image: hotel,
-    //   desc: "image desc",
-    // },
-    // {
-    //   name: "Mail/Package Delivery",
-    //   number: "+254115144146",
-    //   message: "Hi DianiApp 😊, I need to get a package delivered 📦",
-    //   className: "whatsapp",
-    //   image: packageicon,
-    //   desc: "image desc",
-    // },
+    
   ];
 
   return (
@@ -167,8 +96,8 @@ function Home() {
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"55px"}}>
             <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/fixIT</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>TechGuru</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/FixIT</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
@@ -248,9 +177,8 @@ function Home() {
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
           >
-            <div className="Tab-item">
-            <div className="grid-left">{packageicon}</div>
-              <div className="grid-right"> Buy Now . Delivered Now . </div>
+            <div className="Tab-item" style={{paddingLeft:"15px", fontSize:"0.9em", }}>
+              {icongroup} Buy Now. Delivered Now
             </div>
           </ReactWhatsapp>
 

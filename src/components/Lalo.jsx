@@ -33,13 +33,13 @@ const Lalo = (props) => {
       <Carousel>
         <div>
           <div className="child" style={{ marginTop: "20px" }}>
-            <p style={{textTransform:"uppercase"}}>
+            <p style={{textTransform:"uppercase", fontSize:"0.7em"}}>
               {lalologo}<br/>
               LALO COMMUNITIES is AN ALWAYS ON
               <br /> 24/7 INSTANT WEB3 BOOKING DAPP
               <br /> powering small communities & THEIR <br /> VISITORS 🌎.
               <br />
-              <br /> Deliveries Anything. Anytime
+              <br /> Deliveries. Bookings . Anything Anytime
             </p>
           </div>
           <div className="child">
@@ -124,56 +124,56 @@ const Lalo = (props) => {
           <div className="child">
             <div className="child-container">
               <div className="child-container-child-spec">
-                <h3>EAST AFRICA</h3>
+                <h3 style={{fontSize:"0.9em"}}>EAST AFRICA</h3>
                 {/* <p> &nbsp; &nbsp; {livecon}&nbsp; &nbsp; KENYA</p> */}
-                <Collapsible trigger="◎ KE 🇰🇪" className="collapsible">
+                <Collapsible trigger="◎ KE 🇰🇪 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Diani</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Watamu</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Malindi</p>
                 </Collapsible>
-                <Collapsible trigger="◎ UG 🇺🇬" className="collapsible">
+                <Collapsible trigger="◎ UG 🇺🇬 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
 
-                <Collapsible trigger="◎ TZ 🇹🇿" className="collapsible">
+                <Collapsible trigger="◎ TZ 🇹🇿 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3>CARRIBEAN</h3>
-                <Collapsible trigger="◎ BAMA 🇧🇸" className="collapsible">
+                <h3 style={{fontSize:"0.9em"}}>CARRIBEAN</h3>
+                <Collapsible trigger="◎ BAMA 🇧🇸 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
-                <Collapsible trigger="◎ BM 🇧🇲" className="collapsible">
+                <Collapsible trigger="◎ BM 🇧🇲 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3>AMERICAS</h3>
-                <p className="small" style={{fontSize:"0.5em", textAlign:"center"}}> &nbsp; &nbsp; (coming soon)</p>
+                <h3 style={{fontSize:"0.9em"}}>AMERICAS</h3>
+                <p className="small" style={{fontSize:"0.5em", textAlign:"center", marginBottom:"0"}}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
-                  trigger="◎ CR 🇨🇷"
+                  trigger="◎ CR 🇨🇷 +"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ ELSL 🇸🇻"
+                  trigger="◎ ELSL 🇸🇻 +"
                   className="collapsible"
                 ></Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3>ASIA</h3>
-                <p className="small" style={{fontSize:"0.5em", textAlign:"center" }}> &nbsp; &nbsp; (coming soon)</p>
+                <h3 style={{fontSize:"0.9em"}}>ASIA</h3>
+                <p className="small" style={{fontSize:"0.5em", textAlign:"center", marginBottom:"0" }}> &nbsp; &nbsp; (coming soon)</p>
                 <Collapsible
-                  trigger="◎ IDN 🇮🇩"
+                  trigger="◎ IDN 🇮🇩 +"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ TH 🇹🇭"
+                  trigger="◎ TH 🇹🇭 +"
                   className="collapsible"
                 ></Collapsible>
               </div>

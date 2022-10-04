@@ -5,7 +5,7 @@ const Popup = ({ setIsOpen }) => {
   return (
     <>
     <div className="slack">
-      <h5 style={{color:'#fff'}}>DianiApp is now live<br/> Diani Digital Worriors</h5><div className='closer-con' onClick={() => setIsOpen(false)}><h5 className="closer" >+</h5></div>
+      <h5 style={{color:'#fff'}}>DianiApp is now live<br/> Diani Digital Warriors</h5><div className='closer-con' onClick={() => setIsOpen(false)}><h5 className="closer" >+</h5></div>
     </div>
     </>
   )

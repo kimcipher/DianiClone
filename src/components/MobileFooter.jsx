@@ -34,14 +34,14 @@ const MobileFooter = ({ setItIsOpen }) => {
         <img src={Logo} alt="logo" height={"15px"} /> DianiApp &trade; is a partner-based dApp <br />
         <p
           onClick={clicked}
-          style={{ color: "#fff", marginBottom: "-25px" }}
+          style={{ color: "#fff", marginBottom:"-35px"}}
         >
           {" "}
-          <span style={{ color: "#fff" }}>Within</span>{" "}
-          <span style={{ textTransform: "uppercase", color: "#ff99ff" }}>
+          <span style={{ color: "#fff" }}>Within </span>{" "}
+          <span style={{ textTransform: "uppercase", color: "#ff99ff", }}>
             LaLo Communitites
           </span>
-        </p>{" "}
+        </p>
         <br /> 
         <span style={{ color: "#fff" }}> ecosystem. DianiApp is a</span>{" "}
         <br />
@@ -54,13 +54,13 @@ const MobileFooter = ({ setItIsOpen }) => {
         <br />
         <br />
       </p>
-      <p style={{ marginBottom: "-15px" }}>{jumialogo}</p>
-      <p>
+      <p style={{ marginBottom: "-15px", marginTop: "-30px" }}>{jumialogo}</p>
+      <p style={{ marginBottom: "-15px" }}>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
         {bookingcom}&nbsp; &nbsp; {justEat}
       </p>
 
-      <p>Serving small communities 🌎.</p>
+      <p>Serving small communities <h3>🌎</h3></p>
       <p>
         <img
           src={Nai}

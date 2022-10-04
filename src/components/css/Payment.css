@@ -7,4 +7,11 @@
 }
 .payment-container *{
     margin-right: 0px;
+   
+}
+.Payment-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align:center;
 }
