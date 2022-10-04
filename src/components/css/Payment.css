@@ -6,12 +6,11 @@
     color:#000;
 }
 .payment-container *{
-    margin-right: 0px;
+    margin-right: 10px;
    
 }
 .Payment-container{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    text-align:center;
 }
