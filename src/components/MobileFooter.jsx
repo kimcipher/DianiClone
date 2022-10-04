@@ -24,9 +24,9 @@ const MobileFooter = ({ setItIsOpen }) => {
       <p>
         <a href="/how-it-works"> HOW IT WORKS ❓</a>{" "}
       </p>
-      <p>
+      {/* <p>
         <WalletConnect />
-      </p>
+      </p> */}
 
       <p>
         <br />
