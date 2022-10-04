@@ -25,7 +25,9 @@ import {
   boat,
   geek,
   fix,
-  walletconnecticon
+  walletconnecticon,
+  amazon,
+  bookingicon,
 
 
 } from "./icons";
@@ -168,7 +170,7 @@ function Home() {
         </ReactWhatsapp>
          
 
-        <h4>24/7 BOOKINGS {rocket}</h4>
+        <h4>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -202,7 +204,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>BANKING & FX {rocket}</h4>
+          <h4>BANKING & FX {kes}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -265,7 +267,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{packageicon}</div>
+            <div className="grid-left">{amazon}</div>
               <div className="grid-right"> AMAZON USA &#60;7 Days</div>
             </div>
           </ReactWhatsapp>
@@ -276,7 +278,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{packageicon}</div>
+            <div className="grid-left">{amazon}</div>
               <div className="grid-right"> AMAZON UK/EUR &#60;9Days</div>
             </div>
           </ReactWhatsapp>
