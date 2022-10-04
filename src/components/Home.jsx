@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import "./css/home.css";
 import ReactWhatsapp from "react-whatsapp";
+import { ethers } from "ethers"
 import {
   drink,
   dinner,
@@ -33,10 +34,52 @@ import {
   shopping,
   icongrup,
   icongroup,
-
+  amazonpkgo
 } from "./icons";
 
 function Home() {
+  const [currentAccount, setCurrentAccount] = useState("")
+  const checkIfWalletIsConnected = async() => {
+    try{
+      const {ethereum} = window;
+      if (!ethereum) {
+        console.log("Make sure you have metamask");
+      } else {
+        console.log("We have the ethereum object", ethereum);
+      }
+  
+      const accounts = await ethereum.request({method: "eth_accounts"});
+  
+      if (accounts.length !== 0){
+        const account = accounts[0];
+        console.log("Found and authorized account : ", account);
+        setCurrentAccount(account)
+      } else {
+        console.log("No authorized account available")
+      }
+    } catch(error){
+      console.log(error)
+    }
+
+
+    
+  }
+  const connectWallet = async() => {
+    try{
+      const {ethereum} = window;
+
+      if(!ethereum) {
+        alert("Get Metamask");
+        return;
+      }
+      const accounts = await ethereum.request({ method:"eth_requestAccounts"});
+
+      console.log("connected", accounts[0]);
+      setCurrentAccount(accounts[0]);
+    } catch(error){
+      console.log(error)
+    }
+  }
   const data = [
     {
       name: "Groceries 24/7",
@@ -94,10 +137,10 @@ function Home() {
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
-          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"55px"}}>
-            <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>TechGuru</p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/FixIT</p></div> 
+          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
+            <div className="" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
+            <div className="" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
+            <div className="" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/FixIT</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
@@ -160,16 +203,12 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <ReactWhatsapp
-            number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
-            className="whatsapp"
-          >
+          <button className="whatsapp" onClick={connectWallet}>
             <div className="Tab-item">
             <div className="grid-left">{walletconnecticon}</div>
               <div className="grid-right"> Connect to Wallet </div>
             </div>
-          </ReactWhatsapp>
+          </button>
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
@@ -199,7 +238,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{amazon}</div>
+            <div className="grid-left">{amazonpkgo}</div>
               <div className="grid-right"> AMAZON USA &#60;7 Days</div>
             </div>
           </ReactWhatsapp>
@@ -210,7 +249,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{amazon}</div>
+            <div className="grid-left">{amazonpkgo}</div>
               <div className="grid-right"> AMAZON UK/EUR &#60;9Days</div>
             </div>
           </ReactWhatsapp>

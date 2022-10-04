@@ -5,6 +5,9 @@
   font-weight: 1px;
 padding-bottom:10px;
 }
+.how:hover{
+  color: #e268f3;
+}
 .foot-container {
   display: block;
   flex-direction: row;
