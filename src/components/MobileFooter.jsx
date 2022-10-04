@@ -54,7 +54,7 @@ const MobileFooter = ({ setItIsOpen }) => {
         <br />
         <br />
       </p>
-      <p style={{ marginBottom: "-15px", marginTop: "-30px" }}>{jumialogo}</p>
+      <p style={{ marginBottom: "-15px", marginTop: "-15px" }}>{jumialogo}</p>
       <p style={{ marginBottom: "-15px" }}>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
         {bookingcom}&nbsp; &nbsp; {justEat}

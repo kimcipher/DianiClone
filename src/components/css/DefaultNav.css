@@ -1,5 +1,6 @@
 .def-nav-main{
-   display: grid;
-   grid-template-columns: 10fr  10fr;
-   grid-gap: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding:10px 0  10px 0;
 }

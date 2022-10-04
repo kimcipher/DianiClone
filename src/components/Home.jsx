@@ -11,7 +11,7 @@ import {
   scootersmall,
   bikesmall,
   bike,
-  food,
+  foodgrp,
   cryptobtc,
   hotel,
   boatsvg,
@@ -51,7 +51,7 @@ function Home() {
 
   return (
     <div className="container">
-      <h4>INSTANT GO {rocket}</h4>
+      <h4 style={{marginTop:"30px"}}>INSTANT GO {rocket}</h4>
       <div className="Tabs-container">
       <ReactWhatsapp
             number={"+254115144146"}
@@ -59,8 +59,8 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item">
-              <div className="grid-left">{food} </div>
-              <div className="grid-right"> &nbsp; {drink} &nbsp;&nbsp; Food   &  Drinks 24/7</div>
+              <div className="">{foodgrp} </div>
+              <div className="grid-right"> &nbsp;&nbsp; Food   &  Drinks 24/7</div>
             </div>
           </ReactWhatsapp>
         {data.map((item, index) => (
@@ -84,7 +84,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">{boatsvg}</div> <div className="grid-right">{icongrup} Cars/Taxis Ebikes Scooter Boats </div>     
+            <div className="">{icongrup}</div> <div className="grid-right"> Cars/Taxis Ebikes Scooter Boats </div>     
           </div>
         </ReactWhatsapp>
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
@@ -103,7 +103,7 @@ function Home() {
         </ReactWhatsapp>
          
 
-        <h4>24/7 BOOKINGS {bookingicon}</h4>
+        <h4 style={{marginTop:"30px"}}>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -137,7 +137,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>BANKING & FX {kes}</h4>
+          <h4 style={{marginTop:"30px"}}>BANKING & FX {kes}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -171,14 +171,14 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>FAST SHOPPING {shopping}</h4>
+          <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
           >
-            <div className="Tab-item" style={{paddingLeft:"15px", fontSize:"0.9em", }}>
-              {icongroup} Buy Now. Delivered Now
+            <div className="Tab-item" style={{paddingTop:"15px",paddingBottom:"15px", fontSize:"0.9em", }}>
+              <div className="grid-right" style={{marginLeft:'20px'}}>{icongroup}</div><div className="grid-right" style={{marginLeft:'20px'}}>Buy Now. Delivered Now</div>
             </div>
           </ReactWhatsapp>
 
