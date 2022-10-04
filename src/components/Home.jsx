@@ -31,6 +31,7 @@ import {
   kes,
   cryptobtnnew,
   shopping,
+  icongrup,
 
 
 } from "./icons";
@@ -154,7 +155,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">{boatsvg}</div> <div className="grid-left"> Boats Scooter Ebikes Cars/Taxis</div>     
+            <div className="grid-left">{boatsvg}</div> <div className="grid-right">{icongrup} Boats Scooter Ebikes Cars/Taxis</div>     
           </div>
         </ReactWhatsapp>
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
@@ -230,7 +231,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <ReactWhatsapp
+          {/* <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
@@ -239,7 +240,7 @@ function Home() {
             <div className="grid-left">{walletconnecticon}</div>
               <div className="grid-right"> Connect to Wallet </div>
             </div>
-          </ReactWhatsapp>
+          </ReactWhatsapp> */}
 
           <h4>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
