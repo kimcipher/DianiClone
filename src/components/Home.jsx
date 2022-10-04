@@ -162,7 +162,7 @@ function Home() {
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"55px"}}>
             <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
             <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>TechGuru</p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/fixIt</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/fixIT</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
@@ -198,7 +198,7 @@ function Home() {
           >
             <div className="Tab-item">
             <div className="grid-left">{plane}</div>
-              <div className="grid-right"> Airtport Transportation</div>
+              <div className="grid-right"> Airport Transportation</div>
             </div>
           </ReactWhatsapp>
 
