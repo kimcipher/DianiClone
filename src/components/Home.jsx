@@ -32,14 +32,6 @@ import {
 
 function Home() {
   const data = [
-    { 
-      name: "Mail/Parcel Delivery 24/7",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊 I want to order some Drinks 🥂",
-      className: "whatsapp",
-      image: food,
-      desc: "image desc",
-    },
     {
       name: "Groceries 24/7",
       number: "+254115144146",
@@ -157,10 +149,10 @@ function Home() {
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
-          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-            <div className="grid-left" ><p style={{background:"none"}}>Mail<br/>{packageicon} </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Guru<br/>{geek} </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Repair<br/>{fix} </p></div> 
+          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"35px"}}>
+            <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/> Guru </p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Get <br/>{fix}<br/> Repair </p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
