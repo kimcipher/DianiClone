@@ -9,7 +9,7 @@ function Time() {
     hour: "2-digit",
     minute: "2-digit",
   });
-  return <div className="time-weather">{currentTime}</div>;
+  return <div className="time-weather">{currentTime} <WeatherIcon/></div>;
 }
 
 export default Time;
