@@ -142,7 +142,17 @@ function Home() {
           </ReactWhatsapp>
         ))}
          
-       
+       {/* <h4>RENT A {rocket}</h4> */}
+       <ReactWhatsapp
+              number="+254115144146"
+              message="Hi DianiApp Im interested in renting a car scooter bike "
+              className="whatsapp"
+            >
+          <div className="Tab-item">
+            <div className="grid-left">{boatsvg}</div> <div className="grid-left"> Boats Scooter Ebikes Cars/Taxis</div>     
+          </div>
+        </ReactWhatsapp>
+        {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
         {/* <h4>HIRE A {rocket}</h4> */}
         <ReactWhatsapp
               number="+254115144146"
@@ -151,21 +161,12 @@ function Home() {
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"55px"}}>
             <div className="grid-left" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
-            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/<br/>fixing</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>TechGuru</p></div> 
+            <div className="grid-left" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/fixIt</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
-         {/* <h4>RENT A {rocket}</h4> */}
-         <ReactWhatsapp
-              number="+254115144146"
-              message="Hi DianiApp Im interested in renting a car scooter bike "
-              className="whatsapp"
-            >
-          <div className="Tab-item">
-            <div className="grid-left"><p style={{background:"none"}}>Boats<br/>{boatsvg} </p></div> <div className="scooter"><p style={{background:"none"}}>Scooter<br/>{scootersmall}</p><p style={{background:"none", fontSize:"0.8em"}}>Ebikes<br/>{bikesmall}</p><p style={{background:"none"}}>cars/Taxis<br/>{taxi}</p></div>     
-          </div>
-        </ReactWhatsapp>
+         
 
         <h4>24/7 BOOKINGS {rocket}</h4>
           <ReactWhatsapp
