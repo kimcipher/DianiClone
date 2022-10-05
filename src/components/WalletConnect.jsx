@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { walletconnecticon } from "./icons";
+import { interractive } from "./icons";
 import "./css/walletModal.css";
 import Popup from 'reactjs-popup';
 
@@ -48,7 +48,7 @@ function WalletConnect() {
   return (
     <>
     <div className="main-connect">
-      <Popup trigger={<button className="connection-btn">{walletconnecticon}</button>} position="right center">
+      <Popup trigger={<button className="connection-btn">{interractive}</button>} position="right center">
         <div className="chat-box">
             <div className="logo-top-con">
                 <h3>Lalo Interactive</h3>

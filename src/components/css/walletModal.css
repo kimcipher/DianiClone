@@ -12,7 +12,7 @@
     z-index: 1000000;
 }
 .main-connect button{
-    background-color: #1B254A;
+    background-color: transparent;
     border:none;
     width:70px;
     height:70px;
