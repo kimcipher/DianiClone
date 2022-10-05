@@ -38,7 +38,7 @@ const MobileFooter = ({ setItIsOpen }) => {
         >
           {" "}
           <span style={{ color: "#fff" }}>Within </span>{" "}
-          <span style={{ textTransform: "uppercase", color: "#ff99ff", }}>
+          <span style={{ textTransform: "uppercase", color: "#ff99ff", cursor:"pointer" }}>
             LaLo Communitites
           </span>
         </p>

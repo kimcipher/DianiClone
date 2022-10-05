@@ -14,7 +14,7 @@ import {
   bookings,
   shopping,
   livecon,
-  lalologo
+  lalologo,
 } from "./icons";
 import "./css/Lalo.css";
 import { Carousel } from "react-responsive-carousel";
@@ -33,8 +33,9 @@ const Lalo = (props) => {
       <Carousel>
         <div>
           <div className="child" style={{ marginTop: "20px" }}>
-            <p style={{textTransform:"uppercase", fontSize:"0.7em"}}>
-              {lalologo}<br/>
+            <p style={{ textTransform: "uppercase", fontSize: "0.7em" }}>
+              {lalologo}
+              <br />
               LALO COMMUNITIES is AN ALWAYS ON
               <br /> 24/7 INSTANT WEB3 BOOKING DAPP
               <br /> powering small communities & THEIR <br /> VISITORS 🌎.
@@ -87,17 +88,27 @@ const Lalo = (props) => {
 
             <div className="blink"></div>
           </div>
-          <div className="child" style={{ marginTop: "20px", display:"flex",justifyContent:'space-around' }}>
+          <div
+            className="child"
+            style={{
+              marginTop: "20px",
+              display: "flex",
+              justifyContent: "space-around",
+            }}
+          >
             <p>
-              {oneeight}<br/>
+              {oneeight}
+              <br />
               {people}
             </p>
-            <p style={{marginTop:"25px"}}>
-              &nbsp;&nbsp;&nbsp;&nbsp;{location}<br/>
+            <p style={{ marginTop: "25px" }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;{location}
+              <br />
               {fourth}
             </p>
-            <p style={{marginTop:"25px"}}>
-            &nbsp;&nbsp;&nbsp;&nbsp;{bookings}<br/>
+            <p style={{ marginTop: "25px" }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;{bookings}
+              <br />
               {twentyeight}
             </p>
           </div>
@@ -106,6 +117,7 @@ const Lalo = (props) => {
               style={{
                 color: "#fff",
                 textAlign: "center",
+                marginBottom: "40px",
                 marginLeft: "-50px",
                 fontWeight: "bold",
               }}
@@ -124,53 +136,94 @@ const Lalo = (props) => {
           <div className="child">
             <div className="child-container">
               <div className="child-container-child-spec">
-                <h3 style={{fontSize:"0.9em"}}>EAST AFRICA</h3>
+                <h3 style={{ fontSize: "0.9em" }}>EAST AFRICA</h3>
                 {/* <p> &nbsp; &nbsp; {livecon}&nbsp; &nbsp; KENYA</p> */}
-                <Collapsible trigger="◎ KE 🇰🇪 +" className="collapsible">
+                <Collapsible
+                  trigger="◎ KE 🇰🇪 +"
+                  triggerWhenOpen="◎ KE 🇰🇪 -"
+                  className="collapsible"
+                >
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Diani</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Watamu</p>
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Malindi</p>
                 </Collapsible>
-                <Collapsible trigger="◎ UG 🇺🇬 +" className="collapsible">
+                <Collapsible
+                  trigger="◎ UG 🇺🇬 ▿"
+                  triggerWhenOpen="◎ UG 🇺🇬  -"
+                  className="collapsible"
+                >
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
                 </Collapsible>
 
-                <Collapsible trigger="◎ TZ 🇹🇿 +" className="collapsible">
+                <Collapsible
+                  trigger="◎ TZ 🇹🇿 ▿"
+                  triggerWhenOpen="◎ TZ 🇹🇿 -"
+                  className="collapsible"
+                >
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3 style={{fontSize:"0.9em"}}>CARRIBEAN</h3>
-                <Collapsible trigger="◎ BAMA 🇧🇸 +" className="collapsible">
-                
-                </Collapsible>
-                <Collapsible trigger="◎ BM 🇧🇲 +" className="collapsible">
+                <h3 style={{ fontSize: "0.9em" }}>CARRIBEAN</h3>
+                <Collapsible
+                  trigger="◎ BAMA 🇧🇸 ▿"
+                  triggerWhenOpen="◎ BAMA 🇧🇸 -"
+                  className="collapsible"
+                ></Collapsible>
+                <Collapsible
+                  trigger="◎ BM 🇧🇲 ▿"
+                  triggerWhenOpen="◎ BM 🇧🇲 -"
+                  className="collapsible"
+                >
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;GoomBay</p>
-
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3 style={{fontSize:"0.9em"}}>AMERICAS</h3>
-                <p className="small" style={{fontSize:"0.5em", textAlign:"center", marginBottom:"0"}}> &nbsp; &nbsp; (coming soon)</p>
+                <h3 style={{ fontSize: "0.9em" }}>AMERICAS</h3>
+                <p
+                  className="small"
+                  style={{
+                    fontSize: "0.5em",
+                    textAlign: "center",
+                    marginBottom: "0",
+                  }}
+                >
+                  {" "}
+                  &nbsp; &nbsp; (coming soon)
+                </p>
                 <Collapsible
-                  trigger="◎ CR 🇨🇷 +"
+                  trigger="◎ CR 🇨🇷 ▿"
+                  triggerWhenOpen="◎ CR 🇨🇷 -"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ ELSL 🇸🇻 +"
+                  trigger="◎ ELSL 🇸🇻 ▿"
+                  triggerWhenOpen="◎ ELSL 🇸🇻 -"
                   className="collapsible"
                 ></Collapsible>
               </div>
               <div className="child-container-child-spec">
-                <h3 style={{fontSize:"0.9em"}}>ASIA</h3>
-                <p className="small" style={{fontSize:"0.5em", textAlign:"center", marginBottom:"0" }}> &nbsp; &nbsp; (coming soon)</p>
+                <h3 style={{ fontSize: "0.9em" }}>ASIA</h3>
+                <p
+                  className="small"
+                  style={{
+                    fontSize: "0.5em",
+                    textAlign: "center",
+                    marginBottom: "0",
+                  }}
+                >
+                  {" "}
+                  &nbsp; &nbsp; (coming soon)
+                </p>
                 <Collapsible
-                  trigger="◎ IDN 🇮🇩 +"
+                  trigger="◎ IDN 🇮🇩 ▿"
+                  triggerWhenOpen="◎ IDN 🇮🇩  -"
                   className="collapsible"
                 ></Collapsible>
                 <Collapsible
-                  trigger="◎ TH 🇹🇭 +"
+                  trigger="◎ TH 🇹🇭 ▿"
+                  triggerWhenOpen="◎ TH 🇹🇭 -"
                   className="collapsible"
                 ></Collapsible>
               </div>

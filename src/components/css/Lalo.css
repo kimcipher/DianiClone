@@ -26,8 +26,12 @@
     border-radius: 50%;
     cursor:pointer;
     position:absolute;
-    margin-top:-50px;
-
+    
+}
+@media screen and (min-width:1000px){
+    .closest{
+        margin-top:-50px;
+    }
 }
 .child{
     width:100%;
