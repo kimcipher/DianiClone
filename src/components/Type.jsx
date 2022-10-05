@@ -12,11 +12,12 @@ function Type() {
             "Bookings .",
             "Anything .",
             "Anytime .",
-            "24/7 ."
+            "24/7 .",
+            " "
           ]}
           typeSpeed={150}
           backSpeed={100}
-          loop={false}
+          loop={2}
           showCursor={true}
           style={{ lineHeight: '1.5' }}
 

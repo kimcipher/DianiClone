@@ -4,9 +4,10 @@ import "./css/Payment.css";
 const Payment = () => {
   return (
     <div className="Payment-container">
-      <h4 style={{fontSize:"0.8em"}}>ACCEPTS</h4> &nbsp;&nbsp;&nbsp; {kes}&nbsp; {crypto} &nbsp; {credit} &nbsp; {paypal}&nbsp; {mpesanew}
+      <h4 style={{fontSize:"0.8em"}}>ACCEPTS : </h4> &nbsp;&nbsp;&nbsp; {kes} &nbsp; {credit} &nbsp; {mpesanew}  &nbsp; {crypto}  &nbsp; {paypal}
     </div>
   );
 };
 
 export default Payment;
+ 
