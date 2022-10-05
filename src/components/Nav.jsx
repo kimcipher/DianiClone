@@ -52,15 +52,16 @@ function Nav() {
           <NavLink to="/">
             <h5>⭐ Popular</h5>
           </NavLink>
+          <NavLink to="/Wellness">
+            <h5>Wellness</h5>
+          </NavLink>
           <NavLink to="/Activities">
             <h5>Activities + Tours</h5>
           </NavLink>
           {/* <NavLink to="/Tours">
             <h5>Tours</h5>
           </NavLink> */}
-          <NavLink to="/Wellness">
-            <h5>Wellness</h5>
-          </NavLink>
+          
           <NavLink to="/NightLife">
             <h5>Night Life</h5>
           </NavLink>

@@ -31,41 +31,42 @@ const MobileFooter = ({ setItIsOpen }) => {
       <p>
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"15px"} /> DianiApp &trade; is a partner-based dApp <br />
+        <img src={Logo} alt="logo" height={"15px"} /> DianiApp &trade; is a partner-based <br />
         <p
           onClick={clicked}
           style={{ color: "#fff", marginBottom:"-35px"}}
         >
           {" "}
-          <span style={{ color: "#fff" }}>Within </span>{" "}
+          <span style={{ color: "#fff" }}> dApp Within </span>{" "}
           <span style={{ textTransform: "uppercase", color: "#ff99ff", cursor:"pointer" }}>
             LaLo Communitites
           </span>
         </p>
         <br /> 
-        <span style={{ color: "#fff" }}> ecosystem. DianiApp is a</span>{" "}
+        <span style={{ color: "#fff" }}> ecosystem and is powered by </span>{" "}
         <br />
-        Web3+Blockchain powered
+        Web3+Blockchain
         <br />
-        Bookings & Deliveries
+        Bookings + Deliveries
         <br />
-        dApp for Anything. Anytime.
-        <br /> A mashup of ....
+        for Anything. Anytime.
+        <br /> A mashup of ...
         <br />
         <br />
       </p>
       <p style={{ marginBottom: "-15px", marginTop: "-15px" }}>{jumialogo}</p>
-      <p style={{ marginBottom: "-15px" }}>
+      <p style={{ marginBottom: "0" }}>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
         {bookingcom}&nbsp; &nbsp; {justEat}
       </p>
 
-      <p>Serving small communities <h3>🌎</h3></p>
+      <p style={{textTransform:"uppercase"}}>Serving small<br/> communities </p>
+      <h4 style={{marginTop:"-15px"}}>🌎</h4><br></br>
       <p>
         <img
-          src={Nai}
+          src={Nai}powered
           alt="src alt"
-          width="250px"
+          width="185px"
           style={{ marginBottom: "-10px" }}
         />
       </p>

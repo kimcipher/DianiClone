@@ -9,6 +9,7 @@
     border-radius:20px;
     display:block;
     padding:5vw;
+    transition:all 1s ease-in-out;
 }
 .Lalo-main p{
     background-color: transparent;
@@ -16,8 +17,6 @@
     font-size:0.8em;
     text-align:left ;
     line-height: 20px;
-    
-
 }
 .closest{
     color:#fff;

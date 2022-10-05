@@ -39,6 +39,7 @@
     "react-text-transition": "^3.0.2",
     "react-typed": "^1.2.0",
     "react-whatsapp": "^0.3.0",
+    "reactjs-popup": "^2.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

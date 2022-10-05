@@ -1,15 +1,47 @@
 .main-connect{
     position: fixed;
     bottom:2vh;
-    left: 4vw;
+    right: 4vw;
     width:auto;
     height:auto;
-    border-radius: 50%;
+    cursor:pointer;
+    border-radius:50%;
+    overflow: hidden;
+}
+.connection-btn{
+    z-index: 1000000;
+}
+.main-connect button{
     background-color: #1B254A;
+    border:none;
+    width:70px;
+    height:70px;
     cursor:pointer;
 }
-.main-icon{
-    justify-content: center;
-    margin-top: 20px;
-    margin:20px;
+.chat-box{
+    width:500px;
+    max-width: 90vw;
+    height:300px;
+    background-color: #fff;
+    position:fixed;
+    right:5vw;
+    border-radius:20px;
+    bottom:10vh;
+    overflow:hidden;
+    transition:all 1s ease-in-out;
+    z-index: -10;
+}
+.logo-top-con{
+    width:100%;
+    height:auto;
+    background-color: #1B254A;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+}
+.logo-top-con h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#fff;
+    text-align: left;
+    padding-left:40px;
 }

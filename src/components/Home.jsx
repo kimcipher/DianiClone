@@ -138,7 +138,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-            <div className="" ><p style={{background:"none"}}>{packageicon}<br/>Mail/Parcel <br/> Delivery </p></div> 
+            <div className="" ><p style={{background:"none"}}>{packageicon}<br/>Parcel <br/> Delivery </p></div> 
             <div className="" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
             <div className="" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/FixIT</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
@@ -219,7 +219,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item" style={{paddingTop:"15px",paddingBottom:"15px", fontSize:"0.9em", }}>
-              <div className="grid-right" style={{marginLeft:'20px'}}>{icongroup}</div><div className="grid-right" style={{marginLeft:'20px'}}>Buy Now. Delivered Now</div>
+              <div className="grid-right" style={{marginLeft:'20px'}}>{icongroup}</div><div className="grid-right" style={{marginLeft:'20px'}}>Buy Now. Deliver Now</div>
             </div>
           </ReactWhatsapp>
 
