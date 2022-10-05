@@ -25,9 +25,8 @@
     font-size: 2em;
     border-radius: 50%;
     cursor:pointer;
-    /* top:30vh; */
-    top:-10px;
     position:absolute;
+    margin-top:-50px;
 
 }
 .child{

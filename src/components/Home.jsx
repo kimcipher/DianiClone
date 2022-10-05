@@ -84,7 +84,7 @@ function Home() {
     {
       name: "Groceries 24/7",
       number: "+254115144146",
-      message: "Hi DianiApp 😊 I want to order some grocceries 🧅",
+      message: "Hi DianiApp 😊 I want to order some groceries 🧅",
       className: "whatsapp",
       image: groceries,
       desc: "image desc",
@@ -127,14 +127,14 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="">{icongrup}</div> <div className="grid-right"> Cars/Taxis Ebikes Scooter Boats </div>     
+            <div className="">{icongrup}</div> <div className="grid-right">RENT A : Car/Taxi, E-bike, Scooter or Boat </div>     
           </div>
         </ReactWhatsapp>
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
         {/* <h4>HIRE A {rocket}</h4> */}
         <ReactWhatsapp
               number="+254115144146"
-              message="Hi DianiApp Im interested in renting a car scooter bike "
+              message="Hi DianiApp Im interested   Mail Delivery/ Hiring  a Tech Guru/ Repair Man"
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -160,7 +160,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want to dinner Reservations."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -171,7 +171,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want Air Transportation."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -183,7 +183,7 @@ function Home() {
           <h4 style={{marginTop:"30px"}}>BANKING & FX {kes}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want Cash Currencies and exchnge."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -194,7 +194,7 @@ function Home() {
 
         <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want to Spend Crypto."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -215,7 +215,7 @@ function Home() {
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want some shopping."}
             className="whatsapp"
           >
             <div className="Tab-item" style={{paddingTop:"15px",paddingBottom:"15px", fontSize:"0.9em", }}>
@@ -225,7 +225,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want some tech gadgets."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -236,7 +236,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want mail & package delivery through amazon."}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -247,7 +247,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hi Dianiapp I want mail and package delivery though amazon"}
             className="whatsapp"
           >
             <div className="Tab-item">
