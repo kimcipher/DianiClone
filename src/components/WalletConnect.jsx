@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { interractive } from "./icons";
+import { interractive, message, walletconnectionsmall, profile, wifi, messagetemplate, lalologo, closevg } from "./icons";
 import "./css/walletModal.css";
 import Popup from 'reactjs-popup';
 
@@ -51,10 +51,13 @@ function WalletConnect() {
       <Popup trigger={<button className="connection-btn">{interractive}</button>} position="right center">
         <div className="chat-box">
             <div className="logo-top-con">
-                <h3>Lalo Interactive</h3>
+                <h3>Lalo Interactive</h3><div className="logowrap">{lalologo}</div>
             </div>
             <div className="message-wifi">
-
+                {messagetemplate}{wifi}
+            </div>
+            <div className="icons-flex">
+            {message} <div onClick={connectWallet} >{walletconnectionsmall}</div> {profile} {closevg}
             </div>
         </div>
       </Popup>

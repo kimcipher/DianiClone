@@ -19,14 +19,15 @@
     cursor:pointer;
 }
 .chat-box{
-    width:500px;
+    width:350px;
     max-width: 90vw;
-    height:300px;
+    height:auto;
+    padding-bottom: 25px;
     background-color: #fff;
     position:fixed;
     right:5vw;
     border-radius:20px;
-    bottom:10vh;
+    bottom:4vh;
     overflow:hidden;
     transition:all 1s ease-in-out;
     z-index: -10;
@@ -37,11 +38,27 @@
     background-color: #1B254A;
     border-top-right-radius: 10px ;
     border-top-left-radius: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:20px;
+    margin-bottom:20px;
 }
 .logo-top-con h3{
-    padding-top: 25px;
-    padding-bottom: 25px;
     color:#fff;
     text-align: left;
-    padding-left:40px;
+    margin-bottom: 20px;
+}
+.icons-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.message-wifi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logowrap{
+    margin-top: -20px;
 }
