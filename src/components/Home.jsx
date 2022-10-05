@@ -202,13 +202,15 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
-
-          <button className="whatsapp" onClick={connectWallet}>
-            <div className="Tab-item">
-            <div className="grid-left">{walletconnecticon}</div>
-              <div className="grid-right"> Connect to Wallet </div>
-            </div>
-          </button>
+          {!currentAccount && (
+              <button className="whatsapp" onClick={connectWallet}>
+              <div className="Tab-item">
+                <div className="grid-left">{walletconnecticon}</div>
+                <div className="grid-right"> Connect to Wallet </div>
+              </div>
+            </button>
+          )}
+          
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
