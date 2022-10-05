@@ -134,23 +134,20 @@ const Lalo = (props) => {
                 </Collapsible>
                 <Collapsible trigger="◎ UG 🇺🇬 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
 
                 <Collapsible trigger="◎ TZ 🇹🇿 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
                 <h3 style={{fontSize:"0.9em"}}>CARRIBEAN</h3>
                 <Collapsible trigger="◎ BAMA 🇧🇸 +" className="collapsible">
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
+                
                 </Collapsible>
                 <Collapsible trigger="◎ BM 🇧🇲 +" className="collapsible">
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp;GoomBay</p>
+
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
