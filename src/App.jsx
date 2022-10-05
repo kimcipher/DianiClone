@@ -22,6 +22,7 @@ import {Toaster}  from  "react-hot-toast"
 // import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
+// import WalletConnect from "./components/WalletConnect"
 
 
 function App() {
@@ -79,6 +80,7 @@ function App() {
           },
         }}
       />
+      {/* <WalletConnect/> */}
       <DefaultNav/>
       <Nav />
       {/* <Marquee/> */}

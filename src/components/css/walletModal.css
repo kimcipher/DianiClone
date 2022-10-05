@@ -1,0 +1,15 @@
+.main-connect{
+    position: fixed;
+    bottom:2vh;
+    left: 4vw;
+    width:auto;
+    height:auto;
+    border-radius: 50%;
+    background-color: #1B254A;
+    cursor:pointer;
+}
+.main-icon{
+    justify-content: center;
+    margin-top: 20px;
+    margin:20px;
+}

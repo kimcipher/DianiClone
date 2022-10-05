@@ -21,9 +21,9 @@ const MobileFooter = ({ setItIsOpen }) => {
   };
   return (
     <div className="foot-container">
-      <p>
+      <h4>
         <a href="/how-it-works" className="how"> HOW IT WORKS ❓</a>{" "}
-      </p>
+      </h4>
       {/* <p>
         <WalletConnect />
       </p> */}
