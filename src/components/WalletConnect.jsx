@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { interractive, message, walletconnectionsmall, profile, wifi, messagetemplate, lalologo, closevg } from "./icons";
+import { interractive, message, walletconnectionsmall, profile, wifi, messagetemplate, lalologo, closevg, connecttemplate, accounttemplate } from "./icons";
 import "./css/walletModal.css";
 import Popup from 'reactjs-popup';
 import ReactWhatsapp from "react-whatsapp";
@@ -69,8 +69,8 @@ function WalletConnect() {
                     {wifi}
                 </div>
               </TabPanel>
-              <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Connect to Metamask</h3><button onClick={connectWallet}>Connect</button></TabPanel>
-              <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Coming Soon</h3></TabPanel>
+              <TabPanel className="transition" onClick={connectWallet}>{connecttemplate} {wifi}</TabPanel>
+              <TabPanel className="transition">{accounttemplate} {wifi} </TabPanel>
               <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Tap outside the modal to close</h3></TabPanel>
                 <TabList className="icons-flex">
                   <Tab>{message}</Tab> <Tab><div>{walletconnectionsmall}</div></Tab><Tab>{profile}</Tab> <Tab><div>{closevg}</div></Tab>
