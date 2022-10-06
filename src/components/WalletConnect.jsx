@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { interractive, message, walletconnectionsmall, profile, wifi, messagetemplate, lalologo, closevg } from "./icons";
 import "./css/walletModal.css";
 import Popup from 'reactjs-popup';
+import ReactWhatsapp from "react-whatsapp";
+import {Tab, Tabs, TabLIst, TabPanel, TabList } from "react-tabs";
+// import 'react-tabs/style/react-tabs.css';
 
 function WalletConnect() {
   const [currentAccount, setCurrentAccount] = useState("");
@@ -48,21 +51,35 @@ function WalletConnect() {
   return (
     <>
     <div className="main-connect">
-      <Popup trigger={<button className="connection-btn">{interractive}</button>} position="right center">
+      <Popup trigger={<button className="connection-btn">{interractive}</button>} position="bottom right" lockScroll={true} arrow={false} className="inerract" keepTooltipInside={true} >
         <div className="chat-box">
             <div className="logo-top-con">
                 <h3>Lalo Interactive</h3><div className="logowrap">{lalologo}</div>
             </div>
-            <div className="message-wifi">
-                {messagetemplate}{wifi}
-            </div>
-            <div className="icons-flex">
-            {message} <div onClick={connectWallet} >{walletconnectionsmall}</div> {profile} {closevg}
-            </div>
+            <Tabs className="transit">
+              <TabPanel className="transition">
+                <div className="message-wifi">
+                <ReactWhatsapp
+                  number={"+254115144146"}
+                  message={"Hi DianiApp 😊"}
+                  className="nothing"
+                >
+                  {messagetemplate}
+                </ReactWhatsapp>
+                    {wifi}
+                </div>
+              </TabPanel>
+              <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Connect to Metamask</h3><button onClick={connectWallet}>Connect</button></TabPanel>
+              <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Coming Soon</h3></TabPanel>
+              <TabPanel className="transition"><h3 style={{color:"#000", fontWeight:"bold"}}>Tap outside the modal to close</h3></TabPanel>
+                <TabList className="icons-flex">
+                  <Tab>{message}</Tab> <Tab><div>{walletconnectionsmall}</div></Tab><Tab>{profile}</Tab> <Tab><div>{closevg}</div></Tab>
+                </TabList>
+            </Tabs>
         </div>
       </Popup>
         {/* <div className="main-connect">
-            {!currentAccount && (
+            {!currentAccount &&,  (
             <div className="main-icon" onClick={connectWallet}>
               {walletconnecticon}
             </div>

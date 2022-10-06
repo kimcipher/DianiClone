@@ -34,7 +34,9 @@ import {
   shopping,
   icongrup,
   icongroup,
-  amazonpkgo
+  amazonpkgo,
+  bankfx,
+  renta
 } from "./icons";
 
 function Home() {
@@ -60,10 +62,8 @@ function Home() {
     } catch(error){
       console.log(error)
     }
-
-
-    
   }
+  checkIfWalletIsConnected();
   const connectWallet = async() => {
     try{
       const {ethereum} = window;
@@ -126,8 +126,12 @@ function Home() {
               message="Hi DianiApp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
-          <div className="Tab-item">
-            <div className="">{icongrup}</div> <div className="grid-right">RENT A : Car/Taxi, E-bike, Scooter or Boat </div>     
+          <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
+            <div className="flex-car-item">Scooter<br/>{scooter}</div>  
+            <div className="flex-car-item">E-Bikes<br/>{bike}</div> 
+            <div className="flex-car-item">{renta}</div> 
+            <div className="flex-car-item">Car/Taxi<br/>{taxi}</div> 
+            <div className="flex-car-item">Boat<br/>{boat}</div>    
           </div>
         </ReactWhatsapp>
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
@@ -180,7 +184,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4 style={{marginTop:"30px"}}>BANKING & FX {kes}</h4>
+          <h4 style={{marginTop:"30px"}}>BANKING & FX {bankfx}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want Cash Currencies and exchnge."}
@@ -228,9 +232,11 @@ function Home() {
             message={"Hi Dianiapp I want some tech gadgets."}
             className="whatsapp"
           >
-            <div className="Tab-item">
-            <div className="grid-left">{phone} &nbsp; {battery}</div>
-              <div className="grid-right"> &nbsp;&nbsp; Tech Gadgets </div>
+            <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"-10px"}}>
+              <div className="flex-car-item" style={{marginTop:"15px"}}>{phone}</div>  
+              <div className="flex-car-item">Tech Gadgets</div> 
+              <div className="flex-car-item">{battery}</div> 
+              <div className="flex-car-item">Battery</div> 
             </div>
           </ReactWhatsapp>
 
