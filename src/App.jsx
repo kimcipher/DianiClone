@@ -24,6 +24,8 @@ import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
 import WalletConnect from "./components/WalletConnect"
 import Preloader from "./components/PreLoad/Preloader";
+import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
+import Buy from "./components/BuyCrypto/Buy"
 
 
 function App() {
@@ -56,15 +58,7 @@ function App() {
       return () => clearTimeout(timer) 
       }, []);
 
-
-      // useEffect(() => {
-      //   const timer = setTimeout(() => {
-      //    setItIsOpen(true)  
-      //   }, [5000]);
-      //   // I will be deleted while component is unmounting.
-      //   return () => clearTimeout(timer) 
-      //   }, []);
-
+      
   return (
     <>
     {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
@@ -99,6 +93,7 @@ function App() {
     <MobileNav />
     <BotIcon/>
     <Routes>
+      <Route path="/Buy" element={<Buy/>} />
       <Route path="/" element={<Home />} />
       <Route path="/popular" element={<Home />} />
       <Route path="/Wellness" element={<Wellness />} />

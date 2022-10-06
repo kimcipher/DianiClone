@@ -8,11 +8,9 @@ function Type() {
     <h2 style={{ marginTop:'20px',fontSize:'30px'}}>
     <Typed
       strings={[
-            "Deliveries .",
-            "Bookings .",
-            "Anything .",
-            "Anytime .",
-            "24/7 .",
+            "BOOKINGS .",
+            "DELIVERIES .",
+            "ON TAP .",
             " "
           ]}
           typeSpeed={150}
