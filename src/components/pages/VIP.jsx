@@ -24,7 +24,7 @@ function VIP() {
     {
       name: "Table Reservation",
       number: "+254115144146",
-      message: "Hello DianiApp 😊, I neet a table reservation 🍽️",
+      message: "Hello DianiApp 😊, I need a table reservation 🍽️",
       className: "whatsapp",
       image: fx,
       desc: "image desc",
@@ -32,7 +32,7 @@ function VIP() {
     {
       name: "Luxury Transportation",
       number: "+254115144146",
-      message: "Hello DianiApp 😊, I need Luxury transportation 🚙",
+      message: "Hello DianiApp 😊, I need luxury transportation 🚙",
       className: "whatsapp",
       image: drink,
       desc: "image desc",
