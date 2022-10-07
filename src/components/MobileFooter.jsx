@@ -28,7 +28,6 @@ const MobileFooter = ({ setItIsOpen }) => {
         <WalletConnect />
       </p> */}
 
-      <p>
         <br />
         <br />
         <img src={Logo} alt="logo" height={"15px"} /> DianiApp &trade; is a partner-based <br />
@@ -53,7 +52,6 @@ const MobileFooter = ({ setItIsOpen }) => {
         <br /> A mashup of ...
         <br />
         <br />
-      </p>
       <p style={{ marginBottom: "-15px", marginTop: "-15px" }}>{jumialogo}</p>
       <p style={{ marginBottom: "0" }}>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
@@ -64,7 +62,7 @@ const MobileFooter = ({ setItIsOpen }) => {
       <h4 style={{marginTop:"-15px"}}>🌎</h4><br></br>
       <p>
         <img
-          src={Nai}powered
+          src={Nai}
           alt="src alt"
           width="185px"
           style={{ marginBottom: "-10px" }}

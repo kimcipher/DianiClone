@@ -8,27 +8,19 @@ import {
   messagetemplate,
   lalologo,
   closevg,
-  connecttemplate,
   accounttemplate,
 } from "./icons";
 import "./css/walletModal.css";
-import Popup from "reactjs-popup";
 import ReactWhatsapp from "react-whatsapp";
 import { Tab, Tabs, TabLIst, TabPanel, TabList } from "react-tabs";
-import { WalletLinkConnector } from "@web3-react/walletlink-connector";
-import { WalletConnectConnector } from "@web3-react/walletconnect-connector";
-import { InjectedConnector } from "@web3-react/injected-connector";
-import { useWeb3React } from '@web3-react/core'
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 const WalletConnector = () => {
   const [open, setOpen] = useState(false);
-  const [connector, setConnector] = useState(null);
   const handleClick = () => {
     setOpen(!open);
   };
-  console.log(open);
 
 
   return (
