@@ -8,7 +8,7 @@ function NightLife() {
     {
       name: "Dinner Reservation",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I need to make a dinner reservation 🍝",
+      message: "Hello DianiApp 😊 I need  a dinner reservation 🍝",
       className: "whatsapp",
       image: dinner,
       desc: "image desc",
@@ -16,7 +16,7 @@ function NightLife() {
     {
       name: "Table Reservation",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I need to make a Table reservation 🍽️",
+      message: "Hello DianiApp 😊 I need a Table reservation 🍽️",
       className: "whatsapp",
       image: drink,
       desc: "image desc",
@@ -24,7 +24,7 @@ function NightLife() {
     {
       name: "Luxury Reservation",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to make luxury reservation⚜️",
+      message: "Hello DianiApp 😊 I need luxury reservation⚜️",
       className: "whatsapp",
       image: plane,
       desc: "image desc",
@@ -32,7 +32,7 @@ function NightLife() {
     {
       name: "Browse Events",
       number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to Browse events 🎆",
+      message: "Hello DianiApp 😊 I need to Browse events 🎆",
       className: "whatsapp",
       image: fx,
       desc: "image desc",
@@ -40,7 +40,7 @@ function NightLife() {
     {
       name: "DJ Parties",
       number: "+254115144146",
-      message: "Hi DianiApp 😊,I want to attend a DJ party 🥳",
+      message: "Hello DianiApp 😊,I need to attend a DJ party 🥳",
       className: "whatsapp",
       image: food,
       desc: "image desc",
