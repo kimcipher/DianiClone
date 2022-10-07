@@ -48,10 +48,6 @@ function WalletConnect() {
       console.log(error);
     }
   };
-  // new RampInstantSDK({
-  //   hostAppNAme: 'DianiApp',
-  //   hostLogUr: 'https://rampnetwork.github.io/assets/misc/test-logo.png'
-  // }).show();
   return (
     <>
     <div className="main-connect">

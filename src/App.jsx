@@ -24,10 +24,7 @@ import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
 import WalletConnector from "./components/WalletConnector"
 import Preloader from "./components/PreLoad/Preloader";
-import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
-import Buy from "./components/BuyCrypto/Buy"
-import { ConnectButton } from '@rainbow-me/rainbowkit';
-
+// import {ConnectButton} from "@rainbow-me/rainbowkit"
 
 
 function App() {
@@ -60,10 +57,18 @@ function App() {
       return () => clearTimeout(timer) 
       }, []);
 
-      
+
+      // useEffect(() => {
+      //   const timer = setTimeout(() => {
+      //    setItIsOpen(true)  
+      //   }, [5000]);
+      //   // I will be deleted while component is unmounting.
+      //   return () => clearTimeout(timer) 
+      //   }, []);
+
   return (
     <>
-    <ConnectButton/>
+    {/* <ConnectButton/> */}
     {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
     {isLoading ? (
       <Preloader/>
@@ -96,7 +101,6 @@ function App() {
     <MobileNav />
     <BotIcon/>
     <Routes>
-      <Route path="/Buy" element={<Buy/>} />
       <Route path="/" element={<Home />} />
       <Route path="/popular" element={<Home />} />
       <Route path="/Wellness" element={<Wellness />} />
