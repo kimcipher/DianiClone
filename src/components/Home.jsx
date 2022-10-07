@@ -40,46 +40,6 @@ import {
 } from "./icons";
 
 function Home() {
-  const [currentAccount, setCurrentAccount] = useState("")
-  const checkIfWalletIsConnected = async() => {
-    try{
-      const {ethereum} = window;
-      if (!ethereum) {
-        console.log("Make sure you have metamask");
-      } else {
-        console.log("We have the ethereum object", ethereum);
-      }
-  
-      const accounts = await ethereum.request({method: "eth_accounts"});
-  
-      if (accounts.length !== 0){
-        const account = accounts[0];
-        console.log("Found and authorized account : ", account);
-        setCurrentAccount(account)
-      } else {
-        console.log("No authorized account available")
-      }
-    } catch(error){
-      console.log(error)
-    }
-  }
-  checkIfWalletIsConnected();
-  const connectWallet = async() => {
-    try{
-      const {ethereum} = window;
-
-      if(!ethereum) {
-        alert("Get Metamask");
-        return;
-      }
-      const accounts = await ethereum.request({ method:"eth_requestAccounts"});
-
-      console.log("connected", accounts[0]);
-      setCurrentAccount(accounts[0]);
-    } catch(error){
-      console.log(error)
-    }
-  }
   const data = [
     {
       name: "Groceries 24/7",
@@ -98,7 +58,7 @@ function Home() {
       <div className="Tabs-container">
       <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi DianiApp 😊 I want to order some Mail/Package delivery"}
+            message={"Hi DianiApp 😊 I need Mail/Package delivery 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -123,7 +83,7 @@ function Home() {
        {/* <h4>RENT A {rocket}</h4> */}
        <ReactWhatsapp
               number="+254115144146"
-              message="Hi DianiApp Im interested in renting a car scooter bike "
+              message="Hi DianiApp 😊 I need to rent a Scooter/ E-Bike/ Car/ Taxi /Boat 🚗"
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -138,7 +98,7 @@ function Home() {
         {/* <h4>HIRE A {rocket}</h4> */}
         <ReactWhatsapp
               number="+254115144146"
-              message="Hi DianiApp Im interested   Mail Delivery/ Hiring  a Tech Guru/ Repair Man"
+              message={"Hello DianiApp 😊 I need  ParcelDelivery / Hire a Tech Guru/ Repair 🛠️"}
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -153,7 +113,7 @@ function Home() {
         <h4 style={{marginTop:"30px"}}>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to book accomodation."}
+            message={"Hello DianiApp 😊 I need a accomodation 🛌"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -164,7 +124,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to dinner Reservations."}
+            message={"Hello DianiApp 😊 I need a reservation 🍽️"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -175,7 +135,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want Air Transportation."}
+            message={"Hello DianiApp 😊 I need a Airport Transportation ✈️"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -187,7 +147,7 @@ function Home() {
           <h4 style={{marginTop:"30px"}}>BANKING & FX {bankfx}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want Cash Currencies and exchnge."}
+            message={"Hello DianiApp 😊 I need a Cash & currency exchange 💰"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -198,7 +158,7 @@ function Home() {
 
         <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want to Spend Crypto."}
+            message={"Hello DianiApp 😊 I need a to spend some crypto 💸"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -206,20 +166,20 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
-          {!currentAccount && (
+          {/* {!currentAccount && (
               <button className="whatsapp" onClick={connectWallet}>
               <div className="Tab-item">
                 <div className="grid-left">{walletconnecticon}</div>
                 <div className="grid-right"> Connect to Wallet </div>
               </div>
             </button>
-          )}
+          )} */}
           
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want some shopping."}
+            message={"Hello DianiApp 😊 I need a shopping 🛒"}
             className="whatsapp"
           >
             <div className="Tab-item" style={{paddingTop:"15px",paddingBottom:"15px", fontSize:"0.9em", }}>
@@ -229,7 +189,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want some tech gadgets."}
+            message={"Hello DianiApp 😊 I need a Tech gadgets 📱"}
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"-10px"}}>
@@ -242,7 +202,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want mail & package delivery through amazon."}
+            message={"Hello DianiApp 😊 I need Package Delivery(Amazon US) 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -253,7 +213,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hi Dianiapp I want mail and package delivery though amazon"}
+            message={"Hello DianiApp 😊 I need a Package Delivery(Amazon UK/EUR) 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">

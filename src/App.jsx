@@ -22,10 +22,11 @@ import {Toaster}  from  "react-hot-toast"
 // import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
-import WalletConnect from "./components/WalletConnect"
+import WalletConnector from "./components/WalletConnector"
 import Preloader from "./components/PreLoad/Preloader";
 import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
 import Buy from "./components/BuyCrypto/Buy"
+
 
 
 function App() {
@@ -82,7 +83,7 @@ function App() {
         },
       }}
     />
-    <WalletConnect/>
+    <WalletConnector/>
     <DefaultNav/>
     <Nav />
     {/* <Marquee/> */}
