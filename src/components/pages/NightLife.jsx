@@ -16,7 +16,7 @@ function NightLife() {
     {
       name: "Table Reservation",
       number: "+254115144146",
-      message: "Hello DianiApp 😊 I need a Table reservation 🍽️",
+      message: "Hello DianiApp 😊 I need a table reservation 🍽️",
       className: "whatsapp",
       image: drink,
       desc: "image desc",
@@ -32,7 +32,7 @@ function NightLife() {
     {
       name: "Browse Events",
       number: "+254115144146",
-      message: "Hello DianiApp 😊 I need to Browse events 🎆",
+      message: "Hello DianiApp 😊 I need to browse events 🎆",
       className: "whatsapp",
       image: fx,
       desc: "image desc",
