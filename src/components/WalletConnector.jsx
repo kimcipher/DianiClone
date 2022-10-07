@@ -22,72 +22,13 @@ import { useWeb3React } from '@web3-react/core'
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
-
 const WalletConnector = () => {
-const CoinbaseWallet = new WalletLinkConnector({
- url: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
- appName: "Web3-react Demo",
- supportedChainIds: [1, 3, 4, 5, 42],
-});
-
-const WalletConnect = new WalletConnectConnector({
- rpcUrl: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
- bridge: "https://bridge.walletconnect.org",
- qrcode: true,
-});
-
-const Injected = new InjectedConnector({
- supportedChainIds: [1, 3, 4, 5, 42]
-});
-
-  const { activate, deactivate } = useWeb3React();
   const [open, setOpen] = useState(false);
   const [connector, setConnector] = useState(null);
   const handleClick = () => {
     setOpen(!open);
   };
   console.log(open);
-  const [currentAccount, setCurrentAccount] = useState("");
-  const checkIfWalletIsConnected = async () => {
-    try {
-      const { ethereum } = window;
-      if (!ethereum) {
-        console.log("Make sure you have metamask");
-      } else {
-        console.log("We have the ethereum object", ethereum);
-      }
-
-      const accounts = await ethereum.request({ method: "eth_accounts" });
-
-      if (accounts.length !== 0) {
-        const account = accounts[0];
-        console.log("Found and authorized account : ", account);
-        setCurrentAccount(account);
-      } else {
-        console.log("No authorized account available");
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
-  const connectWallet = async () => {
-    try {
-      const { ethereum } = window;
-
-      if (!ethereum) {
-        alert("Get Metamask");
-        return;
-      }
-      const accounts = await ethereum.request({
-        method: "eth_requestAccounts",
-      });
-
-      console.log("connected", accounts[0]);
-      setCurrentAccount(accounts[0]);
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
 
   return (

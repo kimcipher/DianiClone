@@ -26,6 +26,7 @@ import WalletConnector from "./components/WalletConnector"
 import Preloader from "./components/PreLoad/Preloader";
 import { RampInstantSDK } from "@ramp-network/ramp-instant-sdk";
 import Buy from "./components/BuyCrypto/Buy"
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 
@@ -62,6 +63,7 @@ function App() {
       
   return (
     <>
+    <ConnectButton/>
     {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
     {isLoading ? (
       <Preloader/>
