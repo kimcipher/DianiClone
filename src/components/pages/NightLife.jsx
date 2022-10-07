@@ -40,7 +40,7 @@ function NightLife() {
     {
       name: "DJ Parties",
       number: "+254115144146",
-      message: "Hello DianiApp 😊,I need to attend a DJ party 🥳",
+      message: "Hello DianiApp 😊 I need to attend a DJ party 🥳",
       className: "whatsapp",
       image: food,
       desc: "image desc",
