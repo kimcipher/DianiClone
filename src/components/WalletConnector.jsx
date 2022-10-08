@@ -14,6 +14,8 @@ import "./css/walletModal.css";
 import ReactWhatsapp from "react-whatsapp";
 import { Tab, Tabs, TabPanel, TabList } from "react-tabs";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 
 const WalletConnector = () => {
@@ -66,6 +68,8 @@ const WalletConnector = () => {
                 </Tab>
                 <Tab>{profile}</Tab>
                 <Tab>{wifi}</Tab>
+                <Tab style={{position:"absolute", right:"3vw", bottom: "11vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab>
+                <Tab style={{position:"absolute", right:"3vw", bottom: "18vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab>
                 <Tab onClick={() => handleClick()}>
                   <div>{closevg}</div>
                 </Tab>
