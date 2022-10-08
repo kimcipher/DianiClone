@@ -71,7 +71,7 @@ function Nav() {
         {/* <h4><WalletConnect/></h4> */}
         <div className="pwa-btn">
           {supportsPWA ? (
-            <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
+            <div onClick={(e) => addToHomeScreen(e)}><button>Install</button></div>
           ) : null} 
         </div>
       
