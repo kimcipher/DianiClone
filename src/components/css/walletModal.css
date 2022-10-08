@@ -34,6 +34,7 @@
     width:350px;
     max-width: 90vw;
     height:auto;
+    /* min-height:200px; */
     padding-bottom: 25px;
     background-color: #fff;
     position:fixed;

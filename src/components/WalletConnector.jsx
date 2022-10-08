@@ -51,14 +51,16 @@ const WalletConnector = () => {
                 </div>
               </TabPanel>
               <TabPanel className="transition" style={{ justifyContent: "center"}} >
-                <ConnectButton/> 
+                <div style={{marginTop:"70px"}}>
+                  <ConnectButton/> 
+                </div>
               </TabPanel>
               <TabPanel className="transition">
                 {accounttemplate} 
               </TabPanel>
               <TabPanel className="transition" style={{ justifyContent: "center"}}>
-                <h3 style={{ color: "#000", fontWeight: "bold",  }}>
-                  Get free wifi !
+                <h3 style={{ color: "#000", fontWeight: "bold", marginTop:"50px", fontSize:"0.8em"  }}>
+                  Only available on these locations
                 </h3>
               </TabPanel>
               <TabList className="icons-flex">
