@@ -14,9 +14,6 @@ import "./css/walletModal.css";
 import ReactWhatsapp from "react-whatsapp";
 import { Tab, Tabs, TabPanel, TabList } from "react-tabs";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-
 
 const WalletConnector = () => {
   const [open, setOpen] = useState(false);
