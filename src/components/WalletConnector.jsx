@@ -12,7 +12,7 @@ import {
 } from "./icons";
 import "./css/walletModal.css";
 import ReactWhatsapp from "react-whatsapp";
-import { Tab, Tabs, TabLIst, TabPanel, TabList } from "react-tabs";
+import { Tab, Tabs, TabPanel, TabList } from "react-tabs";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
@@ -46,26 +46,26 @@ const WalletConnector = () => {
                   >
                     {messagetemplate}
                   </ReactWhatsapp>
-                  {wifi}
                 </div>
               </TabPanel>
-              <TabPanel className="transition" >
-                <ConnectButton/> {wifi}
+              <TabPanel className="transition" style={{ justifyContent: "center"}} >
+                <ConnectButton/> 
               </TabPanel>
               <TabPanel className="transition">
-                {accounttemplate} {wifi}{" "}
+                {accounttemplate} 
               </TabPanel>
-              <TabPanel className="transition">
-                <h3 style={{ color: "#000", fontWeight: "bold" }}>
-                  Tap outside the modal to close
+              <TabPanel className="transition" style={{ justifyContent: "center"}}>
+                <h3 style={{ color: "#000", fontWeight: "bold",  }}>
+                  Get free wifi !
                 </h3>
               </TabPanel>
               <TabList className="icons-flex">
-                <Tab>{message}</Tab>{" "}
+                <Tab>{message}</Tab>
                 <Tab>
                   <div>{walletconnectionsmall}</div>
                 </Tab>
-                <Tab>{profile}</Tab>{" "}
+                <Tab>{profile}</Tab>
+                <Tab>{wifi}</Tab>
                 <Tab onClick={() => handleClick()}>
                   <div>{closevg}</div>
                 </Tab>

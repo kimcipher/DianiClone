@@ -1,11 +1,9 @@
 .main-connect{
     position: fixed;
-    bottom:2vh;
-    right: 4vw;
-    width:auto;
+    bottom:5vh;
+    right: 6vw;
     height:auto;
     cursor:pointer;
-    border-radius:50%;
     align-items: center;
     overflow: hidden;
     justify-content: center;
@@ -13,10 +11,13 @@
 .inerract{
     transition:all 2s ease-in-out;
 }
+.transit{
+    min-height: 100px;
+}
 .transition{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-start; 
 }
 .connection-btn{
     transition:all 1s ease-in-out;

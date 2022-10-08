@@ -166,14 +166,6 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
-          {/* {!currentAccount && (
-              <button className="whatsapp" onClick={connectWallet}>
-              <div className="Tab-item">
-                <div className="grid-left">{walletconnecticon}</div>
-                <div className="grid-right"> Connect to Wallet </div>
-              </div>
-            </button>
-          )} */}
           
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
@@ -197,6 +189,17 @@ function Home() {
               <div className="flex-car-item">Tech Gadgets</div> 
               <div className="flex-car-item">{battery}</div> 
               <div className="flex-car-item">Battery</div> 
+            </div>
+          </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hello DianiApp 😊 I need Package Delivery(Amazon US) 📦"}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{amazonpkgo}</div>
+              <div className="grid-right">Buy sim cards</div>
             </div>
           </ReactWhatsapp>
 
