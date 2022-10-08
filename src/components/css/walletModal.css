@@ -1,7 +1,7 @@
 .main-connect{
     position: fixed;
-    bottom:5vh;
-    right: 6vw;
+    bottom:9vh;
+    right: 4vw;
     height:auto;
     cursor:pointer;
     align-items: center;
@@ -39,15 +39,12 @@
     position:fixed;
     right:5vw;
     border-radius:20px;
-    bottom:4vh;
+    bottom:8vh;
     overflow:hidden;
     transition:all 1s ease-in-out;
     z-index: 10;
 }
 
-.transition div div {
-
-}
 .logo-top-con{
     width:100%;
     height:auto;

@@ -70,9 +70,9 @@ function Nav() {
         </div>
         {/* <h4><WalletConnect/></h4> */}
         <div className="pwa-btn">
-          {supportsPWA ? (
-            <div onClick={(e) => addToHomeScreen(e)}><button>Install</button></div>
-          ) : null} 
+          {/* {supportsPWA ? ( */}
+            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get dianiapp installed</h4>
+          {/* ) : null} */}
         </div>
       
       </div>
