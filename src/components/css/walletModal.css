@@ -1,6 +1,6 @@
 .main-connect{
     position: fixed;
-    bottom:9vh;
+    bottom:11vh;
     right: 4vw;
     height:auto;
     cursor:pointer;
@@ -40,7 +40,7 @@
     position:fixed;
     right:5vw;
     border-radius:20px;
-    bottom:8vh;
+    bottom:11vh;
     overflow:hidden;
     transition:all 1s ease-in-out;
     z-index: 10;
