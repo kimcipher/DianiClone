@@ -36,7 +36,12 @@ import {
   icongroup,
   amazonpkgo,
   bankfx,
-  renta
+  renta,
+  simcard,
+  camera,
+  laptop,
+  sendcrypto,
+  receivecrypto
 } from "./icons";
 
 function Home() {
@@ -166,6 +171,28 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{sendcrypto}</div>
+              <div className="grid-right"> Send Crypto</div>
+            </div>
+          </ReactWhatsapp>
+
+          <ReactWhatsapp
+            number={"+254115144146"}
+            message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
+            className="whatsapp"
+          >
+            <div className="Tab-item">
+            <div className="grid-left">{receivecrypto}</div>
+              <div className="grid-right"> Receive Crytpo</div>
+            </div>
+          </ReactWhatsapp>
           
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
@@ -184,21 +211,22 @@ function Home() {
             message={"Hello DianiApp 😊 I need Tech gadgets 📱"}
             className="whatsapp"
           >
-            <div className="Tab-item" style={{display:"flex", justifyContent:"space-around", paddingBottom:"-10px"}}>
-              <div className="flex-car-item" style={{marginTop:"15px"}}>{phone}</div>  
-              <div className="flex-car-item">Tech Gadgets</div> 
+            <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
+              <div className="flex-car-item" style={{marginTop:"0"}}>Tech Gadgets</div>  
+              <div className="flex-car-item">{phone}</div> 
+              <div className="flex-car-item">{camera}</div> 
               <div className="flex-car-item">{battery}</div> 
-              <div className="flex-car-item">Battery</div> 
+              <div className="flex-car-item">{laptop}</div> 
             </div>
           </ReactWhatsapp>
 
           <ReactWhatsapp
             number={"+254115144146"}
-            message={"Hello DianiApp 😊 I need Package Delivery(Amazon US) 📦"}
+            message={"Hello DianiApp 😊 I need to purchase sim cards 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
-            <div className="grid-left">{amazonpkgo}</div>
+            <div className="grid-left">{simcard}</div>
               <div className="grid-right">Buy sim cards</div>
             </div>
           </ReactWhatsapp>

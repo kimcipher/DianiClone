@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./css/Nav.css";
 import logo from "./assets/logo.png";
 import toast from "react-hot-toast";
-import {addHome, reallogo} from "./icons"
+import {addHome, reallogo, installation} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
 import {NavLink} from "react-router-dom"
 
@@ -71,7 +71,8 @@ function Nav() {
         {/* <h4><WalletConnect/></h4> */}
         <div className="pwa-btn">
           {/* {supportsPWA ? ( */}
-            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get dianiapp installed</h4>
+          <div onClick={(e) => addToHomeScreen(e)}>{installation}</div>
+
           {/* ) : null} */}
         </div>
       

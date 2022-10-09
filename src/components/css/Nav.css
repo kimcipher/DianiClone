@@ -79,20 +79,16 @@ a {
   width: 90%;
   display: flex;
   flex-direction: row;
-  background-color: rgb(2, 8, 37, 0.88);
   border-radius: 5px;
   justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #241845;
 }
 .pwa-btn h4{
   color: #fff;
 }
-.pwa-btn button{
+.pwa-btn *{
   color:#000;
-  padding: 5px;
   border-radius: 5px;
-  border:1px solid rgb(2, 8, 37, 0.88);
   color: #fff;
   background-color: #241845;
 }
