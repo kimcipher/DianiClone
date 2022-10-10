@@ -108,8 +108,8 @@ function Home() {
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
             <div className="" ><p style={{background:"none"}}>{packageicon}<br/>Parcel <br/> Delivery </p></div> 
-            <div className="" ><p style={{background:"none"}}>Hellore <br/>{geek} <br/>Tech Guru</p></div> 
-            <div className="" ><p style={{background:"none"}}>Hellore <br/>{fix}<br/> Repair/FixIT</p></div> 
+            <div className="" ><p style={{background:"none"}}>Hire <br/>{geek} <br/>Tech Guru</p></div> 
+            <div className="" ><p style={{background:"none"}}>Hire <br/>{fix}<br/> Repair/FixIT</p></div> 
             {/* <div className="scooter"><p style={{background:"none"}}>Guru<br/>{geek}</p><p style={{background:"none"}}>Repair <br/>{fix}</p></div>      */}
           </div>
         </ReactWhatsapp>
