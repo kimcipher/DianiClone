@@ -171,7 +171,6 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
-
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
