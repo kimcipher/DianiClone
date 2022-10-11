@@ -57,7 +57,7 @@ const WalletConnector = () => {
               </TabPanel>
               <TabPanel className="transition" style={{ justifyContent: "center"}}>
                 <h3 style={{ color: "#000", fontWeight: "bold", marginTop:"50px", fontSize:"0.8em"  }}>
-                  Only available on these locations
+                  Free WIFI is only available at these locations
                 </h3>
               </TabPanel>
               <TabList className="icons-flex">
