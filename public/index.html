@@ -5,24 +5,14 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Diani App | Deliveries On One Tap ." />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta
+      name="description"
+      content="Goom Bay"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/goombaymanifest.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <!-- Adding PWA Script-->
-    <title>Diani App | Deliveries On One Tap .</title>
+    <title>Goom Bay | Deliveries On One Tap</title>
+   
     <!--End of script-->
   </head>
   <body>
@@ -38,15 +28,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <!-- Google tag (gtag.js) -->
-
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-Q6E9KV4GKH"
-    ></script>
-    <script>
+    <!-- <script>
       if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("service-worker.js").then(
+            function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker registration successful with scope:",
+                registration.scope
+              );
+            },
+            function (err) {
+              // registration failed :(
+              console.log("Servi<script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
           navigator.serviceWorker.register("service-worker.js").then(
             function (registration) {
               // Registration was successful
@@ -59,15 +56,14 @@
               // registration failed :(
               console.log("ServiceWorker registration failed: ", err);
             }
-          );
-        });
+          )
+        })
       }
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+  </script>ceWorker registration failed: ", err);
+            }
+          )
+        })
       }
-      gtag("js", new Date());
-      gtag("config", "G-Q6E9KV4GKH");
-    </script>
+  </script> -->
   </body>
 </html>
