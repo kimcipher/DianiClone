@@ -82,15 +82,19 @@ a {
   border-radius: 5px;
   justify-content: space-around;
   background-color: #241845;
+  max-width: 500px;
+  padding: 5px;
 }
 .pwa-btn h4{
   color: #fff;
 }
-.pwa-btn *{
+.pwa-btn button{
   color:#000;
+  padding: 5px;
   border-radius: 5px;
-  color: #fff;
-  background-color: #241845;
+  border:1px solid rgb(2, 8, 37, 0.88);
+  color: rgb(2, 8, 37, 0.88);
+  background-color: #72ED2F;
 }
 .date-time{
   display:flex;

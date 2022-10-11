@@ -71,8 +71,7 @@ function Nav() {
         {/* <h4><WalletConnect/></h4> */}
         <div className="pwa-btn">
           {/* {supportsPWA ? ( */}
-          <div onClick={(e) => addToHomeScreen(e)}>{installation}</div>
-
+            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get dianiapp installed</h4>
           {/* ) : null} */}
         </div>
       
