@@ -69,9 +69,9 @@ const WalletConnector = () => {
                 <Tab>{wifi}</Tab>
                 {/* <Tab style={{position:"absolute", right:"3vw", bottom: "11vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab>
                 <Tab style={{position:"absolute", right:"3vw", bottom: "18vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab> */}
-                <Tab onClick={() => handleClick()}>
+                <div onClick={() => handleClick()}>
                   <div>{closevg}</div>
-                </Tab>
+                </div>
               </TabList>
             </Tabs>
           </div>

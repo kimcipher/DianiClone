@@ -21,12 +21,15 @@ import { Carousel } from "react-responsive-carousel";
 import Collapsible from "react-collapsible";
 
 const Lalo = (props) => {
+  const d = new Date();
+  let hour = d.getHours();
   function randomNumber(min, max) { 
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 } 
-const rand = randomNumber(22, 152)
+const rand = randomNumber(1, 10)
+const bookings_idx = rand + (hour*5)
   console.log(props);
   // function clicked(){
   //     setItIsOpen(false)
@@ -105,7 +108,7 @@ const rand = randomNumber(22, 152)
             <p style={{marginTop:"25px"}}>
             &nbsp;&nbsp;&nbsp;&nbsp;{bookings}<br/>
             
-              <h1 style={{fontSize:"3em", color:"#fff", marginTop:"45px", fontWeight:"bold"}}>{rand}</h1>
+              <h1 style={{fontSize:"3em", color:"#fff", marginTop:"45px", fontWeight:"bold"}}>{bookings_idx}</h1>
               <p style={{color:"#fff", paddingTop:"20px"}}>Bookings<br/> made</p>
             </p>
             

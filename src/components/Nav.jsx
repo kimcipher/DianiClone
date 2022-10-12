@@ -7,7 +7,7 @@ import WeatherIcon from "../components/WeatherIcon"
 import {NavLink} from "react-router-dom"
 
 function Nav() {
-  const [supportsPWA, setSupportsPWA] = useState(true);
+  const [supportsPWA, setSupportsPWA] = useState(false);
   const [promptInstall, setPromptInstall] = useState(null);
 
   useEffect(() => {

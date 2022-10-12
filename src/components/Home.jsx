@@ -41,7 +41,11 @@ import {
   camera,
   laptop,
   sendcrypto,
-  receivecrypto
+  receivecrypto,
+  dress,
+  tshirt,
+  shoe,
+  flippers
 } from "./icons";
 
 function Home() {
@@ -171,27 +175,29 @@ function Home() {
               <div className="grid-right"> Spend Crytpo</div>
             </div>
           </ReactWhatsapp>
-          <ReactWhatsapp
-            number={"+254115144146"}
-            message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
-            className="whatsapp"
-          >
-            <div className="Tab-item">
-            <div className="grid-left">{sendcrypto}</div>
-              <div className="grid-right"> Send Crypto</div>
-            </div>
-          </ReactWhatsapp>
+          <div className="shrink-container">
+            <ReactWhatsapp
+              number={"+254115144146"}
+              message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
+              className="shrink"
+            >
+              <div className="bg">
+                <div className="shrink">{sendcrypto}</div>
+                <div className="shrink"> Send Crypto</div>
+              </div>
+            </ReactWhatsapp>
 
-          <ReactWhatsapp
-            number={"+254115144146"}
-            message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
-            className="whatsapp"
-          >
-            <div className="Tab-item">
-            <div className="grid-left">{receivecrypto}</div>
-              <div className="grid-right"> Receive Crytpo</div>
-            </div>
-          </ReactWhatsapp>
+            <ReactWhatsapp
+              number={"+254115144146"}
+              message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
+              className="shrink"
+            >
+              <div className="bg">
+              <div className="shrink">{receivecrypto}</div>
+                <div className="shrink"> Receive Crytpo</div>
+              </div>
+            </ReactWhatsapp>
+          </div>
           
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
@@ -200,8 +206,13 @@ function Home() {
             message={"Hello DianiApp 😊 I need shopping 🛒"}
             className="whatsapp"
           >
-            <div className="Tab-item" style={{paddingTop:"15px",paddingBottom:"15px", fontSize:"0.9em", }}>
-              <div className="grid-right" style={{marginLeft:'20px'}}>{icongroup}</div><div className="grid-right" style={{marginLeft:'20px'}}>Buy Now. Deliver Now</div>
+            <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
+              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Buy now Delivered Now</div>  
+              <div className="flex-car-item">{dress}</div> 
+              <div className="flex-car-item">{tshirt}</div> 
+              <div className="flex-car-item">{shoe}</div> 
+              <div className="flex-car-item">{flippers}</div> 
+          
             </div>
           </ReactWhatsapp>
 
@@ -211,7 +222,7 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-              <div className="flex-car-item" style={{marginTop:"0"}}>Tech Gadgets</div>  
+              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Tech Gadgets</div>  
               <div className="flex-car-item">{phone}</div> 
               <div className="flex-car-item">{camera}</div> 
               <div className="flex-car-item">{battery}</div> 

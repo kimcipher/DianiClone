@@ -64,7 +64,6 @@ a {
     overflow-x: hidden;
   }
 }
-
 .Button-container:hover {
   background: #241845;
   color: #fff;
@@ -76,7 +75,7 @@ a {
   position: fixed;
   bottom: 20px;
   left:20px;
-  width: 90%;
+  width: 100%;
   
   
   
