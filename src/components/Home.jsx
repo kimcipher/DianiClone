@@ -207,11 +207,11 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Buy now Delivered Now</div>  
               <div className="flex-car-item">{dress}</div> 
               <div className="flex-car-item">{tshirt}</div> 
               <div className="flex-car-item">{shoe}</div> 
-              <div className="flex-car-item">{flippers}</div> 
+              <div className="flex-car-item">{flippers}</div>
+              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Buy now Delivered Now</div>  
           
             </div>
           </ReactWhatsapp>
@@ -222,11 +222,11 @@ function Home() {
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Tech Gadgets</div>  
               <div className="flex-car-item">{phone}</div> 
               <div className="flex-car-item">{camera}</div> 
               <div className="flex-car-item">{battery}</div> 
               <div className="flex-car-item">{laptop}</div> 
+              <div className="flex-car-item" style={{marginTop:"0", width:"95px"}}>Tech Gadgets</div>  
             </div>
           </ReactWhatsapp>
 
