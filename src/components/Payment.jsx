@@ -4,7 +4,7 @@ import "./css/Payment.css";
 const Payment = () => {
   return (
     <div className="Payment-container">
-      <h4 style={{fontSize:"0.8em"}}>We Accept : </h4> &nbsp;&nbsp;&nbsp; {kes} &nbsp; {credit} &nbsp; {mpesanew}  &nbsp; {crypto}  &nbsp; {paypal}
+      <h5 style={{fontSize:"0.6em"}}>We Accept : </h5> &nbsp;&nbsp;&nbsp; {kes} &nbsp; {credit} &nbsp; {mpesanew}  &nbsp; {crypto}  &nbsp; {paypal}
     </div>
   );
 };
