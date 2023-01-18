@@ -12,6 +12,7 @@ import {
 } from "./icons";
 import "./css/walletModal.css";
 import ReactWhatsapp from "react-whatsapp";
+import {Link} from "react-router-dom"
 import { Tab, Tabs, TabPanel, TabList } from "react-tabs";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
@@ -37,7 +38,7 @@ const WalletConnector = () => {
             </div>
             <Tabs className="transit">
               <TabPanel className="transition">
-                <div className="message-wifi">
+                {/* <div className="message-wifi">
                   <ReactWhatsapp
                     number={"+254115144146"}
                     message={"Hi DianiApp 😊"}
@@ -45,28 +46,36 @@ const WalletConnector = () => {
                   >
                     {messagetemplate}
                   </ReactWhatsapp>
-                </div>
+                </div> */}
               </TabPanel>
               <TabPanel className="transition" style={{ justifyContent: "center"}} >
-                <div style={{marginTop:"70px"}}>
+                {/* <div style={{marginTop:"70px"}}>
                   <ConnectButton/> 
-                </div>
+                </div> */}
               </TabPanel>
               <TabPanel className="transition">
-                {accounttemplate} 
+                {/* {accounttemplate}  */}
+              </TabPanel>
+              <TabPanel className="transition">
+                {/* {accounttemplate}  */}
+              </TabPanel>
+              <TabPanel className="transition">
+                {/* {accounttemplate}  */}
               </TabPanel>
               <TabPanel className="transition" style={{ justifyContent: "center"}}>
-                <h3 style={{ color: "#000", fontWeight: "bold", marginTop:"50px", fontSize:"0.8em"  }}>
+                {/* <h3 style={{ color: "#000", fontWeight: "bold", marginTop:"50px", fontSize:"0.8em"  }}>
                   Free WIFI is only available at these locations
-                </h3>
+                </h3> */}
               </TabPanel>
               <TabList className="icons-flex">
-                <Tab>{message}</Tab>
+                <Tab><Link to="/wellness"><p>Wellness </p></Link></Tab>
                 <Tab>
-                  <div>{walletconnectionsmall}</div>
+                  <Link to="/fast"><p>Fast </p></Link>
                 </Tab>
-                <Tab>{profile}</Tab>
-                <Tab>{wifi}</Tab>
+                <Tab><Link to="/activities"><p>Activities </p></Link></Tab>
+                <Tab><Link to="/NightLife"><p>NightLife </p></Link></Tab>
+                <Tab><Link to="/VIP"><p>VIP </p></Link></Tab>
+                <Tab><a href="https://dianiapp.me/signup/?ori=5363728">{wifi}</a></Tab>
                 {/* <Tab style={{position:"absolute", right:"3vw", bottom: "11vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab>
                 <Tab style={{position:"absolute", right:"3vw", bottom: "18vh", zIndex:100, width:"50px", height:"50px"}}>{walletconnectionsmall}</Tab> */}
                 <div onClick={() => handleClick()}>

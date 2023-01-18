@@ -16,6 +16,8 @@
   display: flex;
   flex-direction: row;
   width: 40vw;
+  text-align: center;
+  align-items: center;
   height: 100%;
   background: #241845;
   justify-content: space-between;

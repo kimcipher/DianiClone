@@ -7,6 +7,7 @@
     align-items: center;
     overflow: hidden;
     justify-content: center;
+
 }
 .inerract{
     transition:all 2s ease-in-out;
@@ -31,7 +32,7 @@
     margin-left: 20px;
 }
 .chat-box{
-    width:350px;
+    width:430px;
     max-width: 90vw;
     height:auto;
     /* min-height:200px; */
@@ -70,6 +71,9 @@
     margin-top:20px;
     padding-left: 0;
 }
+.icons-flex *{
+    margin:1px;
+}
 .message-wifi{
     display: flex;
     flex-direction: row;
@@ -81,4 +85,12 @@
 .nothing{
     border:none;
     background-color: transparent;
+}
+p{
+    background-color: transparent;
+    color:#000;
+    text-decoration: underline;
+}
+p:hover{
+    color:purple;
 }

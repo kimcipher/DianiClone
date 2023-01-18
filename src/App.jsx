@@ -16,25 +16,22 @@ import BotIcon from "./components/BotIcon"
 import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
 import DefaultNav from "./components/DefaultNav";
-// import {AnimationOnScroll} from "react-animation-on-scroll"
 import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
-// import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
 import WalletConnector from "./components/WalletConnector"
 import Preloader from "./components/PreLoad/Preloader";
-// import {ConnectButton} from "@rainbow-me/rainbowkit"
+import Fast from "./components/Fast";
 
 
 function App() {
   const [itIsOpen, setItIsOpen]= useState(false)
-  // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setIsLoading(false), 3000);
+    setTimeout(() => setIsLoading(false), 1000);
   }, [])
 
   const setPopupOpen = () => {
@@ -56,15 +53,6 @@ function App() {
       // I will be deleted while component is unmounting.
       return () => clearTimeout(timer) 
       }, []);
-
-
-      // useEffect(() => {
-      //   const timer = setTimeout(() => {
-      //    setItIsOpen(true)  
-      //   }, [5000]);
-      //   // I will be deleted while component is unmounting.
-      //   return () => clearTimeout(timer) 
-      //   }, []);
 
   return (
     <>
@@ -95,7 +83,7 @@ function App() {
     <Nav />
     {/* <Marquee/> */}
     <AddToHomeScreen />
-    <Type />
+    {/* <Type /> */}
     {/* <WeatherIcon /> */}
     {isOpen && <Popup setIsOpen={setIsOpen}/>}
     <MobileNav />
@@ -103,6 +91,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/popular" element={<Home />} />
+      <Route path="/fast" element={<Fast />} />
       <Route path="/Wellness" element={<Wellness />} />
       <Route path="/NightLife" element={<NightLife />} />
       <Route path="/Tours" element={<Tours />} />
